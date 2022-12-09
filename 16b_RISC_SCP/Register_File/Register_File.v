@@ -1,22 +1,21 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    21:16:11 12/09/2022 
-// Design Name: 
-// Module Name:    Register_File 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+/*
+ 
+ Created by: Muhammad Aitesam
+ 
+ Create Date:    21:05:08 12/09/2022 
+ Design Name: 	  16-Bit Register File for RISC Processor
+ Module Name:    Register File
+ Project Name:   16-Bit Single Cycle RISC core Processor Design
+ 
+
+ Revision: 0.1V
+ Additional Comments: 
+	This module may be a dependency of other Modules
+
+
+*/
 //////////////////////////////////////////////////////////////////////////////////
 module Register_File(
     input clk,
@@ -49,53 +48,29 @@ module Register_File(
 	 
 	 reg res1, res2 , res3 , res4 ,res5 ,  res6 ,res7 ,res8 ,res9 , res10 ,  res11 ,res12 ,res13 ,res14 , res15 ,res16 , res17;
 	 
-	 
-	 // Initializing Parameters for Register Address inputs
-	 
-	 /*
-	 parameter S0  = 0000,
-				  S1  = 0001,
-				  S2  = 0010,
-				  S3  = 0011,
-				  S4  = 0100,
-				  S5  = 0101,
-				  S6  = 0110,
-				  S7  = 0111,
-				  S8  = 1000,
-				  S9  = 1001,
-				  S10 = 1010,
-				  S11 = 1011,
-				  S12 = 1100,
-				  S13 = 1101,
-				  S14 = 1110,
-				  S15 = 1111;
-	 */		 
-	 
-	 
-	 
+
 	 /*
 			Decoder for Write address Selection
 	 */
 	 always @(Rd)
 		 begin
-			 case (Rd)
-				 4'b0000 : res1  =  16'b0000000000000001;
-				 4'b0001 : res2  =  16'b0000000000000010;
-				 4'b0010 : res3  =  16'b0000000000000100;
-				 4'b0011 : res4  =  16'b0000000000001000;
-				 4'b0100 : res5  =  16'b0000000000010000;
-				 4'b0101 : res6  =  16'b0000000000100000;
-				 4'b0110 : res7  =  16'b0000000001000000;
-				 4'b0111 : res8  =  16'b0000000010000000;
-				 4'b1000 : res9  =  16'b0000000100000000;
-				 4'b1001 : res10 =  16'b0000001000000000;
-				 4'b1010 : res11 =  16'b0000010000000000;
-				 4'b1011 : res12 =  16'b0000100000000000;
-				 4'b1100 : res13 =  16'b0001000000000000;
-				 4'b1101 : res14 =  16'b0010000000000000;
-				 4'b1110 : res15 =  16'b0100000000000000;
-				 4'b1111 : res16 =  16'b1000000000000000;
-				 default : res17 =  16'b0000000000000000;
+			 case(Rd)
+				 4'b0000 : res1  =  1;
+				 4'b0001 : res2  =  1;
+				 4'b0010 : res3  =  1;
+				 4'b0011 : res4  =  1;
+				 4'b0100 : res5  =  1;
+				 4'b0101 : res6  =  1;
+				 4'b0110 : res7  =  1;
+				 4'b0111 : res8  =  1;
+				 4'b1000 : res9  =  1;
+				 4'b1001 : res10 =  1;
+				 4'b1010 : res11 =  1;
+				 4'b1011 : res12 =  1;
+				 4'b1100 : res13 =  1;
+				 4'b1101 : res14 =  1;
+				 4'b1110 : res15 =  1;
+				 4'b1111 : res16 =  1;
 		 endcase
 	 end
 	 

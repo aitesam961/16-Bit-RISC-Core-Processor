@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Register_File.prj
@@ -124,9 +124,9 @@ Analyzing hierarchy for module <R_1B> in library <work>.
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing top module <Register_File>.
-WARNING:Xst:905 - "Register_File.v" line 155: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:905 - "Register_File.v" line 130: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <Out1>, <Out2>, <Out3>, <Out4>, <Out5>, <Out6>, <Out7>, <Out8>, <Out9>, <Out10>, <Out11>, <Out12>, <Out13>, <Out14>, <Out15>, <Out16>
-WARNING:Xst:905 - "Register_File.v" line 178: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:905 - "Register_File.v" line 153: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <Out1>, <Out2>, <Out3>, <Out4>, <Out5>, <Out6>, <Out7>, <Out8>, <Out9>, <Out10>, <Out11>, <Out12>, <Out13>, <Out14>, <Out15>, <Out16>
 Module <Register_File> is correct for synthesis.
  
@@ -143,22 +143,21 @@ Module <R_1B> is correct for synthesis.
 
 Performing bidirectional port resolution...
 INFO:Xst:2679 - Register <res1> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res2> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res3> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res4> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res5> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res6> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res7> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res8> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res9> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res10> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res11> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res12> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res13> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res14> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res15> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res16> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <res17> in unit <Register_File> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res2> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res3> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res4> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res5> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res6> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res7> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res8> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res9> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res10> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res11> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res12> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res13> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res14> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res15> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <res16> in unit <Register_File> has a constant value of 1 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <R_1B>.
     Related source file is "R_1B.v".
@@ -175,7 +174,7 @@ Unit <R_16B> synthesized.
 
 Synthesizing Unit <Register_File>.
     Related source file is "Register_File.v".
-WARNING:Xst:646 - Signal <res17> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <res17> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit 16-to-1 multiplexer for signal <RA2>.
     Found 1-bit 16-to-1 multiplexer for signal <RL1>.
     Summary:
@@ -678,21 +677,6 @@ WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b
    It will be removed from the design.
 WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b16>.
    It will be removed from the design.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <qq> (without init value) has a constant value of 0 in block <Register1>. This FF/Latch will be trimmed during the optimization process.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -708,36 +692,25 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b3> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b4> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b5> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b6> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b7> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b8> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b9> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b10> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b11> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b12> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b13> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b14> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b15> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b2>, <R16b16> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1710 - FF/Latch <R16b2/Register1/qq> (without init value) has a constant value of 0 in block <Register_File>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <R16b2/Register2/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register3/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register4/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register5/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register6/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register7/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register8/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register9/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register10/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register11/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register12/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register13/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register14/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register15/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b2/Register16/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b2> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b3> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b4> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b5> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b6> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b7> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b8> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b9> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b10> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b11> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b12> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b13> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b14> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b15> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b16> of unit <R_16B> are equivalent, second instance is removed
+
+Optimizing unit <Register_File> ...
+
+Optimizing unit <R_16B> ...
 WARNING:Xst:2677 - Node <R16b1/Register2/qq> of sequential type is unconnected in block <Register_File>.
 WARNING:Xst:2677 - Node <R16b1/Register3/qq> of sequential type is unconnected in block <Register_File>.
 WARNING:Xst:2677 - Node <R16b1/Register4/qq> of sequential type is unconnected in block <Register_File>.
@@ -754,11 +727,10 @@ WARNING:Xst:2677 - Node <R16b1/Register14/qq> of sequential type is unconnected 
 WARNING:Xst:2677 - Node <R16b1/Register15/qq> of sequential type is unconnected in block <Register_File>.
 WARNING:Xst:2677 - Node <R16b1/Register16/qq> of sequential type is unconnected in block <Register_File>.
 
-Optimizing unit <Register_File> ...
-
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block Register_File, actual ratio is 0.
+FlipFlop R16b1/Register1/qq has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -766,8 +738,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
 
 =========================================================================
 
@@ -796,16 +768,14 @@ Design Statistics
 # IOs                              : 63
 
 Cell Usage :
-# BELS                             : 5
+# BELS                             : 1
 #      GND                         : 1
-#      LUT4                        : 2
-#      MUXF5                       : 2
-# FlipFlops/Latches                : 1
-#      FDCE                        : 1
+# FlipFlops/Latches                : 2
+#      FDCE                        : 2
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 43
-#      IBUF                        : 11
+# IO Buffers                       : 35
+#      IBUF                        : 3
 #      OBUF                        : 32
 =========================================================================
 
@@ -814,11 +784,10 @@ Device utilization summary:
 
 Selected Device : 3s100evq100-5 
 
- Number of Slices:                        1  out of    960     0%  
- Number of 4 input LUTs:                  2  out of   1920     0%  
+ Number of Slices:                        0  out of    960     0%  
  Number of IOs:                          63
- Number of bonded IOBs:                  44  out of     66    66%  
-    IOB Flip Flops:                       1
+ Number of bonded IOBs:                  36  out of     66    54%  
+    IOB Flip Flops:                       2
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -842,7 +811,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 1     |
+clk                                | BUFGP                  | 2     |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -850,7 +819,7 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-rst                                | IBUF                   | 1     |
+rst                                | IBUF                   | 2     |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -858,9 +827,9 @@ Timing Summary:
 Speed Grade: -5
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 1.946ns
-   Maximum output required time after clock: 5.462ns
-   Maximum combinational path delay: 5.948ns
+   Minimum input arrival time before clock: 1.969ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
 
 Timing Detail:
 --------------
@@ -868,9 +837,9 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 2 / 2
+  Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
-Offset:              1.946ns (Levels of Logic = 1)
+Offset:              1.969ns (Levels of Logic = 1)
   Source:            wr (PAD)
   Destination:       R16b1/Register1/qq (FF)
   Destination Clock: clk rising
@@ -879,64 +848,42 @@ Offset:              1.946ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.106   0.357  wr_IBUF (wr_IBUF)
+     IBUF:I->O             2   1.106   0.380  wr_IBUF (wr_IBUF)
      FDCE:CE                   0.483          R16b1/Register1/qq
     ----------------------------------------
-    Total                      1.946ns (1.589ns logic, 0.357ns route)
-                                       (81.7% logic, 18.3% route)
+    Total                      1.969ns (1.589ns logic, 0.380ns route)
+                                       (80.7% logic, 19.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              5.462ns (Levels of Logic = 3)
-  Source:            R16b1/Register1/qq (FF)
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            R16b1/Register1/qq_1 (FF)
   Destination:       Rout1<0> (PAD)
   Source Clock:      clk rising
 
-  Data Path: R16b1/Register1/qq to Rout1<0>
+  Data Path: R16b1/Register1/qq_1 to Rout1<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.514   0.532  R16b1/Register1/qq (R16b1/Register1/qq)
-     LUT4:I0->O            1   0.612   0.000  Mmux_RL111 (Mmux_RL11)
-     MUXF5:I0->O           1   0.278   0.357  Mmux_RL11_f5 (Rout1_0_OBUF)
+     FDCE:C->Q             1   0.514   0.357  R16b1/Register1/qq_1 (R16b1/Register1/qq_1)
      OBUF:I->O                 3.169          Rout1_0_OBUF (Rout1<0>)
     ----------------------------------------
-    Total                      5.462ns (4.573ns logic, 0.889ns route)
-                                       (83.7% logic, 16.3% route)
-
-=========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 8 / 2
--------------------------------------------------------------------------
-Delay:               5.948ns (Levels of Logic = 4)
-  Source:            Rs<2> (PAD)
-  Destination:       Rout1<0> (PAD)
-
-  Data Path: Rs<2> to Rout1<0>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             1   1.106   0.426  Rs_2_IBUF (Rs_2_IBUF)
-     LUT4:I1->O            1   0.612   0.000  Mmux_RL111 (Mmux_RL11)
-     MUXF5:I0->O           1   0.278   0.357  Mmux_RL11_f5 (Rout1_0_OBUF)
-     OBUF:I->O                 3.169          Rout1_0_OBUF (Rout1<0>)
-    ----------------------------------------
-    Total                      5.948ns (5.165ns logic, 0.783ns route)
-                                       (86.8% logic, 13.2% route)
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.01 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.06 secs
  
 --> 
 
-Total memory usage is 232948 kilobytes
+Total memory usage is 233460 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  319 (   0 filtered)
-Number of infos    :   17 (   0 filtered)
+Number of warnings :  289 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
 
