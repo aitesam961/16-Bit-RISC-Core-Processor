@@ -25,8 +25,8 @@ module Register_File(
     input [3:0] Rd,
     input [15:0] RW,
     input wr,
-    output [15:0] Rout1,
-    output [15:0] Rout2
+    output reg [15:0] Rout1,
+    output reg [15:0] Rout2
     );
 	 
 	 
@@ -48,10 +48,11 @@ module Register_File(
 	 
 	 reg res1, res2 , res3 , res4 ,res5 ,  res6 ,res7 ,res8 ,res9 , res10 ,  res11 ,res12 ,res13 ,res14 , res15 ,res16 , res17;
 	 
-
 	 /*
 			Decoder for Write address Selection
 	 */
+	 
+	 // See Design Reference: xst.pdf//Chapter 2//Page 114
 	 always @(Rd)
 		 begin
 			 case(Rd)
@@ -129,22 +130,22 @@ module Register_File(
 	 
 	 always @ (Rs) begin
 		case(Rs)
-			4'b0000	:	RL1 = Out1;
-			4'b0001	:	RL1 = Out2;
-			4'b0010	:	RL1 = Out3;
-			4'b0011	:	RL1 = Out4;
-			4'b0100	:	RL1 = Out5;
-			4'b0101	:	RL1 = Out6;
-			4'b0110	:	RL1 = Out7;
-			4'b0111	:	RL1 = Out8;
-			4'b1000	:	RL1 = Out9;
-			4'b1001	:	RL1 = Out10;
-			4'b1010	:	RL1 = Out11;
-			4'b1011	:	RL1 = Out12;
-			4'b1100	:	RL1 = Out13;
-			4'b1101	:	RL1 = Out14;
-			4'b1110	:	RL1 = Out15;
-			4'b1111	:	RL1 = Out16;
+			4'b0000	:	Rout1[0] = Out1;
+			4'b0001	:	Rout1[1] = Out2;
+			4'b0010	:	Rout1[2] = Out3;
+			4'b0011	:	Rout1[3] = Out4;
+			4'b0100	:	Rout1[4] = Out5;
+			4'b0101	:	Rout1[5] = Out6;
+			4'b0110	:	Rout1[6] = Out7;
+			4'b0111	:	Rout1[7] = Out8;
+			4'b1000	:	Rout1[8] = Out9;
+			4'b1001	:	Rout1[9] = Out10;
+			4'b1010	:	Rout1[10] = Out11;
+			4'b1011	:	Rout1[11] = Out12;
+			4'b1100	:	Rout1[12] = Out13;
+			4'b1101	:	Rout1[13] = Out14;
+			4'b1110	:	Rout1[14] = Out15;
+			4'b1111	:	Rout1[15] = Out16;
 		endcase
 	 end
 	 
@@ -152,26 +153,26 @@ module Register_File(
 	 
 	 always @ (Rt) begin
 		case(Rt)
-		4'b0000	 :	RA2  = Out1;
-		4'b0001	 :	RA2  = Out2;
-		4'b0010	 :	RA2  = Out3;
-		4'b0011	 :	RA2  = Out4;
-		4'b0100	 :	RA2  = Out5;
-		4'b0101	 :	RA2  = Out6;
-		4'b0110	 :	RA2  = Out7;
-		4'b0111	 :	RA2  = Out8;
-		4'b1000	 :	RA2  = Out9;
-		4'b1001	 :	RA2  = Out10;
-		4'b1010	 :	RA2  = Out11;
-		4'b1011	 :	RA2  = Out12;
-		4'b1100	 :	RA2  = Out13;
-		4'b1101	 :	RA2  = Out14;
-		4'b1110	 :	RA2  = Out15;
-		4'b1111	 :	RA2  = Out16;
+		4'b0000	 :	Rout2[0]   = Out1;
+		4'b0001	 :	Rout2[1]   = Out2;
+		4'b0010	 :	Rout2[2]   = Out3;
+		4'b0011	 :	Rout2[3]   = Out4;
+		4'b0100	 :	Rout2[4]   = Out5;
+		4'b0101	 :	Rout2[5]   = Out6;
+		4'b0110	 :	Rout2[6]   = Out7;
+		4'b0111	 :	Rout2[7]   = Out8;
+		4'b1000	 :	Rout2[8]   = Out9;
+		4'b1001	 :	Rout2[9]   = Out10;
+		4'b1010	 :	Rout2[10]  = Out11;
+		4'b1011	 :	Rout2[11]  = Out12;
+		4'b1100	 :	Rout2[12]  = Out13;
+		4'b1101	 :	Rout2[13]  = Out14;
+		4'b1110	 :	Rout2[14]  = Out15;
+		4'b1111	 :	Rout2[15]  = Out16;
 		endcase
 	 end
-	 assign Rout1 = RL1;
-	 assign Rout2 = RA2;
+	 //assign Rout1 = RL1;
+	 //assign Rout2 = RA2;
 	 
 	 
 endmodule
