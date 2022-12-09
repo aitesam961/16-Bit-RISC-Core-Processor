@@ -1,0 +1,3 @@
+verilog work "Reg.v"
+verilog work "Reg_File.v"
+verilog work "Reg_File_Main.v"

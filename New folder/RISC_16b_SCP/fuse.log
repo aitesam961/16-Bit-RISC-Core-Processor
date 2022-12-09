@@ -1,0 +1,41 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_main_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_main_tb_beh.prj work.Reg_File_main_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg.v" into library work
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File.v" into library work
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" into library work
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_main_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 85: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 86: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 87: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 88: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 89: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 90: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 91: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 92: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 93: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 94: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 95: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 96: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 97: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 98: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 83: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 84: Size mismatch in connection of port <dout>. Formal port size is 16-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 159768 KB
+Fuse CPU Usage: 343 ms
+Compiling module Reg_1B
+Compiling module Reg_File_16B
+Compiling module Reg_File_Main
+Compiling module Reg_File_main_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_main_tb_isim_beh.exe
+Fuse Memory Usage: 166268 KB
+Fuse CPU Usage: 515 ms

@@ -1,0 +1,26 @@
+ISim log file
+Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\New folder\RISC_16b_SCP\Reg_File_main_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_main_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 83.  For instance uut/rg1/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg1.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 84.  For instance uut/rg2/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg2.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 85.  For instance uut/rg3/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg3.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 86.  For instance uut/rg4/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg4.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 87.  For instance uut/rg5/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg5.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 88.  For instance uut/rg6/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg6.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 89.  For instance uut/rg7/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg7.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 90.  For instance uut/rg8/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg8.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 91.  For instance uut/rg9/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg9.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 92.  For instance uut/rg10/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg10.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 93.  For instance uut/rg11/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg11.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 94.  For instance uut/rg12/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg12.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 95.  For instance uut/rg13/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg13.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 96.  For instance uut/rg14/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg14.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 97.  For instance uut/rg15/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg15.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_Main.v" Line 98.  For instance uut/rg16/, width 16 of formal port dout is not equal to width 1 of actual signal out_reg16.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
