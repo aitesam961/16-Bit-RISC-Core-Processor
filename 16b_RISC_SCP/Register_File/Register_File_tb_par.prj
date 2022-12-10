@@ -1,0 +1,2 @@
+verilog work "netgen/par/Register_File_timesim.v"
+verilog work "Register_File_tb.v"

@@ -1,0 +1,256 @@
+Release 14.7 par P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+AITESAM961-DESK::  Sat Dec 10 14:56:40 2022
+
+par -w -intstyle ise -ol high -t 1 Register_File_map.ncd Register_File.ncd
+Register_File.pcf 
+
+
+Constraints file: Register_File.pcf.
+Loading device for application Rf_Device from file '3s100e.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
+   "Register_File" is an NCD, version 3.2, device xc3s100e, package vq100, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          44 out of 66     66%
+
+   Number of External Input IOBs                 12
+
+      Number of External Input IBUFs             12
+
+   Number of External Output IOBs                32
+
+      Number of External Output IOBs             32
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of Slices                         16 out of 960     1%
+      Number of SLICEMs                      0 out of 480     0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 0 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:72b) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:72b) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:72b) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+......
+Phase 4.2  Initial Clock and IO Placement (Checksum:21d3e37) REAL time: 1 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:21d3e37) REAL time: 1 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:21d3e37) REAL time: 1 secs 
+
+Phase 7.3  Local Placement Optimization
+.....
+Phase 7.3  Local Placement Optimization (Checksum:7ec3daea) REAL time: 1 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:7ec3daea) REAL time: 1 secs 
+
+Phase 9.8  Global Placement
+..
+Phase 9.8  Global Placement (Checksum:d29f04bb) REAL time: 1 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:d29f04bb) REAL time: 1 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:e3817e95) REAL time: 2 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:e3817e95) REAL time: 2 secs 
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU  time to Placer completion: 2 secs 
+Writing design to file Register_File.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 197 unrouted;      REAL time: 3 secs 
+
+Phase  2  : 195 unrouted;      REAL time: 3 secs 
+
+Phase  3  : 35 unrouted;      REAL time: 3 secs 
+
+Phase  4  : 35 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Updating file: Register_File.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Total REAL time to Router completion: 3 secs 
+Total CPU time to Router completion: 3 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP | BUFGMUX_X2Y10| No   |    1 |  0.000     |  0.052      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout1_10_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.744      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout1_11_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.980      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout1_13_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.037      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout1_15_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.853      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_1_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.200      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_3_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.938      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout2_11_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.928      |
++---------------------+--------------+------+------+------------+-------------+
+|     Rout2_0_not0001 |         Local|      |    1 |  0.000     |  1.503      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_5_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.482      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_6_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.233      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_3_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.021      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout2_14_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.702      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_8_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.494      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_5_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.743      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_7_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.934      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_8_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.244      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_9_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.742      |
++---------------------+--------------+------+------+------------+-------------+
+|     Rout1_0_not0001 |         Local|      |    1 |  0.000     |  1.474      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_2_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.986      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout1_12_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.259      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_7_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.715      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_9_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.833      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout1_4_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.242      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout1_14_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.116      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout2_10_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.567      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_2_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.022      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout2_12_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.993      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_6_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.963      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout2_15_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.485      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_1_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.466      |
++---------------------+--------------+------+------+------------+-------------+
+|  Rout2_4_cmp_eq0000 |         Local|      |    1 |  0.000     |  1.209      |
++---------------------+--------------+------+------+------------+-------------+
+| Rout2_13_cmp_eq0000 |         Local|      |    1 |  0.000     |  0.924      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic  | Absolute   |Number of
+                                            |            |            | Levels | Slack      |errors   
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 3 secs 
+
+Peak Memory Usage:  254 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file Register_File.ncd
+
+
+
+PAR done!

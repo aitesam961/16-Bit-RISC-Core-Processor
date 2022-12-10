@@ -25,8 +25,8 @@ module Register_File(
     input [3:0] Rd,
     input [15:0] RW,
     input wr,
-    output reg [15:0] Rout1,
-    output reg [15:0] Rout2
+    output reg [15:0] Rout1,	//Had to declare this as a reg, the alternative assignment technique leaves output unconnected
+    output reg [15:0] Rout2   //Had to declare this as a reg, the alternative assignment technique leaves output unconnected
     );
 	 
 	 
@@ -43,10 +43,8 @@ module Register_File(
 	 */		
 	 wire we1 , we2,	we3 ,	we4 ,we5 ,we6 ,we7 ,we8 ,we9 ,we10 ,we11 ,we12 ,we13 ,we14 ,we15 ,we16;
 	 
-	 reg RL1,RA2;
 	 
-	 
-	 reg res1, res2 , res3 , res4 ,res5 ,  res6 ,res7 ,res8 ,res9 , res10 ,  res11 ,res12 ,res13 ,res14 , res15 ,res16 , res17;
+	 reg res1, res2 , res3 , res4 ,res5 ,  res6 ,res7 ,res8 ,res9 , res10 ,  res11 ,res12 ,res13 ,res14 , res15 ,res16 ;
 	 
 	 /*
 			Decoder for Write address Selection
@@ -95,9 +93,6 @@ module Register_File(
 	 assign we14 = res14  & wr;
 	 assign we15 = res15  & wr;
 	 assign we16 = res16  & wr;
-		
-	 
-	 
 	 /*  
 		 16x, 16-Bit Registers
 		 Each drops its output to a wire which 

@@ -51,7 +51,7 @@ module Register_File_tb;
 	);
 	initial begin
 	clk = 0;
-	forever #50 clk = ~clk;
+	forever #35 clk = ~clk;
 	end
 	
 	initial begin
@@ -76,28 +76,28 @@ module Register_File_tb;
 		Rs = 4'b1000;
 		Rt = 4'b1111;
 		Rd = 4'b1111;
-		RW = 16'h0450;
+		RW = 16'h0000;
 		wr = 0;
 		#35;
 		
 		Rs = 4'b0011;
 		Rt = 4'b0010;
 		Rd = 4'b0000;
-		RW = 16'h1254;
+		RW = 16'h0450;
 		wr = 1;
 		#35;
 		
 		Rs = 4'b0000;
 		Rt = 4'b0010;
 		Rd = 4'b1001;
-		RW = 16'h3347;
+		RW = 16'h0450;
 		wr = 1;
 		#35;
 		
 		Rs = 4'b1001;
 		Rt = 4'b1111;
 		Rd = 4'b1001;
-		RW = 16'h3347;
+		RW = 16'h0450;
 		wr = 0;
 		#35;
         
