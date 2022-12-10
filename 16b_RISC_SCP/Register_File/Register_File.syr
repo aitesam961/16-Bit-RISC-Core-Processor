@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Register_File.prj
 
@@ -174,38 +174,10 @@ Unit <R_16B> synthesized.
 
 Synthesizing Unit <Register_File>.
     Related source file is "Register_File.v".
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_14>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout1_15>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_14>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Rout2_15>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit 16-to-1 multiplexer for signal <RA>.
+    Found 16-bit 16-to-1 multiplexer for signal <RB>.
+    Summary:
+	inferred  32 Multiplexer(s).
 Unit <Register_File> synthesized.
 
 
@@ -215,8 +187,8 @@ HDL Synthesis Report
 Macro Statistics
 # Registers                                            : 256
  1-bit register                                        : 256
-# Latches                                              : 32
- 1-bit latch                                           : 32
+# Multiplexers                                         : 2
+ 16-bit 16-to-1 multiplexer                            : 2
 
 =========================================================================
 
@@ -224,485 +196,485 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b1>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b2>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs2>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b3>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs3>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b4>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs4>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b5>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs5>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b6>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs6>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b7>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs7>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b8>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs8>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b9>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs9>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b10>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs10>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b11>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs11>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b12>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs12>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b13>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs13>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b14>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs14>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b15>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs15>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register2> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register3> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register4> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register5> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register6> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register7> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register8> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register9> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register10> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register11> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register12> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register13> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register14> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register15> is unconnected in block <Rs16>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <R16b16>.
+WARNING:Xst:1290 - Hierarchical block <Register16> is unconnected in block <Rs16>.
    It will be removed from the design.
 
 =========================================================================
@@ -711,52 +683,53 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # Registers                                            : 256
  Flip-Flops                                            : 256
-# Latches                                              : 32
- 1-bit latch                                           : 32
+# Multiplexers                                         : 2
+ 16-bit 16-to-1 multiplexer                            : 2
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b2> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b3> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b4> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b5> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b6> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b7> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b8> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b9> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b10> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b11> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b12> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b13> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b14> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b15> of unit <R_16B> are equivalent, second instance is removed
-WARNING:Xst:1989 - Unit <Register_File>: instances <R16b1>, <R16b16> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs2> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs3> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs4> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs5> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs6> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs7> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs8> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs9> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs10> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs11> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs12> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs13> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs14> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs15> of unit <R_16B> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs16> of unit <R_16B> are equivalent, second instance is removed
 
 Optimizing unit <Register_File> ...
 
 Optimizing unit <R_16B> ...
-WARNING:Xst:2677 - Node <R16b1/Register2/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register3/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register4/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register5/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register6/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register7/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register8/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register9/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register10/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register11/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register12/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register13/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register14/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register15/qq> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <R16b1/Register16/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register2/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register3/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register4/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register5/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register6/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register7/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register8/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register9/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register10/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register11/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register12/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register13/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register14/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register15/qq> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/Register16/qq> of sequential type is unconnected in block <Register_File>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Register_File, actual ratio is 2.
+Found area constraint ratio of 100 (+ 5) on block Register_File, actual ratio is 0.
+FlipFlop Rs1/Register1/qq has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -764,8 +737,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
 
 =========================================================================
 
@@ -794,16 +767,14 @@ Design Statistics
 # IOs                              : 63
 
 Cell Usage :
-# BELS                             : 32
-#      LUT4                        : 32
-# FlipFlops/Latches                : 33
-#      FDCE                        : 1
-#      LD                          : 30
-#      LD_1                        : 2
+# BELS                             : 1
+#      GND                         : 1
+# FlipFlops/Latches                : 2
+#      FDCE                        : 2
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 43
-#      IBUF                        : 11
+# IO Buffers                       : 35
+#      IBUF                        : 3
 #      OBUF                        : 32
 =========================================================================
 
@@ -812,11 +783,10 @@ Device utilization summary:
 
 Selected Device : 3s100evq100-5 
 
- Number of Slices:                       17  out of    960     1%  
- Number of 4 input LUTs:                 32  out of   1920     1%  
+ Number of Slices:                        0  out of    960     0%  
  Number of IOs:                          63
- Number of bonded IOBs:                  44  out of     66    66%  
-    IOB Flip Flops:                      33
+ Number of bonded IOBs:                  36  out of     66    54%  
+    IOB Flip Flops:                       2
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -837,54 +807,18 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
--------------------------------------------+------------------------+-------+
-Clock Signal                               | Clock buffer(FF name)  | Load  |
--------------------------------------------+------------------------+-------+
-Rout2_15_cmp_eq0000(Rout2_15_cmp_eq00001:O)| NONE(*)(Rout2_15)      | 1     |
-Rout2_14_cmp_eq0000(Rout2_14_cmp_eq00001:O)| NONE(*)(Rout2_14)      | 1     |
-Rout2_13_cmp_eq0000(Rout2_13_cmp_eq00001:O)| NONE(*)(Rout2_13)      | 1     |
-Rout2_12_cmp_eq0000(Rout2_12_cmp_eq00001:O)| NONE(*)(Rout2_12)      | 1     |
-Rout2_11_cmp_eq0000(Rout2_11_cmp_eq00001:O)| NONE(*)(Rout2_11)      | 1     |
-Rout2_10_cmp_eq0000(Rout2_10_cmp_eq00001:O)| NONE(*)(Rout2_10)      | 1     |
-Rout2_9_cmp_eq0000(Rout2_9_cmp_eq00001:O)  | NONE(*)(Rout2_9)       | 1     |
-Rout2_8_cmp_eq0000(Rout2_8_cmp_eq00001:O)  | NONE(*)(Rout2_8)       | 1     |
-Rout2_7_cmp_eq0000(Rout2_7_cmp_eq00001:O)  | NONE(*)(Rout2_7)       | 1     |
-Rout2_6_cmp_eq0000(Rout2_6_cmp_eq00001:O)  | NONE(*)(Rout2_6)       | 1     |
-Rout2_5_cmp_eq0000(Rout2_5_cmp_eq00001:O)  | NONE(*)(Rout2_5)       | 1     |
-Rout2_4_cmp_eq0000(Rout2_4_cmp_eq00001:O)  | NONE(*)(Rout2_4)       | 1     |
-Rout2_3_cmp_eq0000(Rout2_3_cmp_eq00001:O)  | NONE(*)(Rout2_3)       | 1     |
-Rout2_2_cmp_eq0000(Rout2_2_cmp_eq00001:O)  | NONE(*)(Rout2_2)       | 1     |
-Rout2_1_cmp_eq0000(Rout2_1_cmp_eq00001:O)  | NONE(*)(Rout2_1)       | 1     |
-Rout1_15_cmp_eq0000(Rout1_15_cmp_eq00001:O)| NONE(*)(Rout1_15)      | 1     |
-Rout1_14_cmp_eq0000(Rout1_14_cmp_eq00001:O)| NONE(*)(Rout1_14)      | 1     |
-Rout1_13_cmp_eq0000(Rout1_13_cmp_eq00001:O)| NONE(*)(Rout1_13)      | 1     |
-Rout1_12_cmp_eq0000(Rout1_12_cmp_eq00001:O)| NONE(*)(Rout1_12)      | 1     |
-Rout1_11_cmp_eq0000(Rout1_11_cmp_eq00001:O)| NONE(*)(Rout1_11)      | 1     |
-Rout1_10_cmp_eq0000(Rout1_10_cmp_eq00001:O)| NONE(*)(Rout1_10)      | 1     |
-Rout1_9_cmp_eq0000(Rout1_9_cmp_eq00001:O)  | NONE(*)(Rout1_9)       | 1     |
-Rout1_8_cmp_eq0000(Rout1_8_cmp_eq00001:O)  | NONE(*)(Rout1_8)       | 1     |
-Rout1_7_cmp_eq0000(Rout1_7_cmp_eq00001:O)  | NONE(*)(Rout1_7)       | 1     |
-Rout1_6_cmp_eq0000(Rout1_6_cmp_eq00001:O)  | NONE(*)(Rout1_6)       | 1     |
-Rout1_5_cmp_eq0000(Rout1_5_cmp_eq00001:O)  | NONE(*)(Rout1_5)       | 1     |
-Rout1_4_cmp_eq0000(Rout1_4_cmp_eq00001:O)  | NONE(*)(Rout1_4)       | 1     |
-Rout1_3_cmp_eq0000(Rout1_3_cmp_eq00001:O)  | NONE(*)(Rout1_3)       | 1     |
-Rout1_2_cmp_eq0000(Rout1_2_cmp_eq00001:O)  | NONE(*)(Rout1_2)       | 1     |
-Rout1_1_cmp_eq0000(Rout1_1_cmp_eq00001:O)  | NONE(*)(Rout1_1)       | 1     |
-Rout2_0_not0001(Rout2_0_not00011:O)        | NONE(*)(Rout2_0)       | 1     |
-Rout1_0_not0001(Rout1_0_not00011:O)        | NONE(*)(Rout1_0)       | 1     |
-clk                                        | BUFGP                  | 1     |
--------------------------------------------+------------------------+-------+
-(*) These 32 clock signal(s) are generated by combinatorial logic,
-and XST is not able to identify which are the primary clock signals.
-Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
-INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-rst                                | IBUF                   | 1     |
+rst                                | IBUF                   | 2     |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -892,8 +826,8 @@ Timing Summary:
 Speed Grade: -5
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 1.946ns
-   Maximum output required time after clock: 4.114ns
+   Minimum input arrival time before clock: 1.969ns
+   Maximum output required time after clock: 4.040ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -902,642 +836,53 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 2 / 2
+  Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
-Offset:              1.946ns (Levels of Logic = 1)
+Offset:              1.969ns (Levels of Logic = 1)
   Source:            wr (PAD)
-  Destination:       R16b1/Register1/qq (FF)
+  Destination:       Rs1/Register1/qq (FF)
   Destination Clock: clk rising
 
-  Data Path: wr to R16b1/Register1/qq
+  Data Path: wr to Rs1/Register1/qq
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.106   0.357  wr_IBUF (wr_IBUF)
-     FDCE:CE                   0.483          R16b1/Register1/qq
+     IBUF:I->O             2   1.106   0.380  wr_IBUF (wr_IBUF)
+     FDCE:CE                   0.483          Rs1/Register1/qq
     ----------------------------------------
-    Total                      1.946ns (1.589ns logic, 0.357ns route)
-                                       (81.7% logic, 18.3% route)
+    Total                      1.969ns (1.589ns logic, 0.380ns route)
+                                       (80.7% logic, 19.3% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_15_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_15 (LATCH)
-  Destination:       Rout1<15> (PAD)
-  Source Clock:      Rout1_15_cmp_eq0000 falling
-
-  Data Path: Rout1_15 to Rout1<15>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_15 (Rout1_15)
-     OBUF:I->O                 3.169          Rout1_15_OBUF (Rout1<15>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_14_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_14 (LATCH)
-  Destination:       Rout1<14> (PAD)
-  Source Clock:      Rout1_14_cmp_eq0000 falling
-
-  Data Path: Rout1_14 to Rout1<14>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_14 (Rout1_14)
-     OBUF:I->O                 3.169          Rout1_14_OBUF (Rout1<14>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_13_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_13 (LATCH)
-  Destination:       Rout1<13> (PAD)
-  Source Clock:      Rout1_13_cmp_eq0000 falling
-
-  Data Path: Rout1_13 to Rout1<13>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_13 (Rout1_13)
-     OBUF:I->O                 3.169          Rout1_13_OBUF (Rout1<13>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_12_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_12 (LATCH)
-  Destination:       Rout1<12> (PAD)
-  Source Clock:      Rout1_12_cmp_eq0000 falling
-
-  Data Path: Rout1_12 to Rout1<12>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_12 (Rout1_12)
-     OBUF:I->O                 3.169          Rout1_12_OBUF (Rout1<12>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_11_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_11 (LATCH)
-  Destination:       Rout1<11> (PAD)
-  Source Clock:      Rout1_11_cmp_eq0000 falling
-
-  Data Path: Rout1_11 to Rout1<11>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_11 (Rout1_11)
-     OBUF:I->O                 3.169          Rout1_11_OBUF (Rout1<11>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_10_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_10 (LATCH)
-  Destination:       Rout1<10> (PAD)
-  Source Clock:      Rout1_10_cmp_eq0000 falling
-
-  Data Path: Rout1_10 to Rout1<10>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_10 (Rout1_10)
-     OBUF:I->O                 3.169          Rout1_10_OBUF (Rout1<10>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_9_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_9 (LATCH)
-  Destination:       Rout1<9> (PAD)
-  Source Clock:      Rout1_9_cmp_eq0000 falling
-
-  Data Path: Rout1_9 to Rout1<9>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_9 (Rout1_9)
-     OBUF:I->O                 3.169          Rout1_9_OBUF (Rout1<9>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_8_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_8 (LATCH)
-  Destination:       Rout1<8> (PAD)
-  Source Clock:      Rout1_8_cmp_eq0000 falling
-
-  Data Path: Rout1_8 to Rout1<8>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_8 (Rout1_8)
-     OBUF:I->O                 3.169          Rout1_8_OBUF (Rout1<8>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_7_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_7 (LATCH)
-  Destination:       Rout1<7> (PAD)
-  Source Clock:      Rout1_7_cmp_eq0000 falling
-
-  Data Path: Rout1_7 to Rout1<7>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_7 (Rout1_7)
-     OBUF:I->O                 3.169          Rout1_7_OBUF (Rout1<7>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_6_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_6 (LATCH)
-  Destination:       Rout1<6> (PAD)
-  Source Clock:      Rout1_6_cmp_eq0000 falling
-
-  Data Path: Rout1_6 to Rout1<6>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_6 (Rout1_6)
-     OBUF:I->O                 3.169          Rout1_6_OBUF (Rout1<6>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_5_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_5 (LATCH)
-  Destination:       Rout1<5> (PAD)
-  Source Clock:      Rout1_5_cmp_eq0000 falling
-
-  Data Path: Rout1_5 to Rout1<5>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_5 (Rout1_5)
-     OBUF:I->O                 3.169          Rout1_5_OBUF (Rout1<5>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_4_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_4 (LATCH)
-  Destination:       Rout1<4> (PAD)
-  Source Clock:      Rout1_4_cmp_eq0000 falling
-
-  Data Path: Rout1_4 to Rout1<4>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_4 (Rout1_4)
-     OBUF:I->O                 3.169          Rout1_4_OBUF (Rout1<4>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_3_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_3 (LATCH)
-  Destination:       Rout1<3> (PAD)
-  Source Clock:      Rout1_3_cmp_eq0000 falling
-
-  Data Path: Rout1_3 to Rout1<3>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_3 (Rout1_3)
-     OBUF:I->O                 3.169          Rout1_3_OBUF (Rout1<3>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_2_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_2 (LATCH)
-  Destination:       Rout1<2> (PAD)
-  Source Clock:      Rout1_2_cmp_eq0000 falling
-
-  Data Path: Rout1_2 to Rout1<2>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_2 (Rout1_2)
-     OBUF:I->O                 3.169          Rout1_2_OBUF (Rout1<2>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_1_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_1 (LATCH)
-  Destination:       Rout1<1> (PAD)
-  Source Clock:      Rout1_1_cmp_eq0000 falling
-
-  Data Path: Rout1_1 to Rout1<1>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout1_1 (Rout1_1)
-     OBUF:I->O                 3.169          Rout1_1_OBUF (Rout1<1>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout1_0_not0001'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout1_0 (LATCH)
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            Rs1/Register1/qq_1 (FF)
   Destination:       Rout1<0> (PAD)
-  Source Clock:      Rout1_0_not0001 rising
+  Source Clock:      clk rising
 
-  Data Path: Rout1_0 to Rout1<0>
+  Data Path: Rs1/Register1/qq_1 to Rout1<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD_1:G->Q             1   0.588   0.357  Rout1_0 (Rout1_0)
+     FDCE:C->Q             1   0.514   0.357  Rs1/Register1/qq_1 (Rs1/Register1/qq_1)
      OBUF:I->O                 3.169          Rout1_0_OBUF (Rout1<0>)
     ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_15_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_15 (LATCH)
-  Destination:       Rout2<15> (PAD)
-  Source Clock:      Rout2_15_cmp_eq0000 falling
-
-  Data Path: Rout2_15 to Rout2<15>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_15 (Rout2_15)
-     OBUF:I->O                 3.169          Rout2_15_OBUF (Rout2<15>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_14_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_14 (LATCH)
-  Destination:       Rout2<14> (PAD)
-  Source Clock:      Rout2_14_cmp_eq0000 falling
-
-  Data Path: Rout2_14 to Rout2<14>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_14 (Rout2_14)
-     OBUF:I->O                 3.169          Rout2_14_OBUF (Rout2<14>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_13_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_13 (LATCH)
-  Destination:       Rout2<13> (PAD)
-  Source Clock:      Rout2_13_cmp_eq0000 falling
-
-  Data Path: Rout2_13 to Rout2<13>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_13 (Rout2_13)
-     OBUF:I->O                 3.169          Rout2_13_OBUF (Rout2<13>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_12_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_12 (LATCH)
-  Destination:       Rout2<12> (PAD)
-  Source Clock:      Rout2_12_cmp_eq0000 falling
-
-  Data Path: Rout2_12 to Rout2<12>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_12 (Rout2_12)
-     OBUF:I->O                 3.169          Rout2_12_OBUF (Rout2<12>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_11_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_11 (LATCH)
-  Destination:       Rout2<11> (PAD)
-  Source Clock:      Rout2_11_cmp_eq0000 falling
-
-  Data Path: Rout2_11 to Rout2<11>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_11 (Rout2_11)
-     OBUF:I->O                 3.169          Rout2_11_OBUF (Rout2<11>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_10_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_10 (LATCH)
-  Destination:       Rout2<10> (PAD)
-  Source Clock:      Rout2_10_cmp_eq0000 falling
-
-  Data Path: Rout2_10 to Rout2<10>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_10 (Rout2_10)
-     OBUF:I->O                 3.169          Rout2_10_OBUF (Rout2<10>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_9_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_9 (LATCH)
-  Destination:       Rout2<9> (PAD)
-  Source Clock:      Rout2_9_cmp_eq0000 falling
-
-  Data Path: Rout2_9 to Rout2<9>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_9 (Rout2_9)
-     OBUF:I->O                 3.169          Rout2_9_OBUF (Rout2<9>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_8_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_8 (LATCH)
-  Destination:       Rout2<8> (PAD)
-  Source Clock:      Rout2_8_cmp_eq0000 falling
-
-  Data Path: Rout2_8 to Rout2<8>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_8 (Rout2_8)
-     OBUF:I->O                 3.169          Rout2_8_OBUF (Rout2<8>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_7_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_7 (LATCH)
-  Destination:       Rout2<7> (PAD)
-  Source Clock:      Rout2_7_cmp_eq0000 falling
-
-  Data Path: Rout2_7 to Rout2<7>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_7 (Rout2_7)
-     OBUF:I->O                 3.169          Rout2_7_OBUF (Rout2<7>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_6_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_6 (LATCH)
-  Destination:       Rout2<6> (PAD)
-  Source Clock:      Rout2_6_cmp_eq0000 falling
-
-  Data Path: Rout2_6 to Rout2<6>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_6 (Rout2_6)
-     OBUF:I->O                 3.169          Rout2_6_OBUF (Rout2<6>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_5_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_5 (LATCH)
-  Destination:       Rout2<5> (PAD)
-  Source Clock:      Rout2_5_cmp_eq0000 falling
-
-  Data Path: Rout2_5 to Rout2<5>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_5 (Rout2_5)
-     OBUF:I->O                 3.169          Rout2_5_OBUF (Rout2<5>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_4_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_4 (LATCH)
-  Destination:       Rout2<4> (PAD)
-  Source Clock:      Rout2_4_cmp_eq0000 falling
-
-  Data Path: Rout2_4 to Rout2<4>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_4 (Rout2_4)
-     OBUF:I->O                 3.169          Rout2_4_OBUF (Rout2<4>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_3_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_3 (LATCH)
-  Destination:       Rout2<3> (PAD)
-  Source Clock:      Rout2_3_cmp_eq0000 falling
-
-  Data Path: Rout2_3 to Rout2<3>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_3 (Rout2_3)
-     OBUF:I->O                 3.169          Rout2_3_OBUF (Rout2<3>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_2_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_2 (LATCH)
-  Destination:       Rout2<2> (PAD)
-  Source Clock:      Rout2_2_cmp_eq0000 falling
-
-  Data Path: Rout2_2 to Rout2<2>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_2 (Rout2_2)
-     OBUF:I->O                 3.169          Rout2_2_OBUF (Rout2<2>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_1_cmp_eq0000'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_1 (LATCH)
-  Destination:       Rout2<1> (PAD)
-  Source Clock:      Rout2_1_cmp_eq0000 falling
-
-  Data Path: Rout2_1 to Rout2<1>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.588   0.357  Rout2_1 (Rout2_1)
-     OBUF:I->O                 3.169          Rout2_1_OBUF (Rout2<1>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Rout2_0_not0001'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              4.114ns (Levels of Logic = 1)
-  Source:            Rout2_0 (LATCH)
-  Destination:       Rout2<0> (PAD)
-  Source Clock:      Rout2_0_not0001 rising
-
-  Data Path: Rout2_0 to Rout2<0>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD_1:G->Q             1   0.588   0.357  Rout2_0 (Rout2_0)
-     OBUF:I->O                 3.169          Rout2_0_OBUF (Rout2<0>)
-    ----------------------------------------
-    Total                      4.114ns (3.757ns logic, 0.357ns route)
-                                       (91.3% logic, 8.7% route)
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.86 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.51 secs
  
 --> 
 
-Total memory usage is 233332 kilobytes
+Total memory usage is 232756 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  320 (   0 filtered)
-Number of infos    :   17 (   0 filtered)
+Number of warnings :  288 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
 

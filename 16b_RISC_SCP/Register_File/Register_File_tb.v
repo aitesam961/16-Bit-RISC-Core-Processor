@@ -51,7 +51,7 @@ module Register_File_tb;
 	);
 	initial begin
 	clk = 0;
-	forever #35 clk = ~clk;
+	forever #13 clk = ~clk;
 	end
 	
 	initial begin

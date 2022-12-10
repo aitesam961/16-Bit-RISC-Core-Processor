@@ -25,62 +25,22 @@
 
 
 
-extern void simprims_ver_m_00000000003359274523_2662658903_3029616719_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_3029616719", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_3029616719.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_2143853546_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_2143853546", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_2143853546.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_1336549697_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_1336549697", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_1336549697.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_3204223892_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_3204223892", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_3204223892.didat");
-}
-
 extern void simprims_ver_m_00000000003359274523_2662658903_2182454894_init()
 {
 	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_2182454894", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_2182454894.didat");
 }
 
-extern void simprims_ver_m_00000000003359274523_2662658903_4080284319_init()
+extern void simprims_ver_m_00000000003359274523_2662658903_0651267415_init()
 {
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_4080284319", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_4080284319.didat");
+	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_0651267415", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_0651267415.didat");
 }
 
-extern void simprims_ver_m_00000000003359274523_2662658903_0946397498_init()
+extern void simprims_ver_m_00000000003359274523_2662658903_3985465074_init()
 {
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_0946397498", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_0946397498.didat");
+	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_3985465074", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_3985465074.didat");
 }
 
-extern void simprims_ver_m_00000000003359274523_2662658903_0610440666_init()
+extern void simprims_ver_m_00000000003359274523_2662658903_4264993156_init()
 {
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_0610440666", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_0610440666.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_1755672713_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_1755672713", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_1755672713.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_2751046444_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_2751046444", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_2751046444.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_0277475402_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_0277475402", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_0277475402.didat");
-}
-
-extern void simprims_ver_m_00000000003359274523_2662658903_0770300410_init()
-{
-	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_0770300410", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_0770300410.didat");
+	xsi_register_didat("simprims_ver_m_00000000003359274523_2662658903_4264993156", "isim/Register_File_tb_isim_par.exe.sim/simprims_ver/m_00000000003359274523_2662658903_4264993156.didat");
 }

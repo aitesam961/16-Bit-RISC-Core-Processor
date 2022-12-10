@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\Register_File\register_file16_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/register_file16_isim_beh.wdb 
+Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\Register_File\Register_File_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File_tb_isim_par.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 This is a Full version of ISim.
 Time resolution is 1 ps
@@ -7,4 +7,5 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/register_file_timesim.sdf, for root module /Register_File_tb/uut/.
 Finished circuit initialization process.

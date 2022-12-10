@@ -13,7 +13,7 @@ D:\Xilinx\14.7\ISE_DS\ISE\.
 Loading constraints from 'Register_File.pcf'...
 The speed grade (-5) differs from the speed grade specified in the .ncd file
 (-5).
-The number of routable networks is 46
+The number of routable networks is 7
 Flattening design ...
 Processing design ... 
   Preping design's networks ...
@@ -33,4 +33,4 @@ INFO:NetListWriters:665 - For more information on how to pass the SDF switches
    to the simulator, see your Simulator tool documentation.
 Number of warnings: 0
 Number of info messages: 3
-Total memory usage is 174104 kilobytes
+Total memory usage is 173656 kilobytes

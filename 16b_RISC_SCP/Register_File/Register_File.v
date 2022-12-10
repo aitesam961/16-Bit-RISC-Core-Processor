@@ -23,10 +23,10 @@ module Register_File(
     input [3:0] Rs,
     input [3:0] Rt,
     input [3:0] Rd,
-    input [15:0] RW,
+    input [15:0] Write_Data,
     input wr,
-    output reg [15:0] Rout1,	//Had to declare this as a reg, the alternative assignment technique leaves output unconnected
-    output reg [15:0] Rout2   //Had to declare this as a reg, the alternative assignment technique leaves output unconnected
+    output [15:0] Rout1,
+    output [15:0] Rout2   
     );
 	 
 	 
@@ -42,7 +42,7 @@ module Register_File(
 		weX = resX & wr
 	 */		
 	 wire we1 , we2,	we3 ,	we4 ,we5 ,we6 ,we7 ,we8 ,we9 ,we10 ,we11 ,we12 ,we13 ,we14 ,we15 ,we16;
-	 
+	 reg [15:0] RA, RB;
 	 
 	 reg res1, res2 , res3 , res4 ,res5 ,  res6 ,res7 ,res8 ,res9 , res10 ,  res11 ,res12 ,res13 ,res14 , res15 ,res16 ;
 	 
@@ -99,22 +99,22 @@ module Register_File(
 		 later could be assigned by MUX 
 	 */                                                                                                                                                                                                                           
 	 
-	 R_16B R16b1  (clk,	rst, 	we1 	 ,	RW, Out1 );
-	 R_16B R16b2  (clk,	rst,	we2 	 ,	RW, Out2 );
-	 R_16B R16b3  (clk,	rst,	we3 	 ,	RW, Out3 );
-	 R_16B R16b4  (clk,	rst,	we4 	 ,	RW, Out4 );
-	 R_16B R16b5  (clk,	rst,	we5 	 ,	RW, Out5 );
-	 R_16B R16b6  (clk,	rst,	we6 	 ,	RW, Out6 );
-	 R_16B R16b7  (clk,	rst,	we7 	 ,	RW, Out7 );
-	 R_16B R16b8  (clk,	rst,	we8 	 ,	RW, Out8 );
-	 R_16B R16b9  (clk,	rst,	we9 	 ,	RW, Out9 );
-	 R_16B R16b10 (clk,	rst,	we10	 ,	RW, Out10 );
-	 R_16B R16b11 (clk,	rst,	we11	 ,	RW, Out11 );
-	 R_16B R16b12 (clk,	rst,	we12	 ,	RW, Out12 );
-	 R_16B R16b13 (clk,	rst,	we13	 ,	RW, Out13 );
-	 R_16B R16b14 (clk,	rst,	we14	 ,	RW, Out14 );
-	 R_16B R16b15 (clk,	rst,	we15	 ,	RW, Out15 );
-	 R_16B R16b16 (clk,	rst,	we16	 ,	RW, Out16 );
+	 R_16B Rs1  (clk,	rst, 	we1 	 ,	Write_Data,		 Out1 );
+	 R_16B Rs2  (clk,	rst,	we2 	 ,	Write_Data,		 Out2 );
+	 R_16B Rs3  (clk,	rst,	we3 	 ,	Write_Data,		 Out3 );
+	 R_16B Rs4  (clk,	rst,	we4 	 ,	Write_Data,		 Out4 );
+	 R_16B Rs5  (clk,	rst,	we5 	 ,	Write_Data,		 Out5 );
+	 R_16B Rs6  (clk,	rst,	we6 	 ,	Write_Data,		 Out6 );
+	 R_16B Rs7  (clk,	rst,	we7 	 ,	Write_Data,		 Out7 );
+	 R_16B Rs8  (clk,	rst,	we8 	 ,	Write_Data,		 Out8 );
+	 R_16B Rs9  (clk,	rst,	we9 	 ,	Write_Data,		 Out9 );
+	 R_16B Rs10 (clk,	rst,	we10	 ,	Write_Data,		 Out10 );
+	 R_16B Rs11 (clk,	rst,	we11	 ,	Write_Data,		 Out11 );
+	 R_16B Rs12 (clk,	rst,	we12	 ,	Write_Data,		 Out12 );
+	 R_16B Rs13 (clk,	rst,	we13	 ,	Write_Data,		 Out13 );
+	 R_16B Rs14 (clk,	rst,	we14	 ,	Write_Data,		 Out14 );
+	 R_16B Rs15 (clk,	rst,	we15	 ,	Write_Data,		 Out15 );
+	 R_16B Rs16 (clk,	rst,	we16	 ,	Write_Data, 	 Out16 );
 	 
 	 
 	 
@@ -123,51 +123,51 @@ module Register_File(
 	 
 	 
 	 
-	 always @ (Rs) begin
+	 always @ (Rs or RA) begin
 		case(Rs)
-			4'b0000	:	Rout1[0] = Out1;
-			4'b0001	:	Rout1[1] = Out2;
-			4'b0010	:	Rout1[2] = Out3;
-			4'b0011	:	Rout1[3] = Out4;
-			4'b0100	:	Rout1[4] = Out5;
-			4'b0101	:	Rout1[5] = Out6;
-			4'b0110	:	Rout1[6] = Out7;
-			4'b0111	:	Rout1[7] = Out8;
-			4'b1000	:	Rout1[8] = Out9;
-			4'b1001	:	Rout1[9] = Out10;
-			4'b1010	:	Rout1[10] = Out11;
-			4'b1011	:	Rout1[11] = Out12;
-			4'b1100	:	Rout1[12] = Out13;
-			4'b1101	:	Rout1[13] = Out14;
-			4'b1110	:	Rout1[14] = Out15;
-			4'b1111	:	Rout1[15] = Out16;
+			4'b0000	:  begin		RA	 	= Out1;		end
+			4'b0001	:	begin		RA 	= Out2;     end
+			4'b0010	:	begin		RA		= Out3;     end
+			4'b0011	:	begin		RA		= Out4;     end
+			4'b0100	:	begin		RA		= Out5;     end
+			4'b0101	:	begin		RA		= Out6;     end
+			4'b0110	:	begin		RA		= Out7;     end
+			4'b0111	:	begin		RA		= Out8;     end
+			4'b1000	:	begin		RA		= Out9;     end
+			4'b1001	:	begin		RA		= Out10;    end
+			4'b1010	:	begin		RA	 	= Out11;    end
+			4'b1011	:	begin		RA 	= Out12;    end
+			4'b1100	:	begin		RA 	= Out13;    end
+			4'b1101	:	begin		RA 	= Out14;    end
+			4'b1110	:	begin		RA 	= Out15;    end
+			4'b1111	:	begin		RA		= Out16;    end
 		endcase
 	 end
 	 
 	 //  Multiplexer for R2 Selection
 	 
-	 always @ (Rt) begin
-		case(Rt)
-		4'b0000	 :	Rout2[0]   = Out1;
-		4'b0001	 :	Rout2[1]   = Out2;
-		4'b0010	 :	Rout2[2]   = Out3;
-		4'b0011	 :	Rout2[3]   = Out4;
-		4'b0100	 :	Rout2[4]   = Out5;
-		4'b0101	 :	Rout2[5]   = Out6;
-		4'b0110	 :	Rout2[6]   = Out7;
-		4'b0111	 :	Rout2[7]   = Out8;
-		4'b1000	 :	Rout2[8]   = Out9;
-		4'b1001	 :	Rout2[9]   = Out10;
-		4'b1010	 :	Rout2[10]  = Out11;
-		4'b1011	 :	Rout2[11]  = Out12;
-		4'b1100	 :	Rout2[12]  = Out13;
-		4'b1101	 :	Rout2[13]  = Out14;
-		4'b1110	 :	Rout2[14]  = Out15;
-		4'b1111	 :	Rout2[15]  = Out16;
-		endcase
+	 always @ (Rt or RB) begin
+			case(Rt)
+			4'b0000	 :  begin	  RB	 = Out1;		end
+			4'b0001	 :	 begin	  RB   = Out2;		end
+			4'b0010	 :  begin	  RB	 = Out3;		end
+			4'b0011	 :  begin	  RB	 = Out4;    end
+			4'b0100	 :	 begin	  RB	 = Out5;		end
+			4'b0101	 :	 begin	  RB	 = Out6;    end
+			4'b0110	 :  begin	  RB	 = Out7;    end
+			4'b0111	 :	 begin	  RB	 = Out8;    end
+			4'b1000	 :	 begin	  RB	 = Out9;		end
+			4'b1001	 :  begin	  RB	 = Out10;   end
+			4'b1010	 :	 begin	  RB	 = Out11;   end
+			4'b1011	 :	 begin	  RB   = Out12;   end
+			4'b1100	 :	 begin	  RB   = Out13;	end
+			4'b1101	 :  begin	  RB   = Out14;   end
+			4'b1110	 :  begin	  RB   = Out15;   end
+			4'b1111	 :	 begin	  RB	 = Out16;   end
+			endcase
 	 end
-	 //assign Rout1 = RL1;
-	 //assign Rout2 = RA2;
+	 assign Rout1 = RA;
+	 assign Rout2 = RB;
 	 
 	 
 endmodule

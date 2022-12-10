@@ -2,27 +2,27 @@ Command line:
    Register_File_tb_isim_par.exe
      -simmode  gui
      -simrunnum  0
-     -socket  51723
+     -socket  52201
 
-Sat Dec 10 14:52:05 2022
+Sat Dec 10 15:44:55 2022
 
 
- Elaboration Time: 0.15625 sec
+ Elaboration Time: 0.125 sec
 
- Current Memory Usage: 864.285 Meg
+ Current Memory Usage: 862.605 Meg
 
- Total Signals          : 2116
- Total Nets             : 1224
- Total Signal Drivers   : 1260
- Total Blocks           : 366
- Total Primitive Blocks : 299
- Total Processes        : 1668
- Total Traceable Variables  : 881
- Total Scalar Nets and Variables : 25250
+ Total Signals          : 476
+ Total Nets             : 274
+ Total Signal Drivers   : 279
+ Total Blocks           : 156
+ Total Primitive Blocks : 152
+ Total Processes        : 283
+ Total Traceable Variables  : 325
+ Total Scalar Nets and Variables : 12977
 
- Total Simulation Time: 0.40625 sec
+ Total Simulation Time: 0.21875 sec
 
- Current Memory Usage: 706.736 Meg
+ Current Memory Usage: 389.96 Meg
 
-Sat Dec 10 14:53:34 2022
+Sat Dec 10 15:51:53 2022
 
