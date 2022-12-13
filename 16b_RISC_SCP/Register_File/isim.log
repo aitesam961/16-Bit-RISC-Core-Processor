@@ -1,11 +1,26 @@
 ISim log file
-Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\Register_File\Register_File_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File_tb_isim_par.wdb 
+Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\Register_File\Register_File_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 This is a Full version of ISim.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs1/, width 16 of formal port dout is not equal to width 1 of actual signal Out1.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs2/, width 16 of formal port dout is not equal to width 1 of actual signal Out2.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs3/, width 16 of formal port dout is not equal to width 1 of actual signal Out3.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs4/, width 16 of formal port dout is not equal to width 1 of actual signal Out4.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs5/, width 16 of formal port dout is not equal to width 1 of actual signal Out5.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs6/, width 16 of formal port dout is not equal to width 1 of actual signal Out6.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs7/, width 16 of formal port dout is not equal to width 1 of actual signal Out7.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs8/, width 16 of formal port dout is not equal to width 1 of actual signal Out8.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs9/, width 16 of formal port dout is not equal to width 1 of actual signal Out9.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs10/, width 16 of formal port dout is not equal to width 1 of actual signal Out10.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs11/, width 16 of formal port dout is not equal to width 1 of actual signal Out11.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs12/, width 16 of formal port dout is not equal to width 1 of actual signal Out12.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs13/, width 16 of formal port dout is not equal to width 1 of actual signal Out13.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs14/, width 16 of formal port dout is not equal to width 1 of actual signal Out14.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs15/, width 16 of formal port dout is not equal to width 1 of actual signal Out15.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/Register_File.v" Line 38.  For instance uut/Rs16/, width 16 of formal port dout is not equal to width 1 of actual signal Out16.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-INFO: SDF backannotation was successful with SDF file netgen/par/register_file_timesim.sdf, for root module /Register_File_tb/uut/.
 Finished circuit initialization process.

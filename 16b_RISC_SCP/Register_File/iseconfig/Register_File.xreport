@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-10T15:47:54</DateModified>
+  <DateModified>2022-12-13T18:09:42</DateModified>
   <ModuleName>Register_File</ModuleName>
-  <SummaryTimeStamp>2022-12-10T15:44:53</SummaryTimeStamp>
+  <SummaryTimeStamp>2022-12-13T18:06:56</SummaryTimeStamp>
   <SavedFilePath>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File/iseconfig/Register_File.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/Register_File\</ImplementationReportsDirectory>
   <DateInitialized>2022-12-10T15:29:24</DateInitialized>

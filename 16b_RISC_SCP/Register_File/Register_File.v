@@ -23,7 +23,7 @@ module Register_File(
     input [3:0] Rs,
     input [3:0] Rt,
     input [3:0] Rd,
-    input [15:0] Write_Data,
+    input [15:0] RW,
     input wr,
     output [15:0] Rout1,
     output [15:0] Rout2   
@@ -99,22 +99,22 @@ module Register_File(
 		 later could be assigned by MUX 
 	 */                                                                                                                                                                                                                           
 	 
-	 R_16B Rs1  (clk,	rst, 	we1 	 ,	Write_Data,		 Out1 );
-	 R_16B Rs2  (clk,	rst,	we2 	 ,	Write_Data,		 Out2 );
-	 R_16B Rs3  (clk,	rst,	we3 	 ,	Write_Data,		 Out3 );
-	 R_16B Rs4  (clk,	rst,	we4 	 ,	Write_Data,		 Out4 );
-	 R_16B Rs5  (clk,	rst,	we5 	 ,	Write_Data,		 Out5 );
-	 R_16B Rs6  (clk,	rst,	we6 	 ,	Write_Data,		 Out6 );
-	 R_16B Rs7  (clk,	rst,	we7 	 ,	Write_Data,		 Out7 );
-	 R_16B Rs8  (clk,	rst,	we8 	 ,	Write_Data,		 Out8 );
-	 R_16B Rs9  (clk,	rst,	we9 	 ,	Write_Data,		 Out9 );
-	 R_16B Rs10 (clk,	rst,	we10	 ,	Write_Data,		 Out10 );
-	 R_16B Rs11 (clk,	rst,	we11	 ,	Write_Data,		 Out11 );
-	 R_16B Rs12 (clk,	rst,	we12	 ,	Write_Data,		 Out12 );
-	 R_16B Rs13 (clk,	rst,	we13	 ,	Write_Data,		 Out13 );
-	 R_16B Rs14 (clk,	rst,	we14	 ,	Write_Data,		 Out14 );
-	 R_16B Rs15 (clk,	rst,	we15	 ,	Write_Data,		 Out15 );
-	 R_16B Rs16 (clk,	rst,	we16	 ,	Write_Data, 	 Out16 );
+	 R_16B Rs1  (clk,	rst, 	we1 	 ,	RW		,		 Out1 );
+	 R_16B Rs2  (clk,	rst,	we2 	 ,	RW		,		 Out2 );
+	 R_16B Rs3  (clk,	rst,	we3 	 ,	RW		,		 Out3 );
+	 R_16B Rs4  (clk,	rst,	we4 	 ,	RW		,		 Out4 );
+	 R_16B Rs5  (clk,	rst,	we5 	 ,	RW		,		 Out5 );
+	 R_16B Rs6  (clk,	rst,	we6 	 ,	RW		,		 Out6 );
+	 R_16B Rs7  (clk,	rst,	we7 	 ,	RW		,		 Out7 );
+	 R_16B Rs8  (clk,	rst,	we8 	 ,	RW		,		 Out8 );
+	 R_16B Rs9  (clk,	rst,	we9 	 ,	RW		,		 Out9 );
+	 R_16B Rs10 (clk,	rst,	we10	 ,	RW		,		 Out10 );
+	 R_16B Rs11 (clk,	rst,	we11	 ,	RW		,		 Out11 );
+	 R_16B Rs12 (clk,	rst,	we12	 ,	RW		,		 Out12 );
+	 R_16B Rs13 (clk,	rst,	we13	 ,	RW		,		 Out13 );
+	 R_16B Rs14 (clk,	rst,	we14	 ,	RW		,		 Out14 );
+	 R_16B Rs15 (clk,	rst,	we15	 ,	RW		,		 Out15 );
+	 R_16B Rs16 (clk,	rst,	we16	 ,	RW		, 	  	 Out16 );
 	 
 	 
 	 
@@ -123,24 +123,24 @@ module Register_File(
 	 
 	 
 	 
-	 always @ (Rs or RA) begin
+	 always @ (Rs or RB) begin
 		case(Rs)
-			4'b0000	:  begin		RA	 	= Out1;		end
-			4'b0001	:	begin		RA 	= Out2;     end
-			4'b0010	:	begin		RA		= Out3;     end
-			4'b0011	:	begin		RA		= Out4;     end
-			4'b0100	:	begin		RA		= Out5;     end
-			4'b0101	:	begin		RA		= Out6;     end
-			4'b0110	:	begin		RA		= Out7;     end
-			4'b0111	:	begin		RA		= Out8;     end
-			4'b1000	:	begin		RA		= Out9;     end
-			4'b1001	:	begin		RA		= Out10;    end
-			4'b1010	:	begin		RA	 	= Out11;    end
-			4'b1011	:	begin		RA 	= Out12;    end
-			4'b1100	:	begin		RA 	= Out13;    end
-			4'b1101	:	begin		RA 	= Out14;    end
-			4'b1110	:	begin		RA 	= Out15;    end
-			4'b1111	:	begin		RA		= Out16;    end
+			4'b0000	:  begin		RA	 	<= Out1;		 end
+			4'b0001	:	begin		RA 	<= Out2;     end
+			4'b0010	:	begin		RA		<= Out3;     end
+			4'b0011	:	begin		RA		<= Out4;     end
+			4'b0100	:	begin		RA		<= Out5;     end
+			4'b0101	:	begin		RA		<= Out6;     end
+			4'b0110	:	begin		RA		<= Out7;     end
+			4'b0111	:	begin		RA		<= Out8;     end
+			4'b1000	:	begin		RA		<= Out9;     end
+			4'b1001	:	begin		RA		<= Out10;    end
+			4'b1010	:	begin		RA	 	<= Out11;    end
+			4'b1011	:	begin		RA 	<= Out12;    end
+			4'b1100	:	begin		RA 	<= Out13;    end
+			4'b1101	:	begin		RA 	<= Out14;    end
+			4'b1110	:	begin		RA 	<= Out15;    end
+			4'b1111	:	begin		RA		<= Out16;    end
 		endcase
 	 end
 	 
@@ -148,22 +148,22 @@ module Register_File(
 	 
 	 always @ (Rt or RB) begin
 			case(Rt)
-			4'b0000	 :  begin	  RB	 = Out1;		end
-			4'b0001	 :	 begin	  RB   = Out2;		end
-			4'b0010	 :  begin	  RB	 = Out3;		end
-			4'b0011	 :  begin	  RB	 = Out4;    end
-			4'b0100	 :	 begin	  RB	 = Out5;		end
-			4'b0101	 :	 begin	  RB	 = Out6;    end
-			4'b0110	 :  begin	  RB	 = Out7;    end
-			4'b0111	 :	 begin	  RB	 = Out8;    end
-			4'b1000	 :	 begin	  RB	 = Out9;		end
-			4'b1001	 :  begin	  RB	 = Out10;   end
-			4'b1010	 :	 begin	  RB	 = Out11;   end
-			4'b1011	 :	 begin	  RB   = Out12;   end
-			4'b1100	 :	 begin	  RB   = Out13;	end
-			4'b1101	 :  begin	  RB   = Out14;   end
-			4'b1110	 :  begin	  RB   = Out15;   end
-			4'b1111	 :	 begin	  RB	 = Out16;   end
+			4'b0000	 :  begin	  RB	 <= Out1;	end
+			4'b0001	 :	 begin	  RB   <= Out2;	end
+			4'b0010	 :  begin	  RB	 <= Out3;	end
+			4'b0011	 :  begin	  RB	 <= Out4;   end
+			4'b0100	 :	 begin	  RB	 <= Out5;	end
+			4'b0101	 :	 begin	  RB	 <= Out6;   end
+			4'b0110	 :  begin	  RB	 <= Out7;   end
+			4'b0111	 :	 begin	  RB	 <= Out8;   end
+			4'b1000	 :	 begin	  RB	 <= Out9;	end
+			4'b1001	 :  begin	  RB	 <= Out10;  end
+			4'b1010	 :	 begin	  RB	 <= Out11;  end
+			4'b1011	 :	 begin	  RB   <= Out12;  end
+			4'b1100	 :	 begin	  RB   <= Out13;	end
+			4'b1101	 :  begin	  RB   <= Out14;  end
+			4'b1110	 :  begin	  RB   <= Out15;  end
+			4'b1111	 :	 begin	  RB	 <= Out16;  end
 			endcase
 	 end
 	 assign Rout1 = RA;

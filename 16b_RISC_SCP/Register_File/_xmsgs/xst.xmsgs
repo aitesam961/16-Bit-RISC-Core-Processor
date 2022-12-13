@@ -109,964 +109,724 @@
 <msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">res16</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Register_File</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs3</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs4</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs5</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs6</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs7</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs8</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs9</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs10</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs11</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs12</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs13</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs14</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs15</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Register16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
-It will be removed from the design.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Rs16</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">Register_File</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;, &lt;<arg fmt="%s" index="3">Rs2</arg>&gt; of unit &lt;<arg fmt="%s" index="4">R_16B</arg>&gt; are equivalent, second instance is removed
@@ -1114,49 +874,49 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">Register_File</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Rs1</arg>&gt;, &lt;<arg fmt="%s" index="3">Rs16</arg>&gt; of unit &lt;<arg fmt="%s" index="4">R_16B</arg>&gt; are equivalent, second instance is removed
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register2/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register3/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register4/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register5/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register6/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register7/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register8/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register9/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register10/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register11/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register12/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register13/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register14/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register15/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/Register16/qq</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Rs1/out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Register_File</arg>&gt;.
 </msg>
 
 </messages>
