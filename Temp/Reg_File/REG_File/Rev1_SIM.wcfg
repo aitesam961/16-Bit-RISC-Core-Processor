@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Temp/Reg_File/REG_File/Register_File_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Register_File_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/Register_File_tb/Rout1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rout1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Rout1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/Rout2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rout2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Rout2[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/Rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/Rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Rt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/Rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/RW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RW[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RW[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Register_File_tb/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+</wave_config>

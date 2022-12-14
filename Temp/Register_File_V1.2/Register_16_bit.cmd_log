@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Register_File_V1.2/Register_16_bit.xst" -ofn "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Register_File_V1.2/Register_16_bit.syr" 

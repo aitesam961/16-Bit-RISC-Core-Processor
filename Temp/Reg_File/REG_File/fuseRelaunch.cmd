@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Temp/Reg_File/REG_File/Register_File_tb_isim_beh.exe" -prj "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Temp/Reg_File/REG_File/Register_File_tb_beh.prj" "work.Register_File_tb" "work.glbl" 

@@ -1,5 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_16B.xst" -ofn "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/New folder/RISC_16b_SCP/Reg_File_16B.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "Reg_File_16B.ngc" Reg_File_16B.ngd  
-map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Reg_File_16B_map.ncd Reg_File_16B.ngd Reg_File_16B.pcf 
-par -w -intstyle ise -ol high -t 1 Reg_File_16B_map.ncd Reg_File_16B.ncd Reg_File_16B.pcf 
-trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Reg_File_16B.twx Reg_File_16B.ncd -o Reg_File_16B.twr Reg_File_16B.pcf 

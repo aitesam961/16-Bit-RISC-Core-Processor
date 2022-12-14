@@ -1,0 +1,45 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 Register_File_main.ngc
+Register_File_main.ngd
+
+Reading NGO file
+"C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Register_File_V1.2/Re
+gister_File_main.ngc" ...
+Loading design module
+"C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\Register_File_V1.2/Re
+gister_File_main.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'Register_File_main' with type
+   'Register_File_main' is unexpanded. Symbol 'Register_File_main' is not
+   supported in target 'spartan3e'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   1
+
+Total memory usage is 130760 kilobytes
+
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "Register_File_main.bld"...
