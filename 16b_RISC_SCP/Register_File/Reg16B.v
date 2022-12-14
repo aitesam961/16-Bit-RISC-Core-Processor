@@ -31,17 +31,17 @@ module R_16B(
     output [15:0] dout
 	 
     );
-	 reg [15:0] out;
+	 reg [15:0] data_out;
 	 
 	 always @(posedge clk or posedge rst) begin
 		if (rst) begin
-			 out <= 16'h0000;
+			 data_out <= 16'h0000;
 		end
-		else if (we) begin
-			 out <= din;
+		else if (we == 1) begin
+			 data_out <= din;
 		end
 	 end
 		
-	assign dout = out;
+	assign dout = data_out;
 	 
 endmodule

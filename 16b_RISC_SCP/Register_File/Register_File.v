@@ -12,7 +12,7 @@
 
  Revision: 0.1V
  Additional Comments: 
-	This module may be a dependency of other Modules
+	This module might be a dependency of other Modules
 
 
 */
@@ -123,47 +123,47 @@ module Register_File(
 	 
 	 
 	 
-	 always @ (Rs or RB) begin
+	 always @ (Rs) begin
 		case(Rs)
-			4'b0000	:  begin		RA	 	<= Out1;		 end
-			4'b0001	:	begin		RA 	<= Out2;     end
-			4'b0010	:	begin		RA		<= Out3;     end
-			4'b0011	:	begin		RA		<= Out4;     end
-			4'b0100	:	begin		RA		<= Out5;     end
-			4'b0101	:	begin		RA		<= Out6;     end
-			4'b0110	:	begin		RA		<= Out7;     end
-			4'b0111	:	begin		RA		<= Out8;     end
-			4'b1000	:	begin		RA		<= Out9;     end
-			4'b1001	:	begin		RA		<= Out10;    end
-			4'b1010	:	begin		RA	 	<= Out11;    end
-			4'b1011	:	begin		RA 	<= Out12;    end
-			4'b1100	:	begin		RA 	<= Out13;    end
-			4'b1101	:	begin		RA 	<= Out14;    end
-			4'b1110	:	begin		RA 	<= Out15;    end
-			4'b1111	:	begin		RA		<= Out16;    end
+			4'b0000	:  begin		RA	 	= Out1;		 end
+			4'b0001	:	begin		RA 	= Out2;     end
+			4'b0010	:	begin		RA		= Out3;     end
+			4'b0011	:	begin		RA		= Out4;     end
+			4'b0100	:	begin		RA		= Out5;     end
+			4'b0101	:	begin		RA		= Out6;     end
+			4'b0110	:	begin		RA		= Out7;     end
+			4'b0111	:	begin		RA		= Out8;     end
+			4'b1000	:	begin		RA		= Out9;     end
+			4'b1001	:	begin		RA		= Out10;    end
+			4'b1010	:	begin		RA	 	= Out11;    end
+			4'b1011	:	begin		RA 	= Out12;    end
+			4'b1100	:	begin		RA 	= Out13;    end
+			4'b1101	:	begin		RA 	= Out14;    end
+			4'b1110	:	begin		RA 	= Out15;    end
+			4'b1111	:	begin		RA		= Out16;    end
 		endcase
 	 end
 	 
 	 //  Multiplexer for R2 Selection
 	 
-	 always @ (Rt or RB) begin
+	 always @ (Rt) begin
 			case(Rt)
-			4'b0000	 :  begin	  RB	 <= Out1;	end
-			4'b0001	 :	 begin	  RB   <= Out2;	end
-			4'b0010	 :  begin	  RB	 <= Out3;	end
-			4'b0011	 :  begin	  RB	 <= Out4;   end
-			4'b0100	 :	 begin	  RB	 <= Out5;	end
-			4'b0101	 :	 begin	  RB	 <= Out6;   end
-			4'b0110	 :  begin	  RB	 <= Out7;   end
-			4'b0111	 :	 begin	  RB	 <= Out8;   end
-			4'b1000	 :	 begin	  RB	 <= Out9;	end
-			4'b1001	 :  begin	  RB	 <= Out10;  end
-			4'b1010	 :	 begin	  RB	 <= Out11;  end
-			4'b1011	 :	 begin	  RB   <= Out12;  end
-			4'b1100	 :	 begin	  RB   <= Out13;	end
-			4'b1101	 :  begin	  RB   <= Out14;  end
-			4'b1110	 :  begin	  RB   <= Out15;  end
-			4'b1111	 :	 begin	  RB	 <= Out16;  end
+			4'b0000	 :  begin	  RB	 = Out1;	end
+			4'b0001	 :	 begin	  RB   = Out2;	end
+			4'b0010	 :  begin	  RB	 = Out3;	end
+			4'b0011	 :  begin	  RB	 = Out4;   end
+			4'b0100	 :	 begin	  RB	 = Out5;	end
+			4'b0101	 :	 begin	  RB	 = Out6;   end
+			4'b0110	 :  begin	  RB	 = Out7;   end
+			4'b0111	 :	 begin	  RB	 = Out8;   end
+			4'b1000	 :	 begin	  RB	 = Out9;	end
+			4'b1001	 :  begin	  RB	 = Out10;  end
+			4'b1010	 :	 begin	  RB	 = Out11;  end
+			4'b1011	 :	 begin	  RB   = Out12;  end
+			4'b1100	 :	 begin	  RB   = Out13;	end
+			4'b1101	 :  begin	  RB   = Out14;  end
+			4'b1110	 :  begin	  RB   = Out15;  end
+			4'b1111	 :	 begin	  RB	 = Out16;  end
 			endcase
 	 end
 	 assign Rout1 = RA;

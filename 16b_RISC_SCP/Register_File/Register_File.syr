@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: Register_File.prj
 
@@ -125,9 +125,9 @@ Analyzing hierarchy for module <R_16B> in library <work>.
 =========================================================================
 Analyzing top module <Register_File>.
 WARNING:Xst:905 - "Register_File.v" line 126: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <Out1>, <Out2>, <Out3>, <Out4>, <Out5>, <Out6>, <Out7>, <Out8>, <Out9>, <Out10>, <Out11>, <Out12>, <Out13>, <Out14>, <Out15>, <Out16>
+   <Out2>, <Out3>, <Out4>, <Out5>, <Out6>, <Out7>, <Out8>, <Out9>, <Out10>, <Out11>, <Out12>, <Out13>, <Out14>, <Out15>, <Out16>
 WARNING:Xst:905 - "Register_File.v" line 149: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <Out1>, <Out2>, <Out3>, <Out4>, <Out5>, <Out6>, <Out7>, <Out8>, <Out9>, <Out10>, <Out11>, <Out12>, <Out13>, <Out14>, <Out15>, <Out16>
+   <Out2>, <Out3>, <Out4>, <Out5>, <Out6>, <Out7>, <Out8>, <Out9>, <Out10>, <Out11>, <Out12>, <Out13>, <Out14>, <Out15>, <Out16>
 Module <Register_File> is correct for synthesis.
  
 Analyzing module <R_16B> in library <work>.
@@ -158,7 +158,7 @@ INFO:Xst:2679 - Register <res16> in unit <Register_File> has a constant value of
 
 Synthesizing Unit <R_16B>.
     Related source file is "Reg16B.v".
-    Found 16-bit register for signal <out>.
+    Found 16-bit register for signal <data_out>.
     Summary:
 	inferred  16 D-type flip-flop(s).
 Unit <R_16B> synthesized.
@@ -188,246 +188,246 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs1>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs2>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs3>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs4>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs5>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs6>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs7>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs8>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs9>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs10>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs11>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs12>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs13>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs14>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs15>.
-WARNING:Xst:2677 - Node <out_1> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_2> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_3> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_4> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_5> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_6> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_7> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_8> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_9> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_10> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_11> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_12> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_13> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_14> of sequential type is unconnected in block <Rs16>.
-WARNING:Xst:2677 - Node <out_15> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs1>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs2>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs3>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs4>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs5>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs6>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs7>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs8>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs9>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs10>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs11>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs12>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs13>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs14>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs15>.
+WARNING:Xst:2677 - Node <data_out_1> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_2> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_3> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_4> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_5> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_6> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_7> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_8> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_9> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_10> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_11> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_12> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_13> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_14> of sequential type is unconnected in block <Rs16>.
+WARNING:Xst:2677 - Node <data_out_15> of sequential type is unconnected in block <Rs16>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -462,26 +462,26 @@ WARNING:Xst:1989 - Unit <Register_File>: instances <Rs1>, <Rs16> of unit <R_16B>
 Optimizing unit <Register_File> ...
 
 Optimizing unit <R_16B> ...
-WARNING:Xst:2677 - Node <Rs1/out_15> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_14> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_13> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_12> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_11> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_10> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_9> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_8> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_7> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_6> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_5> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_4> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_3> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_2> of sequential type is unconnected in block <Register_File>.
-WARNING:Xst:2677 - Node <Rs1/out_1> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_15> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_14> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_13> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_12> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_11> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_10> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_9> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_8> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_7> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_6> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_5> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_4> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_3> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_2> of sequential type is unconnected in block <Register_File>.
+WARNING:Xst:2677 - Node <Rs1/data_out_1> of sequential type is unconnected in block <Register_File>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block Register_File, actual ratio is 0.
-FlipFlop Rs1/out_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Rs1/data_out_0 has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -592,15 +592,15 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
 -------------------------------------------------------------------------
 Offset:              1.969ns (Levels of Logic = 1)
   Source:            wr (PAD)
-  Destination:       Rs1/out_0 (FF)
+  Destination:       Rs1/data_out_0 (FF)
   Destination Clock: clk rising
 
-  Data Path: wr to Rs1/out_0
+  Data Path: wr to Rs1/data_out_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             2   1.106   0.380  wr_IBUF (wr_IBUF)
-     FDCE:CE                   0.483          Rs1/out_0
+     FDCE:CE                   0.483          Rs1/data_out_0
     ----------------------------------------
     Total                      1.969ns (1.589ns logic, 0.380ns route)
                                        (80.7% logic, 19.3% route)
@@ -610,15 +610,15 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
 Offset:              4.040ns (Levels of Logic = 1)
-  Source:            Rs1/out_0_1 (FF)
+  Source:            Rs1/data_out_0_1 (FF)
   Destination:       Rout1<0> (PAD)
   Source Clock:      clk rising
 
-  Data Path: Rs1/out_0_1 to Rout1<0>
+  Data Path: Rs1/data_out_0_1 to Rout1<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             1   0.514   0.357  Rs1/out_0_1 (Rs1/out_0_1)
+     FDCE:C->Q             1   0.514   0.357  Rs1/data_out_0_1 (Rs1/data_out_0_1)
      OBUF:I->O                 3.169          Rout1_0_OBUF (Rout1<0>)
     ----------------------------------------
     Total                      4.040ns (3.683ns logic, 0.357ns route)
@@ -628,11 +628,11 @@ Offset:              4.040ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.28 secs
+Total CPU time to Xst completion: 4.29 secs
  
 --> 
 
-Total memory usage is 230580 kilobytes
+Total memory usage is 230516 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  288 (   0 filtered)
