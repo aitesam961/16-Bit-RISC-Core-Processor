@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Reading design: Register_File_main.prj
 
@@ -356,12 +356,12 @@ Delay:               7.675ns (Levels of Logic = 6)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.73 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.49 secs
  
 --> 
 
-Total memory usage is 234036 kilobytes
+Total memory usage is 234868 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
