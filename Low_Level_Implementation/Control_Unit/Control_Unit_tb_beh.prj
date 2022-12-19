@@ -1,0 +1,3 @@
+verilog work "Control_Unit.v"
+verilog work "Control_Unit_tb.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"
