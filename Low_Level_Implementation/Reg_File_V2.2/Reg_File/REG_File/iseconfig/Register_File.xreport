@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-15T00:38:55</DateModified>
+  <DateModified>2022-12-20T23:44:18</DateModified>
   <ModuleName>Register_File</ModuleName>
   <SummaryTimeStamp>2022-12-15T00:02:55</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/aites/Downloads/Reg_File_V2.0/Reg_File/REG_File/iseconfig/Register_File.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/aites/Downloads/Reg_File_V2.0/Reg_File/REG_File\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/REG_File/iseconfig/Register_File.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/REG_File\</ImplementationReportsDirectory>
   <DateInitialized>2022-12-14T13:51:06</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

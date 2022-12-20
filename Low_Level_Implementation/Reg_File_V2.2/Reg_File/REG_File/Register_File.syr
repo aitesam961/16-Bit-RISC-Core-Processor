@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: Register_File.prj
 
@@ -146,13 +146,10 @@ Unit <R_16B> synthesized.
 
 Synthesizing Unit <Register_File>.
     Related source file is "Register_File.v".
-    Found 16-bit register for signal <Rout1>.
-    Found 16-bit register for signal <Rout2>.
-    Found 16-bit 16-to-1 multiplexer for signal <RA>.
-    Found 16-bit 16-to-1 multiplexer for signal <RB>.
+    Found 16-bit 16-to-1 multiplexer for signal <Rout1>.
+    Found 16-bit 16-to-1 multiplexer for signal <Rout2>.
     Found 1-of-16 decoder for signal <res>.
     Summary:
-	inferred  32 D-type flip-flop(s).
 	inferred  32 Multiplexer(s).
 	inferred   1 Decoder(s).
 Unit <Register_File> synthesized.
@@ -162,8 +159,8 @@ Unit <Register_File> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 18
- 16-bit register                                       : 18
+# Registers                                            : 16
+ 16-bit register                                       : 16
 # Multiplexers                                         : 2
  16-bit 16-to-1 multiplexer                            : 2
 # Decoders                                             : 1
@@ -180,8 +177,8 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 288
- Flip-Flops                                            : 288
+# Registers                                            : 256
+ Flip-Flops                                            : 256
 # Multiplexers                                         : 2
  16-bit 16-to-1 multiplexer                            : 2
 # Decoders                                             : 1
@@ -197,7 +194,7 @@ Optimizing unit <Register_File> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Register_File, actual ratio is 31.
+Found area constraint ratio of 100 (+ 5) on block Register_File, actual ratio is 28.
 
 Final Macro Processing ...
 
@@ -205,8 +202,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 288
- Flip-Flops                                            : 288
+# Registers                                            : 256
+ Flip-Flops                                            : 256
 
 =========================================================================
 
@@ -242,8 +239,7 @@ Cell Usage :
 #      MUXF5                       : 132
 #      MUXF6                       : 64
 #      MUXF7                       : 32
-# FlipFlops/Latches                : 288
-#      FD                          : 32
+# FlipFlops/Latches                : 256
 #      FDCE                        : 256
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
@@ -257,8 +253,8 @@ Device utilization summary:
 
 Selected Device : 3s100evq100-5 
 
- Number of Slices:                      311  out of    960    32%  
- Number of Slice Flip Flops:            288  out of   1920    15%  
+ Number of Slices:                      279  out of    960    29%  
+ Number of Slice Flip Flops:            256  out of   1920    13%  
  Number of 4 input LUTs:                275  out of   1920    14%  
  Number of IOs:                          63
  Number of bonded IOBs:                  63  out of     66    95%  
@@ -285,7 +281,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 288   |
+clk                                | BUFGP                  | 256   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -300,43 +296,18 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 3.023ns (Maximum Frequency: 330.803MHz)
+   Minimum period: No path found
    Minimum input arrival time before clock: 5.097ns
-   Maximum output required time after clock: 4.040ns
-   Maximum combinational path delay: No path found
+   Maximum output required time after clock: 6.281ns
+   Maximum combinational path delay: 7.675ns
 
 Timing Detail:
 --------------
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 3.023ns (frequency: 330.803MHz)
-  Total number of paths / destination ports: 512 / 32
--------------------------------------------------------------------------
-Delay:               3.023ns (Levels of Logic = 4)
-  Source:            Rs1/dout_0 (FF)
-  Destination:       Rout1_0 (FF)
-  Source Clock:      clk rising
-  Destination Clock: clk rising
-
-  Data Path: Rs1/dout_0 to Rout1_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE:C->Q             2   0.514   0.449  Rs1/dout_0 (Rs1/dout_0)
-     LUT3:I1->O            1   0.612   0.000  Mmux_RB_8 (Mmux_RB_8)
-     MUXF5:I0->O           1   0.278   0.000  Mmux_RB_6_f5 (Mmux_RB_6_f5)
-     MUXF6:I0->O           1   0.451   0.000  Mmux_RB_4_f6 (Mmux_RB_4_f6)
-     MUXF7:I0->O           1   0.451   0.000  Mmux_RB_2_f7 (RB<0>)
-     FD:D                      0.268          Rout2_0
-    ----------------------------------------
-    Total                      3.023ns (2.574ns logic, 0.449ns route)
-                                       (85.1% logic, 14.9% route)
-
-=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 2016 / 544
+  Total number of paths / destination ports: 1536 / 512
 -------------------------------------------------------------------------
 Offset:              5.097ns (Levels of Logic = 3)
   Source:            Rd<3> (PAD)
@@ -357,32 +328,58 @@ Offset:              5.097ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 32 / 32
+  Total number of paths / destination ports: 512 / 32
 -------------------------------------------------------------------------
-Offset:              4.040ns (Levels of Logic = 1)
-  Source:            Rout1_15 (FF)
+Offset:              6.281ns (Levels of Logic = 5)
+  Source:            Rs1/dout_15 (FF)
   Destination:       Rout1<15> (PAD)
   Source Clock:      clk rising
 
-  Data Path: Rout1_15 to Rout1<15>
+  Data Path: Rs1/dout_15 to Rout1<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.514   0.357  Rout1_15 (Rout1_15)
-     OBUF:I->O                 3.169          Rout1_15_OBUF (Rout1<15>)
+     FDCE:C->Q             2   0.514   0.449  Rs1/dout_15 (Rs1/dout_15)
+     LUT3:I1->O            1   0.612   0.000  Mmux_Rout2_86 (Mmux_Rout2_86)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_Rout2_6_f5_5 (Mmux_Rout2_6_f56)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_Rout2_4_f6_5 (Mmux_Rout2_4_f66)
+     MUXF7:I0->O           1   0.451   0.357  Mmux_Rout2_2_f7_5 (Rout2_15_OBUF)
+     OBUF:I->O                 3.169          Rout2_15_OBUF (Rout2<15>)
     ----------------------------------------
-    Total                      4.040ns (3.683ns logic, 0.357ns route)
-                                       (91.2% logic, 8.8% route)
+    Total                      6.281ns (5.475ns logic, 0.806ns route)
+                                       (87.2% logic, 12.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 480 / 32
+-------------------------------------------------------------------------
+Delay:               7.675ns (Levels of Logic = 6)
+  Source:            Rs<0> (PAD)
+  Destination:       Rout1<15> (PAD)
+
+  Data Path: Rs<0> to Rout1<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           128   1.106   1.251  Rs_0_IBUF (Rs_0_IBUF)
+     LUT3:I0->O            1   0.612   0.000  Mmux_Rout1_5 (Mmux_Rout1_5)
+     MUXF5:I1->O           1   0.278   0.000  Mmux_Rout1_4_f5 (Mmux_Rout1_4_f5)
+     MUXF6:I1->O           1   0.451   0.000  Mmux_Rout1_3_f6 (Mmux_Rout1_3_f6)
+     MUXF7:I1->O           1   0.451   0.357  Mmux_Rout1_2_f7 (Rout1_0_OBUF)
+     OBUF:I->O                 3.169          Rout1_0_OBUF (Rout1<0>)
+    ----------------------------------------
+    Total                      7.675ns (6.067ns logic, 1.608ns route)
+                                       (79.1% logic, 20.9% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.58 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.24 secs
  
 --> 
 
-Total memory usage is 234164 kilobytes
+Total memory usage is 4505472 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

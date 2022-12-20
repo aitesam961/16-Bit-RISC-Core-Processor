@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="nt" product="ISE" version="14.5">
+<document OS="nt" product="ISE" version="14.7">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Mon Dec 19 13:13:02 2022">
+  <application stringID="Xst" timeStamp="Mon Dec 19 22:06:37 2022">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE\\lib\nt;C:\Xilinx\14.5\ISE_DS\ISE\\bin\nt;C:\Xilinx\14.5\ISE_DS\ISE\bin\nt;C:\Xilinx\14.5\ISE_DS\ISE\lib\nt;C:\Xilinx\14.5\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.5\ISE_DS\PlanAhead\bin;C:\Xilinx\14.5\ISE_DS\EDK\bin\nt;C:\Xilinx\14.5\ISE_DS\EDK\lib\nt;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_be\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_le\bin;C:\Xilinx\14.5\ISE_DS\common\bin\nt;C:\Xilinx\14.5\ISE_DS\common\lib\nt;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MATLAB\R2018b\runtime\win64;C:\Program Files\MATLAB\R2018b\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.5.1;C:\Users\PC\AppData\Local\Microsoft\WindowsApps"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt;D:\Xilinx\14.7\ISE_DS\ISE\bin\nt;D:\Xilinx\14.7\ISE_DS\ISE\lib\nt;D:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\Xilinx\14.7\ISE_DS\EDK\bin\nt;D:\Xilinx\14.7\ISE_DS\EDK\lib\nt;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_be\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_le\bin;D:\Xilinx\14.7\ISE_DS\common\bin\nt;D:\Xilinx\14.7\ISE_DS\common\lib\nt;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\msys64\mingw64\bin;D:\Program Files\MATLAB\runtime\win64;D:\Program Files\MATLAB\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files\NodeJS\;C:\ProgramData\chocolatey\bin;C:\Users\aites\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\aites\AppData\Local\Programs\Python\Python39\;C:\Users\aites\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;C:\Users\aites\AppData\Roaming\npm;C:\Users\aites\AppData\Local\GitHubDesktop\bin"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
-          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE\"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\"/>
         </row>
         <row stringID="row" value="3">
           <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE"/>
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\EDK"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\EDK"/>
         </row>
         <row stringID="row" value="5">
           <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\PlanAhead"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\PlanAhead"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Microsoft , 64-bit"/>
         <item stringID="User_EnvOsrelease" value="major release  (build 9200)"/>
       </item>
-      <item stringID="User_EnvHost" value="DESKTOP-42MV8LH"/>
+      <item stringID="User_EnvHost" value="Aitesam961-DESKTOP"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz"/>
-          <item stringID="speed" value="3600 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz"/>
+          <item stringID="speed" value="2112 MHz"/>
         </row>
       </table>
     </section>
@@ -92,7 +92,7 @@
       <item DEFAULT="NO" label="-async_to_sync" stringID="XST_ASYNCTOSYNC" value="NO"/>
       <item DEFAULT="AUTO" label="-mult_style" stringID="XST_MULTSTYLE" value="Auto"/>
       <item DEFAULT="YES" label="-iobuf" stringID="XST_IOBUF" value="YES"/>
-      <item DEFAULT="500" label="-max_fanout" stringID="XST_MAXFANOUT" value="500"/>
+      <item DEFAULT="500" label="-max_fanout" stringID="XST_MAXFANOUT" value="100000"/>
       <item DEFAULT="24" label="-bufg" stringID="XST_BUFG" value="24"/>
       <item DEFAULT="YES" label="-register_duplication" stringID="XST_REGISTERDUPLICATION" value="YES"/>
       <item DEFAULT="NO" label="-register_balancing" stringID="XST_REGISTERBALANCING" value="No"/>
@@ -130,8 +130,8 @@
       </section>
       <section stringID="XST_CELL_USAGE">
         <item dataType="int" stringID="XST_BELS" value="13">
-          <item dataType="int" stringID="XST_LUT3" value="2"/>
-          <item dataType="int" stringID="XST_LUT4" value="11"/>
+          <item dataType="int" stringID="XST_LUT3" value="1"/>
+          <item dataType="int" stringID="XST_LUT4" value="12"/>
         </item>
         <item dataType="int" stringID="XST_IO_BUFFERS" value="17">
           <item dataType="int" stringID="XST_IBUF" value="4"/>

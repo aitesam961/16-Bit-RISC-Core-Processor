@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-19T12:12:38</DateModified>
+  <DateModified>2022-12-19T21:54:15</DateModified>
   <ModuleName>Control_Unit</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/PC/Desktop/COA/Control_Unit/iseconfig/Control_Unit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/PC/Desktop/COA/Control_Unit</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2022-12-19T18:33:58</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/iseconfig/Control_Unit.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit\</ImplementationReportsDirectory>
   <DateInitialized>2022-12-19T12:12:38</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

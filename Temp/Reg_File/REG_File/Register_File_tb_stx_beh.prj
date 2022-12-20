@@ -1,4 +1,0 @@
-verilog isim_temp "R_16B.v"
-verilog isim_temp "Register_File.v"
-verilog isim_temp "Register_File_tb.v"
-verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

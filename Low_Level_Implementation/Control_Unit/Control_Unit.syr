@@ -1,16 +1,16 @@
-Release 14.5 - xst P.58f (nt)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: Control_Unit.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -204,8 +204,8 @@ Design Statistics
 
 Cell Usage :
 # BELS                             : 13
-#      LUT3                        : 2
-#      LUT4                        : 11
+#      LUT3                        : 1
+#      LUT4                        : 12
 # IO Buffers                       : 17
 #      IBUF                        : 4
 #      OBUF                        : 13
@@ -260,7 +260,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 50 / 13
+  Total number of paths / destination ports: 51 / 13
 -------------------------------------------------------------------------
 Delay:               6.772ns (Levels of Logic = 3)
   Source:            opcode<3> (PAD)
@@ -271,8 +271,8 @@ Delay:               6.772ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            13   1.218   1.158  opcode_3_IBUF (opcode_3_IBUF)
-     LUT3:I0->O            1   0.704   0.420  Mrom_opcode_rom0000121 (alu_op_2_OBUF)
-     OBUF:I->O                 3.272          alu_op_2_OBUF (alu_op<2>)
+     LUT4:I0->O            1   0.704   0.420  Mrom_opcode_rom000041 (cmp_OBUF)
+     OBUF:I->O                 3.272          cmp_OBUF (cmp)
     ----------------------------------------
     Total                      6.772ns (5.194ns logic, 1.578ns route)
                                        (76.7% logic, 23.3% route)
@@ -280,12 +280,12 @@ Delay:               6.772ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 2.19 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.48 secs
  
 --> 
 
-Total memory usage is 227500 kilobytes
+Total memory usage is 229812 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
