@@ -1,0 +1,21 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit/Data_memory_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit/Data_memory_tb_beh.prj work.Data_memory_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit/Data_Memory_main.v" into library work
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit/Data_memory_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160216 KB
+Fuse CPU Usage: 218 ms
+Compiling module Data_Memory_main
+Compiling module Data_memory_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit/Data_memory_tb_isim_beh.exe
+Fuse Memory Usage: 165692 KB
+Fuse CPU Usage: 265 ms
