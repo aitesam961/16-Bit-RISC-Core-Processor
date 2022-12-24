@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-21T22:31:49</DateModified>
+  <DateModified>2022-12-22T11:50:33</DateModified>
   <ModuleName>Data_Memory_main</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit/iseconfig/Data_Memory_main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Reg_File_V2.2/Reg_File/Data_Memory_16_Bit\</ImplementationReportsDirectory>
   <DateInitialized>2022-12-21T22:31:49</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

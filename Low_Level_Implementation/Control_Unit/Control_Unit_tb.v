@@ -54,55 +54,55 @@ module Control_Unit_tb;
 
 	initial begin
 		// Initialize Inputs
-		opcode = 0000;
+		opcode = 4'b0000;
 		#50;
        
-		opcode = 0001;
+		opcode = 4'b0001;
 		#50;
 		
-		opcode = 0010;
+		opcode = 4'b0010;
 		#50;
 		
-		opcode = 0011;
+		opcode = 4'b0011;
 		#50;
 		
-		opcode = 0100;
+		opcode = 4'b0100;
 		#50;
 		
-		opcode = 0101;
+		opcode = 4'b0101;
 		#50;
 		
-		opcode = 0110;
+		opcode = 4'b0110;
 		#50;
 		
-		opcode = 0111;
+		opcode = 4'b0111;
 		#50;
 		
-		opcode = 1000;
+		opcode = 4'b1000;
 		#50;
 		
-		opcode = 1001;
+		opcode = 4'b1001;
 		#50;
 		
-		opcode = 1010;
+		opcode = 4'b1010;
 		#50;
 		
-		opcode = 1011;
+		opcode = 4'b1011;
 		#50;
 		
-		opcode = 1100;
+		opcode = 4'b1100;
 		#50;
 		
-		opcode = 1101;
+		opcode = 4'b1101;
 		#50;
 		
-		opcode = 1110;
+		opcode = 4'b1110;
 		#50;
 		
-		opcode = 1111;
+		opcode = 4'b1111;
 		#50;
 		
-		opcode = 0000;
+		opcode = 4'b0000;
 		#50;
 		// Add stimulus here
 

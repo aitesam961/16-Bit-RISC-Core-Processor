@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="244" delta="new" ><arg fmt="%s" index="1">&quot;Instruction_memory.v&quot; line 20 </arg>Name &apos;<arg fmt="%s" index="2">instruction_memory.txt</arg>&apos; could not be resolved
+</msg>
+
+</messages>
+

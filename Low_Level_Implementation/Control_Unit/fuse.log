@@ -1,5 +1,5 @@
-Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/Control_Unit_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/Control_Unit_tb_beh.prj work.Control_Unit_tb work.glbl 
-ISim P.20131013 (signature 0x7708f090)
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/Control_Unit_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/Control_Unit_tb_beh.prj work.Control_Unit_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
@@ -9,12 +9,13 @@ Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into libr
 Starting static elaboration
 WARNING:HDLCompiler:1016 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/Control_Unit_tb.v" Line 42: Port jal is not connected to this instance
 Completed static elaboration
+Fuse Memory Usage: 159832 KB
+Fuse CPU Usage: 296 ms
 Compiling module Control_Unit
 Compiling module Control_Unit_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/Low_Level_Implementation/Control_Unit/Control_Unit_tb_isim_beh.exe
-Fuse Memory Usage: 29172 KB
-Fuse CPU Usage: 546 ms
+Fuse Memory Usage: 165308 KB
+Fuse CPU Usage: 374 ms
