@@ -26,7 +26,6 @@ module Control_Unit_tb;
 
 	// Inputs
 	reg [3:0] opcode;
-
 	// Outputs
 	wire [2:0] alu_op;
 	wire reg_wr;

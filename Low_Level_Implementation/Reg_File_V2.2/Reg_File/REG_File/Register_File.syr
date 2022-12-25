@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Register_File.prj
 
@@ -146,8 +146,8 @@ Unit <R_16B> synthesized.
 
 Synthesizing Unit <Register_File>.
     Related source file is "Register_File.v".
-    Found 16-bit 16-to-1 multiplexer for signal <Rout1>.
-    Found 16-bit 16-to-1 multiplexer for signal <Rout2>.
+    Found 16-bit 16-to-1 multiplexer for signal <reg_file_Rout1>.
+    Found 16-bit 16-to-1 multiplexer for signal <reg_file_Rout2>.
     Found 1-of-16 decoder for signal <res>.
     Summary:
 	inferred  32 Multiplexer(s).
@@ -232,11 +232,11 @@ Design Statistics
 # IOs                              : 63
 
 Cell Usage :
-# BELS                             : 504
-#      GND                         : 1
-#      LUT3                        : 271
-#      LUT4                        : 4
-#      MUXF5                       : 132
+# BELS                             : 500
+#      LUT2                        : 4
+#      LUT3                        : 256
+#      LUT4                        : 16
+#      MUXF5                       : 128
 #      MUXF6                       : 64
 #      MUXF7                       : 32
 # FlipFlops/Latches                : 256
@@ -253,9 +253,9 @@ Device utilization summary:
 
 Selected Device : 3s100evq100-5 
 
- Number of Slices:                      279  out of    960    29%  
+ Number of Slices:                      275  out of    960    28%  
  Number of Slice Flip Flops:            256  out of   1920    13%  
- Number of 4 input LUTs:                275  out of   1920    14%  
+ Number of 4 input LUTs:                276  out of   1920    14%  
  Number of IOs:                          63
  Number of bonded IOBs:                  63  out of     66    95%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -297,7 +297,7 @@ Timing Summary:
 Speed Grade: -5
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 5.097ns
+   Minimum input arrival time before clock: 4.994ns
    Maximum output required time after clock: 6.281ns
    Maximum combinational path delay: 7.675ns
 
@@ -309,22 +309,22 @@ All values displayed in nanoseconds (ns)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 1536 / 512
 -------------------------------------------------------------------------
-Offset:              5.097ns (Levels of Logic = 3)
-  Source:            Rd<3> (PAD)
+Offset:              4.994ns (Levels of Logic = 3)
+  Source:            reg_file_Rd<1> (PAD)
   Destination:       Rs16/dout_15 (FF)
   Destination Clock: clk rising
 
-  Data Path: Rd<3> to Rs16/dout_15
+  Data Path: reg_file_Rd<1> to Rs16/dout_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             7   1.106   0.754  Rd_3_IBUF (Rd_3_IBUF)
-     LUT3:I0->O            4   0.612   0.651  we171 (N3)
-     LUT3:I0->O           16   0.612   0.879  we41 (we4)
-     FDCE:CE                   0.483          Rs4/dout_0
+     IBUF:I->O             4   1.106   0.651  reg_file_Rd_1_IBUF (reg_file_Rd_1_IBUF)
+     LUT2:I0->O            4   0.612   0.651  we_13_and000011 (N6)
+     LUT4:I0->O           16   0.612   0.879  we_13_and00001 (we<13>)
+     FDCE:CE                   0.483          Rs14/dout_0
     ----------------------------------------
-    Total                      5.097ns (2.813ns logic, 2.284ns route)
-                                       (55.2% logic, 44.8% route)
+    Total                      4.994ns (2.813ns logic, 2.181ns route)
+                                       (56.3% logic, 43.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -332,19 +332,19 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
 -------------------------------------------------------------------------
 Offset:              6.281ns (Levels of Logic = 5)
   Source:            Rs1/dout_15 (FF)
-  Destination:       Rout1<15> (PAD)
+  Destination:       reg_file_Rout1<15> (PAD)
   Source Clock:      clk rising
 
-  Data Path: Rs1/dout_15 to Rout1<15>
+  Data Path: Rs1/dout_15 to reg_file_Rout1<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDCE:C->Q             2   0.514   0.449  Rs1/dout_15 (Rs1/dout_15)
-     LUT3:I1->O            1   0.612   0.000  Mmux_Rout2_86 (Mmux_Rout2_86)
-     MUXF5:I0->O           1   0.278   0.000  Mmux_Rout2_6_f5_5 (Mmux_Rout2_6_f56)
-     MUXF6:I0->O           1   0.451   0.000  Mmux_Rout2_4_f6_5 (Mmux_Rout2_4_f66)
-     MUXF7:I0->O           1   0.451   0.357  Mmux_Rout2_2_f7_5 (Rout2_15_OBUF)
-     OBUF:I->O                 3.169          Rout2_15_OBUF (Rout2<15>)
+     LUT3:I1->O            1   0.612   0.000  Mmux_reg_file_Rout2_86 (Mmux_reg_file_Rout2_86)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_reg_file_Rout2_6_f5_5 (Mmux_reg_file_Rout2_6_f56)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_reg_file_Rout2_4_f6_5 (Mmux_reg_file_Rout2_4_f66)
+     MUXF7:I0->O           1   0.451   0.357  Mmux_reg_file_Rout2_2_f7_5 (reg_file_Rout2_15_OBUF)
+     OBUF:I->O                 3.169          reg_file_Rout2_15_OBUF (reg_file_Rout2<15>)
     ----------------------------------------
     Total                      6.281ns (5.475ns logic, 0.806ns route)
                                        (87.2% logic, 12.8% route)
@@ -354,19 +354,19 @@ Timing constraint: Default path analysis
   Total number of paths / destination ports: 480 / 32
 -------------------------------------------------------------------------
 Delay:               7.675ns (Levels of Logic = 6)
-  Source:            Rs<0> (PAD)
-  Destination:       Rout1<15> (PAD)
+  Source:            reg_file_Rs<0> (PAD)
+  Destination:       reg_file_Rout1<15> (PAD)
 
-  Data Path: Rs<0> to Rout1<15>
+  Data Path: reg_file_Rs<0> to reg_file_Rout1<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           128   1.106   1.251  Rs_0_IBUF (Rs_0_IBUF)
-     LUT3:I0->O            1   0.612   0.000  Mmux_Rout1_5 (Mmux_Rout1_5)
-     MUXF5:I1->O           1   0.278   0.000  Mmux_Rout1_4_f5 (Mmux_Rout1_4_f5)
-     MUXF6:I1->O           1   0.451   0.000  Mmux_Rout1_3_f6 (Mmux_Rout1_3_f6)
-     MUXF7:I1->O           1   0.451   0.357  Mmux_Rout1_2_f7 (Rout1_0_OBUF)
-     OBUF:I->O                 3.169          Rout1_0_OBUF (Rout1<0>)
+     IBUF:I->O           128   1.106   1.251  reg_file_Rs_0_IBUF (reg_file_Rs_0_IBUF)
+     LUT3:I0->O            1   0.612   0.000  Mmux_reg_file_Rout1_5 (Mmux_reg_file_Rout1_5)
+     MUXF5:I1->O           1   0.278   0.000  Mmux_reg_file_Rout1_4_f5 (Mmux_reg_file_Rout1_4_f5)
+     MUXF6:I1->O           1   0.451   0.000  Mmux_reg_file_Rout1_3_f6 (Mmux_reg_file_Rout1_3_f6)
+     MUXF7:I1->O           1   0.451   0.357  Mmux_reg_file_Rout1_2_f7 (reg_file_Rout1_0_OBUF)
+     OBUF:I->O                 3.169          reg_file_Rout1_0_OBUF (reg_file_Rout1<0>)
     ----------------------------------------
     Total                      7.675ns (6.067ns logic, 1.608ns route)
                                        (79.1% logic, 20.9% route)
@@ -374,12 +374,12 @@ Delay:               7.675ns (Levels of Logic = 6)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.24 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.87 secs
  
 --> 
 
-Total memory usage is 4505472 kilobytes
+Total memory usage is 4505728 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
