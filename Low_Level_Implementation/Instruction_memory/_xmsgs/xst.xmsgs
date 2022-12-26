@@ -5,7 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompilers" num="244" delta="new" ><arg fmt="%s" index="1">&quot;Instruction_memory.v&quot; line 20 </arg>Name &apos;<arg fmt="%s" index="2">instruction_memory.txt</arg>&apos; could not be resolved
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">Instruction_memory.v</arg>&quot; line <arg fmt="%d" index="2">19</arg>: reading initialization file &quot;<arg fmt="%s" index="3">instruction_memory.txt</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">instr_mem</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">data_out</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
 </msg>
 
 </messages>

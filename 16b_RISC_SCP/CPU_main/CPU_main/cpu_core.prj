@@ -1,0 +1,6 @@
+verilog work "Register_File_main.v"
+verilog work "Program_Counter.v"
+verilog work "MUX2x1.v"
+verilog work "Control_Unit.v"
+verilog work "ALU_Main.v"
+verilog work "cpu_main.v"

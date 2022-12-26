@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: Data_Memory_main.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -128,7 +128,6 @@ Module <Data_Memory_main> is correct for synthesis.
 =========================================================================
 
 Performing bidirectional port resolution...
-INFO:Xst:2679 - Register <i> in unit <Data_Memory_main> has a constant value of 10000 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <Data_Memory_main>.
     Related source file is "Data_Memory_main.v".
@@ -214,8 +213,7 @@ Design Statistics
 # IOs                              : 42
 
 Cell Usage :
-# BELS                             : 1084
-#      BUF                         : 1
+# BELS                             : 1083
 #      LUT2                        : 2
 #      LUT3                        : 534
 #      LUT4                        : 67
@@ -282,7 +280,7 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 5.189ns (Maximum Frequency: 192.715MHz)
-   Minimum input arrival time before clock: 8.882ns
+   Minimum input arrival time before clock: 7.886ns
    Maximum output required time after clock: 4.283ns
    Maximum combinational path delay: No path found
 
@@ -321,27 +319,23 @@ Delay:               5.189ns (Levels of Logic = 6)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 10016 / 2080
 -------------------------------------------------------------------------
-Offset:              8.882ns (Levels of Logic = 8)
-  Source:            mem_address<0> (PAD)
-  Destination:       data_out_0 (FF)
+Offset:              7.886ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       mem_60_0 (FF)
   Destination Clock: clk rising
 
-  Data Path: mem_address<0> to data_out_0
+  Data Path: rst to mem_60_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           288   1.218   1.343  mem_address_0_IBUF (mem_address_0_IBUF)
-     BUF:I->O            289   0.704   1.518  mem_address_0_IBUF_1 (mem_address_0_IBUF_1)
-     LUT3:I0->O            1   0.704   0.000  Mmux__COND_1_99 (Mmux__COND_1_99)
-     MUXF5:I1->O           1   0.321   0.000  Mmux__COND_1_8_f5_8 (Mmux__COND_1_8_f59)
-     MUXF6:I1->O           1   0.521   0.000  Mmux__COND_1_7_f6_8 (Mmux__COND_1_7_f69)
-     MUXF7:I1->O           1   0.521   0.000  Mmux__COND_1_6_f7_8 (Mmux__COND_1_6_f79)
-     MUXF8:I1->O           1   0.521   0.499  Mmux__COND_1_5_f8_8 (Mmux__COND_1_5_f89)
-     LUT3:I1->O            1   0.704   0.000  mem_address<5>91 (_COND_1<3>)
-     FDE:D                     0.308          data_out_3
+     IBUF:I->O           259   1.218   1.369  rst_IBUF (rst_IBUF)
+     LUT3:I2->O            4   0.704   0.666  mem_32_and000071 (mem_32_and0000_bdd8)
+     LUT3:I1->O            8   0.704   0.932  mem_48_and000051 (mem_48_and0000_bdd4)
+     LUT4:I0->O           16   0.704   1.034  mem_60_and000011 (mem_60_and0000)
+     FDE:CE                    0.555          mem_60_0
     ----------------------------------------
-    Total                      8.882ns (5.522ns logic, 3.360ns route)
-                                       (62.2% logic, 37.8% route)
+    Total                      7.886ns (3.885ns logic, 4.001ns route)
+                                       (49.3% logic, 50.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -366,13 +360,13 @@ Offset:              4.283ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.29 secs
+Total CPU time to Xst completion: 4.64 secs
  
 --> 
 
-Total memory usage is 240244 kilobytes
+Total memory usage is 4516928 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
-Number of infos    :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
 

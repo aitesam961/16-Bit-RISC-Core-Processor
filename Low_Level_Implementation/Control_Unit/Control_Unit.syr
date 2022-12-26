@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Control_Unit.prj
 
@@ -131,7 +131,7 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <Control_Unit>.
     Related source file is "Control_Unit.v".
-    Found 16x13-bit ROM for signal <opcode$rom0000>.
+    Found 16x14-bit ROM for signal <opcode$rom0000>.
     Summary:
 	inferred   1 ROM(s).
 Unit <Control_Unit> synthesized.
@@ -142,7 +142,7 @@ HDL Synthesis Report
 
 Macro Statistics
 # ROMs                                                 : 1
- 16x13-bit ROM                                         : 1
+ 16x14-bit ROM                                         : 1
 
 =========================================================================
 
@@ -156,7 +156,7 @@ Advanced HDL Synthesis Report
 
 Macro Statistics
 # ROMs                                                 : 1
- 16x13-bit ROM                                         : 1
+ 16x14-bit ROM                                         : 1
 
 =========================================================================
 
@@ -200,15 +200,15 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 17
+# IOs                              : 18
 
 Cell Usage :
-# BELS                             : 13
+# BELS                             : 14
 #      LUT3                        : 1
-#      LUT4                        : 12
-# IO Buffers                       : 17
+#      LUT4                        : 13
+# IO Buffers                       : 18
 #      IBUF                        : 4
-#      OBUF                        : 13
+#      OBUF                        : 14
 =========================================================================
 
 Device utilization summary:
@@ -216,10 +216,10 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                        7  out of   4656     0%  
- Number of 4 input LUTs:                 13  out of   9312     0%  
- Number of IOs:                          17
- Number of bonded IOBs:                  17  out of    232     7%  
+ Number of Slices:                        8  out of   4656     0%  
+ Number of 4 input LUTs:                 14  out of   9312     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    232     7%  
 
 ---------------------------
 Partition Resource Summary:
@@ -252,7 +252,7 @@ Speed Grade: -4
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 6.772ns
+   Maximum combinational path delay: 6.789ns
 
 Timing Detail:
 --------------
@@ -260,32 +260,32 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 51 / 13
+  Total number of paths / destination ports: 55 / 14
 -------------------------------------------------------------------------
-Delay:               6.772ns (Levels of Logic = 3)
+Delay:               6.789ns (Levels of Logic = 3)
   Source:            opcode<3> (PAD)
-  Destination:       cmp (PAD)
+  Destination:       mem_wr (PAD)
 
-  Data Path: opcode<3> to cmp
+  Data Path: opcode<3> to mem_wr
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            13   1.218   1.158  opcode_3_IBUF (opcode_3_IBUF)
-     LUT4:I0->O            1   0.704   0.420  Mrom_opcode_rom000041 (cmp_OBUF)
-     OBUF:I->O                 3.272          cmp_OBUF (cmp)
+     IBUF:I->O            14   1.218   1.175  opcode_3_IBUF (opcode_3_IBUF)
+     LUT4:I0->O            1   0.704   0.420  mem_wr1 (mem_wr_OBUF)
+     OBUF:I->O                 3.272          mem_wr_OBUF (mem_wr)
     ----------------------------------------
-    Total                      6.772ns (5.194ns logic, 1.578ns route)
-                                       (76.7% logic, 23.3% route)
+    Total                      6.789ns (5.194ns logic, 1.595ns route)
+                                       (76.5% logic, 23.5% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 2.48 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.30 secs
  
 --> 
 
-Total memory usage is 229812 kilobytes
+Total memory usage is 230516 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

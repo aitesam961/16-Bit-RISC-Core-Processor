@@ -1,0 +1,124 @@
+Release 14.7 par P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+AITESAM961-DESK::  Tue Dec 27 02:31:56 2022
+
+par -w -intstyle ise -ol high -t 1 cpu_core_map.ncd cpu_core.ncd cpu_core.pcf 
+
+
+Constraints file: cpu_core.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
+   "cpu_core" is an NCD, version 3.2, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          84 out of 232    36%
+
+   Number of External Input IOBs                 34
+
+      Number of External Input IBUFs             34
+
+   Number of External Output IOBs                50
+
+      Number of External Output IOBs             50
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of MULT18X18SIOs                   1 out of 20      5%
+   Number of Slices                        389 out of 4656    8%
+      Number of SLICEMs                     64 out of 2328    2%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 2 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:1b7c4) REAL time: 3 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:1b7c4) REAL time: 3 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:1b7c4) REAL time: 3 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+....
+Phase 4.2  Initial Clock and IO Placement (Checksum:81b62552) REAL time: 3 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:81b62552) REAL time: 3 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:81b62552) REAL time: 3 secs 
+
+Phase 7.3  Local Placement Optimization
+....
+Phase 7.3  Local Placement Optimization (Checksum:9fa9c266) REAL time: 4 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:9fa9c266) REAL time: 4 secs 
+
+Phase 9.8  Global Placement
+.................
+..........................................
+....................................
+.................................................
+..............................................................................
+Phase 9.8  Global Placement (Checksum:15eaaab5) REAL time: 7 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:15eaaab5) REAL time: 7 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:a2fe306b) REAL time: 8 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:a2fe306b) REAL time: 8 secs 
+
+Total REAL time to Placer completion: 8 secs 
+Total CPU  time to Placer completion: 6 secs 
+Writing design to file cpu_core.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 2675 unrouted;      REAL time: 11 secs 
+
+Phase  2  : 2533 unrouted;      REAL time: 11 secs 
+
+Phase  3  : 695 unrouted;      REAL time: 12 secs 
+
+Phase  4  : 776 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+
+Updating file: cpu_core.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
