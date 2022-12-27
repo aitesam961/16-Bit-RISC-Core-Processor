@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: cpu_core.prj
 
@@ -217,8 +217,6 @@ Unit <ALU_Main> synthesized.
 
 Synthesizing Unit <cpu_core>.
     Related source file is "cpu_main.v".
-WARNING:Xst:646 - Signal <reg_dest> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <op_mov> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <cpu_core> synthesized.
 
 
@@ -325,17 +323,15 @@ Design Statistics
 # IOs                              : 84
 
 Cell Usage :
-# BELS                             : 854
+# BELS                             : 747
 #      GND                         : 1
 #      LUT1                        : 15
-#      LUT2                        : 30
-#      LUT2_D                      : 1
-#      LUT3                        : 288
-#      LUT4                        : 190
-#      LUT4_D                      : 4
-#      LUT4_L                      : 2
+#      LUT2                        : 31
+#      LUT3                        : 295
+#      LUT4                        : 113
+#      LUT4_L                      : 6
 #      MUXCY                       : 25
-#      MUXF5                       : 184
+#      MUXF5                       : 147
 #      MUXF6                       : 65
 #      MUXF7                       : 32
 #      VCC                         : 1
@@ -345,8 +341,8 @@ Cell Usage :
 #      FDCE                        : 256
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 83
-#      IBUF                        : 33
+# IO Buffers                       : 68
+#      IBUF                        : 18
 #      OBUF                        : 50
 =========================================================================
 
@@ -355,11 +351,11 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      359  out of   4656     7%  
+ Number of Slices:                      330  out of   4656     7%  
  Number of Slice Flip Flops:            272  out of   9312     2%  
- Number of 4 input LUTs:                530  out of   9312     5%  
+ Number of 4 input LUTs:                460  out of   9312     4%  
  Number of IOs:                          84
- Number of bonded IOBs:                  84  out of    232    36%  
+ Number of bonded IOBs:                  69  out of    232    29%  
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -398,10 +394,10 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 11.447ns (Maximum Frequency: 87.358MHz)
-   Minimum input arrival time before clock: 13.016ns
-   Maximum output required time after clock: 14.862ns
-   Maximum combinational path delay: 16.431ns
+   Minimum period: 9.607ns (Maximum Frequency: 104.091MHz)
+   Minimum input arrival time before clock: 11.176ns
+   Maximum output required time after clock: 13.399ns
+   Maximum combinational path delay: 14.968ns
 
 Timing Detail:
 --------------
@@ -409,16 +405,16 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 11.447ns (frequency: 87.358MHz)
-  Total number of paths / destination ports: 206272 / 272
+  Clock period: 9.607ns (frequency: 104.091MHz)
+  Total number of paths / destination ports: 25104 / 272
 -------------------------------------------------------------------------
-Delay:               11.447ns (Levels of Logic = 24)
+Delay:               9.607ns (Levels of Logic = 14)
   Source:            reg_file/reg_file_0_0 (FF)
-  Destination:       reg_file/reg_file_15_14 (FF)
+  Destination:       reg_file/reg_file_15_0 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: reg_file/reg_file_0_0 to reg_file/reg_file_15_14
+  Data Path: reg_file/reg_file_0_0 to reg_file/reg_file_15_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -426,97 +422,75 @@ Delay:               11.447ns (Levels of Logic = 24)
      LUT3:I1->O            1   0.704   0.000  reg_file/mux16_8 (reg_file/mux16_8)
      MUXF5:I0->O           1   0.321   0.000  reg_file/mux16_6_f5 (reg_file/mux16_6_f5)
      MUXF6:I0->O           1   0.521   0.000  reg_file/mux16_4_f6 (reg_file/mux16_4_f6)
-     MUXF7:I0->O           3   0.521   0.566  reg_file/mux16_2_f7 (reg_Data_2_0_OBUF)
-     LUT3:I2->O           35   0.704   1.342  mxalusrc/out<0>1 (alu_src_2)
-     LUT2:I1->O            1   0.704   0.000  alu/Madd_d_out1_lut<0> (alu/Madd_d_out1_lut<0>)
-     MUXCY:S->O            1   0.464   0.000  alu/Madd_d_out1_cy<0> (alu/Madd_d_out1_cy<0>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<1> (alu/Madd_d_out1_cy<1>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<2> (alu/Madd_d_out1_cy<2>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<3> (alu/Madd_d_out1_cy<3>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<4> (alu/Madd_d_out1_cy<4>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<5> (alu/Madd_d_out1_cy<5>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<6> (alu/Madd_d_out1_cy<6>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<7> (alu/Madd_d_out1_cy<7>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<8> (alu/Madd_d_out1_cy<8>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<9> (alu/Madd_d_out1_cy<9>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<10> (alu/Madd_d_out1_cy<10>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<11> (alu/Madd_d_out1_cy<11>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<12> (alu/Madd_d_out1_cy<12>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<13> (alu/Madd_d_out1_cy<13>)
-     XORCY:CI->O           1   0.804   0.424  alu/Madd_d_out1_xor<14> (alu/d_out1<14>)
-     LUT4:I3->O            1   0.704   0.000  alu/Mmux_d_out<14>_7 (alu/Mmux_d_out<14>_7)
-     MUXF5:I0->O           2   0.321   0.451  alu/Mmux_d_out<14>_5_f5 (alu/Mmux_d_out<14>_5_f5)
-     LUT4:I3->O           16   0.704   0.000  mxli/out<14>33 (reg_Write_D<14>)
-     FDCE:D                    0.308          reg_file/reg_file_2_14
+     MUXF7:I0->O           6   0.521   0.704  reg_file/mux16_2_f7 (reg_Data_2_0_OBUF)
+     LUT3:I2->O            0   0.704   0.000  mxalusrc/out<0>1_1 (mxalusrc/out<0>1)
+     MUXCY:DI->O           1   0.888   0.000  alu/Mcompar_d_out6_cy<0> (alu/Mcompar_d_out6_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  alu/Mcompar_d_out6_cy<1> (alu/Mcompar_d_out6_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  alu/Mcompar_d_out6_cy<2> (alu/Mcompar_d_out6_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  alu/Mcompar_d_out6_cy<3> (alu/Mcompar_d_out6_cy<3>)
+     MUXCY:CI->O           2   0.459   0.482  alu/Mcompar_d_out6_cy<4> (alu/Mcompar_d_out6_cy<4>)
+     LUT3:I2->O            1   0.704   0.000  alu/Mmux_d_out<0>_5 (alu/Mmux_d_out<0>_5)
+     MUXF5:I0->O           1   0.321   0.000  alu/Mmux_d_out<0>_3_f5 (alu/Mmux_d_out<0>_3_f5)
+     MUXF6:I1->O           2   0.521   0.451  alu/Mmux_d_out<0>_2_f6 (alu_Out_0_OBUF)
+     LUT4:I3->O           16   0.704   0.000  mxmov/out<0>139 (reg_Write_D<0>)
+     FDCE:D                    0.308          reg_file/reg_file_2_0
     ----------------------------------------
-    Total                     11.447ns (8.138ns logic, 3.309ns route)
-                                       (71.1% logic, 28.9% route)
+    Total                      9.607ns (7.444ns logic, 2.163ns route)
+                                       (77.5% logic, 22.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 232917 / 528
+  Total number of paths / destination ports: 33444 / 528
 -------------------------------------------------------------------------
-Offset:              13.016ns (Levels of Logic = 25)
+Offset:              11.176ns (Levels of Logic = 15)
   Source:            instr_out<4> (PAD)
-  Destination:       reg_file/reg_file_15_14 (FF)
+  Destination:       reg_file/reg_file_15_0 (FF)
   Destination Clock: clk rising
 
-  Data Path: instr_out<4> to reg_file/reg_file_15_14
+  Data Path: instr_out<4> to reg_file/reg_file_15_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           130   1.218   1.468  instr_out_4_IBUF (instr_out_4_IBUF)
+     IBUF:I->O           131   1.218   1.468  instr_out_4_IBUF (instr_out_4_IBUF)
      LUT3:I0->O            1   0.704   0.000  reg_file/mux16_5 (reg_file/mux16_5)
      MUXF5:I1->O           1   0.321   0.000  reg_file/mux16_4_f5 (reg_file/mux16_4_f5)
      MUXF6:I1->O           1   0.521   0.000  reg_file/mux16_3_f6 (reg_file/mux16_3_f6)
-     MUXF7:I1->O           3   0.521   0.566  reg_file/mux16_2_f7 (reg_Data_2_0_OBUF)
-     LUT3:I2->O           35   0.704   1.342  mxalusrc/out<0>1 (alu_src_2)
-     LUT2:I1->O            1   0.704   0.000  alu/Madd_d_out1_lut<0> (alu/Madd_d_out1_lut<0>)
-     MUXCY:S->O            1   0.464   0.000  alu/Madd_d_out1_cy<0> (alu/Madd_d_out1_cy<0>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<1> (alu/Madd_d_out1_cy<1>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<2> (alu/Madd_d_out1_cy<2>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<3> (alu/Madd_d_out1_cy<3>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<4> (alu/Madd_d_out1_cy<4>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<5> (alu/Madd_d_out1_cy<5>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<6> (alu/Madd_d_out1_cy<6>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<7> (alu/Madd_d_out1_cy<7>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<8> (alu/Madd_d_out1_cy<8>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<9> (alu/Madd_d_out1_cy<9>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<10> (alu/Madd_d_out1_cy<10>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<11> (alu/Madd_d_out1_cy<11>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<12> (alu/Madd_d_out1_cy<12>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<13> (alu/Madd_d_out1_cy<13>)
-     XORCY:CI->O           1   0.804   0.424  alu/Madd_d_out1_xor<14> (alu/d_out1<14>)
-     LUT4:I3->O            1   0.704   0.000  alu/Mmux_d_out<14>_7 (alu/Mmux_d_out<14>_7)
-     MUXF5:I0->O           2   0.321   0.451  alu/Mmux_d_out<14>_5_f5 (alu/Mmux_d_out<14>_5_f5)
-     LUT4:I3->O           16   0.704   0.000  mxli/out<14>33 (reg_Write_D<14>)
-     FDCE:D                    0.308          reg_file/reg_file_2_14
+     MUXF7:I1->O           6   0.521   0.704  reg_file/mux16_2_f7 (reg_Data_2_0_OBUF)
+     LUT3:I2->O            0   0.704   0.000  mxalusrc/out<0>1_1 (mxalusrc/out<0>1)
+     MUXCY:DI->O           1   0.888   0.000  alu/Mcompar_d_out6_cy<0> (alu/Mcompar_d_out6_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  alu/Mcompar_d_out6_cy<1> (alu/Mcompar_d_out6_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  alu/Mcompar_d_out6_cy<2> (alu/Mcompar_d_out6_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  alu/Mcompar_d_out6_cy<3> (alu/Mcompar_d_out6_cy<3>)
+     MUXCY:CI->O           2   0.459   0.482  alu/Mcompar_d_out6_cy<4> (alu/Mcompar_d_out6_cy<4>)
+     LUT3:I2->O            1   0.704   0.000  alu/Mmux_d_out<0>_5 (alu/Mmux_d_out<0>_5)
+     MUXF5:I0->O           1   0.321   0.000  alu/Mmux_d_out<0>_3_f5 (alu/Mmux_d_out<0>_3_f5)
+     MUXF6:I1->O           2   0.521   0.451  alu/Mmux_d_out<0>_2_f6 (alu_Out_0_OBUF)
+     LUT4:I3->O           16   0.704   0.000  mxmov/out<0>139 (reg_Write_D<0>)
+     FDCE:D                    0.308          reg_file/reg_file_2_0
     ----------------------------------------
-    Total                     13.016ns (8.765ns logic, 4.251ns route)
-                                       (67.3% logic, 32.7% route)
+    Total                     11.176ns (8.071ns logic, 3.105ns route)
+                                       (72.2% logic, 27.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 5280 / 48
+  Total number of paths / destination ports: 5296 / 48
 -------------------------------------------------------------------------
-Offset:              14.862ns (Levels of Logic = 25)
-  Source:            reg_file/reg_file_0_0 (FF)
-  Destination:       alu_Out<14> (PAD)
+Offset:              13.399ns (Levels of Logic = 24)
+  Source:            reg_file/reg_file_0_1 (FF)
+  Destination:       alu_Out<15> (PAD)
   Source Clock:      clk rising
 
-  Data Path: reg_file/reg_file_0_0 to alu_Out<14>
+  Data Path: reg_file/reg_file_0_1 to alu_Out<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.591   0.526  reg_file/reg_file_0_0 (reg_file/reg_file_0_0)
-     LUT3:I1->O            1   0.704   0.000  reg_file/mux16_8 (reg_file/mux16_8)
-     MUXF5:I0->O           1   0.321   0.000  reg_file/mux16_6_f5 (reg_file/mux16_6_f5)
-     MUXF6:I0->O           1   0.521   0.000  reg_file/mux16_4_f6 (reg_file/mux16_4_f6)
-     MUXF7:I0->O           3   0.521   0.566  reg_file/mux16_2_f7 (reg_Data_2_0_OBUF)
-     LUT3:I2->O           35   0.704   1.342  mxalusrc/out<0>1 (alu_src_2)
-     LUT2:I1->O            1   0.704   0.000  alu/Madd_d_out1_lut<0> (alu/Madd_d_out1_lut<0>)
-     MUXCY:S->O            1   0.464   0.000  alu/Madd_d_out1_cy<0> (alu/Madd_d_out1_cy<0>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<1> (alu/Madd_d_out1_cy<1>)
+     FDCE:C->Q             2   0.591   0.526  reg_file/reg_file_0_1 (reg_file/reg_file_0_1)
+     LUT3:I1->O            1   0.704   0.000  reg_file/mux7_8 (reg_file/mux7_8)
+     MUXF5:I0->O           1   0.321   0.000  reg_file/mux7_6_f5 (reg_file/mux7_6_f5)
+     MUXF6:I0->O           1   0.521   0.000  reg_file/mux7_4_f6 (reg_file/mux7_4_f6)
+     MUXF7:I0->O          10   0.521   1.057  reg_file/mux7_2_f7 (reg_Data_1<1>)
+     LUT1:I0->O            1   0.704   0.000  alu/Madd_d_out1_cy<1>_rt (alu/Madd_d_out1_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  alu/Madd_d_out1_cy<1> (alu/Madd_d_out1_cy<1>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<2> (alu/Madd_d_out1_cy<2>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<3> (alu/Madd_d_out1_cy<3>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<4> (alu/Madd_d_out1_cy<4>)
@@ -529,36 +503,35 @@ Offset:              14.862ns (Levels of Logic = 25)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<11> (alu/Madd_d_out1_cy<11>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<12> (alu/Madd_d_out1_cy<12>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<13> (alu/Madd_d_out1_cy<13>)
-     XORCY:CI->O           1   0.804   0.424  alu/Madd_d_out1_xor<14> (alu/d_out1<14>)
-     LUT4:I3->O            1   0.704   0.000  alu/Mmux_d_out<14>_7 (alu/Mmux_d_out<14>_7)
-     MUXF5:I0->O           2   0.321   0.482  alu/Mmux_d_out<14>_5_f5 (alu/Mmux_d_out<14>_5_f5)
-     LUT4:I2->O            1   0.704   0.420  alu/d_out<14>50 (alu_Out_14_OBUF)
-     OBUF:I->O                 3.272          alu_Out_14_OBUF (alu_Out<14>)
+     MUXCY:CI->O           0   0.059   0.000  alu/Madd_d_out1_cy<14> (alu/Madd_d_out1_cy<14>)
+     XORCY:CI->O           1   0.804   0.499  alu/Madd_d_out1_xor<15> (alu/d_out1<15>)
+     LUT4:I1->O            1   0.704   0.000  alu/Mmux_d_out<15>_7 (alu/Mmux_d_out<15>_7)
+     MUXF5:I0->O           1   0.321   0.499  alu/Mmux_d_out<15>_5_f5 (alu/Mmux_d_out<15>_5_f5)
+     LUT4:I1->O            1   0.704   0.420  alu/d_out<15> (alu_Out_15_OBUF)
+     OBUF:I->O                 3.272          alu_Out_15_OBUF (alu_Out<15>)
     ----------------------------------------
-    Total                     14.862ns (11.102ns logic, 3.760ns route)
-                                       (74.7% logic, 25.3% route)
+    Total                     13.399ns (10.398ns logic, 3.001ns route)
+                                       (77.6% logic, 22.4% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 5642 / 34
+  Total number of paths / destination ports: 5661 / 34
 -------------------------------------------------------------------------
-Delay:               16.431ns (Levels of Logic = 26)
-  Source:            instr_out<4> (PAD)
-  Destination:       alu_Out<14> (PAD)
+Delay:               14.968ns (Levels of Logic = 25)
+  Source:            instr_out<8> (PAD)
+  Destination:       alu_Out<15> (PAD)
 
-  Data Path: instr_out<4> to alu_Out<14>
+  Data Path: instr_out<8> to alu_Out<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           130   1.218   1.468  instr_out_4_IBUF (instr_out_4_IBUF)
-     LUT3:I0->O            1   0.704   0.000  reg_file/mux16_5 (reg_file/mux16_5)
-     MUXF5:I1->O           1   0.321   0.000  reg_file/mux16_4_f5 (reg_file/mux16_4_f5)
-     MUXF6:I1->O           1   0.521   0.000  reg_file/mux16_3_f6 (reg_file/mux16_3_f6)
-     MUXF7:I1->O           3   0.521   0.566  reg_file/mux16_2_f7 (reg_Data_2_0_OBUF)
-     LUT3:I2->O           35   0.704   1.342  mxalusrc/out<0>1 (alu_src_2)
-     LUT2:I1->O            1   0.704   0.000  alu/Madd_d_out1_lut<0> (alu/Madd_d_out1_lut<0>)
-     MUXCY:S->O            1   0.464   0.000  alu/Madd_d_out1_cy<0> (alu/Madd_d_out1_cy<0>)
-     MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<1> (alu/Madd_d_out1_cy<1>)
+     IBUF:I->O           129   1.218   1.468  instr_out_8_IBUF (instr_out_8_IBUF)
+     LUT3:I0->O            1   0.704   0.000  reg_file/mux7_5 (reg_file/mux7_5)
+     MUXF5:I1->O           1   0.321   0.000  reg_file/mux7_4_f5 (reg_file/mux7_4_f5)
+     MUXF6:I1->O           1   0.521   0.000  reg_file/mux7_3_f6 (reg_file/mux7_3_f6)
+     MUXF7:I1->O          10   0.521   1.057  reg_file/mux7_2_f7 (reg_Data_1<1>)
+     LUT1:I0->O            1   0.704   0.000  alu/Madd_d_out1_cy<1>_rt (alu/Madd_d_out1_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  alu/Madd_d_out1_cy<1> (alu/Madd_d_out1_cy<1>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<2> (alu/Madd_d_out1_cy<2>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<3> (alu/Madd_d_out1_cy<3>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<4> (alu/Madd_d_out1_cy<4>)
@@ -571,24 +544,25 @@ Delay:               16.431ns (Levels of Logic = 26)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<11> (alu/Madd_d_out1_cy<11>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<12> (alu/Madd_d_out1_cy<12>)
      MUXCY:CI->O           1   0.059   0.000  alu/Madd_d_out1_cy<13> (alu/Madd_d_out1_cy<13>)
-     XORCY:CI->O           1   0.804   0.424  alu/Madd_d_out1_xor<14> (alu/d_out1<14>)
-     LUT4:I3->O            1   0.704   0.000  alu/Mmux_d_out<14>_7 (alu/Mmux_d_out<14>_7)
-     MUXF5:I0->O           2   0.321   0.482  alu/Mmux_d_out<14>_5_f5 (alu/Mmux_d_out<14>_5_f5)
-     LUT4:I2->O            1   0.704   0.420  alu/d_out<14>50 (alu_Out_14_OBUF)
-     OBUF:I->O                 3.272          alu_Out_14_OBUF (alu_Out<14>)
+     MUXCY:CI->O           0   0.059   0.000  alu/Madd_d_out1_cy<14> (alu/Madd_d_out1_cy<14>)
+     XORCY:CI->O           1   0.804   0.499  alu/Madd_d_out1_xor<15> (alu/d_out1<15>)
+     LUT4:I1->O            1   0.704   0.000  alu/Mmux_d_out<15>_7 (alu/Mmux_d_out<15>_7)
+     MUXF5:I0->O           1   0.321   0.499  alu/Mmux_d_out<15>_5_f5 (alu/Mmux_d_out<15>_5_f5)
+     LUT4:I1->O            1   0.704   0.420  alu/d_out<15> (alu_Out_15_OBUF)
+     OBUF:I->O                 3.272          alu_Out_15_OBUF (alu_Out<15>)
     ----------------------------------------
-    Total                     16.431ns (11.729ns logic, 4.702ns route)
-                                       (71.4% logic, 28.6% route)
+    Total                     14.968ns (11.025ns logic, 3.943ns route)
+                                       (73.7% logic, 26.3% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.00 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.32 secs
  
 --> 
 
-Total memory usage is 237556 kilobytes
+Total memory usage is 237044 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    5 (   0 filtered)

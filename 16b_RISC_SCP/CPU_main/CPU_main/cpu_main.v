@@ -29,8 +29,8 @@ module cpu_core(
     input rst,
  
 //	 Instruction Memory
-	 input [15:0] instr_out,
 	 output [15:0] pc_out,
+	 input [15:0] instr_out,
 	 
 	 
 //  Data memory
@@ -84,15 +84,22 @@ module cpu_core(
 
 	  
 	 // Register File
+	 reg [3:0] reg_Rd_mxd;
+	 wire reg_dest;
 	 wire [15:0] reg_write_Data,		reg_Data_1, reg_Write_D, reg_Write_s1;
-	// wire ;
-	 Register_File_main reg_file (clk,		rst,		reg_Rs,		reg_Rt,		reg_Rd,		reg_wr,		reg_Write_D,		reg_Data_1,		reg_Data_2);
+	 always @(reg_dest or reg_Rd or reg_Rt) begin
+		case(reg_dest)
+			1'b0 : reg_Rd_mxd  = reg_Rd;
+			1'b1 : reg_Rd_mxd  = reg_Rt;
+		endcase
+	 end
+	 Register_File_main reg_file (clk,		rst,		reg_Rs,		reg_Rt,		reg_Rd_mxd,		reg_wr,		reg_Write_D,		reg_Data_1,		reg_Data_2);
 	 
 	
 	
 	 // Control Unit
 	 wire [2:0] alu_op;
-	 wire reg_dest, alu_src, op_jump, op_jal, op_jr, op_cmp, op_mov, op_li, m2r;
+	 wire alu_src, op_jump, op_jal, op_jr, op_cmp, op_mov, op_li, m2r;
 	 Control_Unit cu(opcode,		alu_op,		reg_wr,		reg_dest,		alu_src,		op_jump,		op_jal,		op_jr,	op_cmp,	op_mov,	op_li, 	mem_rd,		mem_wr,		m2r);
 	 
 	
@@ -188,9 +195,11 @@ module cpu_core(
 			end
 	end
 	
-	MUX2x1 mxli (reg_Write_s1,	li_offset_se,	op_li,	reg_Write_D);
-
-			
+	MUX2x1 mxli (reg_Write_s1,	li_offset_se,	op_li,	reg_Write_s2);
 	
+	
+
+	// Move Instruction Logic Block	
+	MUX2x1 mxmov (reg_Write_s2,	reg_Data_1,	op_mov,	reg_Write_D);
 
 endmodule
