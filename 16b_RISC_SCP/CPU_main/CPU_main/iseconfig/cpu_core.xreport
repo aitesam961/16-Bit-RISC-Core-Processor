@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-27T04:38:29</DateModified>
+  <DateModified>2022-12-27T05:21:33</DateModified>
   <ModuleName>system_cpu_master</ModuleName>
-  <SummaryTimeStamp>2022-12-27T04:26:35</SummaryTimeStamp>
+  <SummaryTimeStamp>2022-12-27T05:16:14</SummaryTimeStamp>
   <SavedFilePath>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/iseconfig/cpu_core.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main</ImplementationReportsDirectory>
   <DateInitialized>2022-12-27T04:38:29</DateInitialized>

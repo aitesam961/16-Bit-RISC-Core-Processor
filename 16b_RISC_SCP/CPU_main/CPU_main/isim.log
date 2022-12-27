@@ -1,14 +1,14 @@
 ISim log file
-Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\CPU_main\CPU_main\CPU_core_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/CPU_core_tb_isim_beh.wdb 
+Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\CPU_main\CPU_main\system_cpu_master_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 This is a Full version of ISim.
-WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 124.  For instance uut/mxalusrc/, width 16 of formal port out is not equal to width 1 of actual signal alu_src_2.
-WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 124.  For instance uut/alu/, width 16 of formal port d_in_2 is not equal to width 1 of actual signal alu_src_2.
-WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 198.  For instance uut/mxli/, width 16 of formal port out is not equal to width 1 of actual signal reg_Write_s2.
-WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 198.  For instance uut/mxmov/, width 16 of formal port ch1 is not equal to width 1 of actual signal reg_Write_s2.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" Line 27.  For instance uut/flash/, width 6 of formal port pc_in is not equal to width 16 of actual signal pc_cpu_to_mem.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" Line 27.  For instance uut/ram/, width 6 of formal port mem_address is not equal to width 16 of actual signal addr_cpu_to_mem.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+# run all
+Stopped at time : 170880975 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Data_Memory_main.v" Line 32

@@ -86,7 +86,7 @@ module cpu_core(
 	 // Register File
 	 reg [3:0] reg_Rd_mxd;
 	 wire reg_dest;
-	 wire [15:0] reg_write_Data,		reg_Data_1, reg_Write_D, reg_Write_s1;
+	 wire [15:0] reg_write_Data, reg_Data_1, reg_Write_D, reg_Write_s1, reg_Write_s2;
 	 always @(reg_dest or reg_Rd or reg_Rt) begin
 		case(reg_dest)
 			1'b0 : reg_Rd_mxd  = reg_Rd;
@@ -121,7 +121,7 @@ module cpu_core(
 	end
 	
 	
-	 wire alu_src_2;
+	 wire [15:0] alu_src_2;
 	 MUX2x1 mxalusrc (reg_Data_2,	imm_offset_se,	alu_src,	alu_src_2);
 	 ALU_Main alu ( reg_Data_1,	alu_src_2,		alu_op,	z_flag,	alu_Out,		agb,	bga);
 	 
@@ -179,7 +179,6 @@ module cpu_core(
 		else 
 			cmp_DS <= 16'h0000;
 	end
-	
 	MUX2x1 mxcmp (reg_write_Data,	cmp_DS,	op_cmp,	reg_Write_s1);
 	
 	
