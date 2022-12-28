@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: system_cpu_master.prj
 
@@ -503,7 +503,7 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 20.584ns (Maximum Frequency: 48.581MHz)
+   Minimum period: 20.585ns (Maximum Frequency: 48.578MHz)
    Minimum input arrival time before clock: 9.245ns
    Maximum output required time after clock: 4.310ns
    Maximum combinational path delay: No path found
@@ -514,10 +514,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 20.584ns (frequency: 48.581MHz)
+  Clock period: 20.585ns (frequency: 48.578MHz)
   Total number of paths / destination ports: 15946531 / 2610
 -------------------------------------------------------------------------
-Delay:               20.584ns (Levels of Logic = 11)
+Delay:               20.585ns (Levels of Logic = 11)
   Source:            flash/Mrom__varindex0000 (RAM)
   Destination:       ram/mem_63_15 (FF)
   Source Clock:      clk rising
@@ -527,7 +527,7 @@ Delay:               20.584ns (Levels of Logic = 11)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16_S18:CLK->DO4  132   2.800   1.329  flash/Mrom__varindex0000 (instr_mem_to_cpu<4>)
+     RAMB16_S18:CLK->DO0  135   2.800   1.330  flash/Mrom__varindex0000 (instr_mem_to_cpu<0>)
      LUT3:I2->O            1   0.704   0.000  core/reg_file/mux24_8 (core/reg_file/mux24_8)
      MUXF5:I0->O           1   0.321   0.000  core/reg_file/mux24_6_f5 (core/reg_file/mux24_6_f5)
      MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux24_4_f6 (core/reg_file/mux24_4_f6)
@@ -541,7 +541,7 @@ Delay:               20.584ns (Levels of Logic = 11)
      LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
      FDE:CE                    0.555          ram/mem_45_0
     ----------------------------------------
-    Total                     20.584ns (12.920ns logic, 7.664ns route)
+    Total                     20.585ns (12.920ns logic, 7.665ns route)
                                        (62.8% logic, 37.2% route)
 
 =========================================================================
@@ -589,12 +589,12 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.11 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.06 secs
  
 --> 
 
-Total memory usage is 249012 kilobytes
+Total memory usage is 248628 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    6 (   0 filtered)

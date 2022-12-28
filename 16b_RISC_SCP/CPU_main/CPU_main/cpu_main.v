@@ -76,9 +76,9 @@ module cpu_core(
 	 
 	 
 	 assign opcode 		=		instr_out	[15:12];
-	 assign reg_Rs 		=		instr_out	[11:8];
-	 assign reg_Rt 		=		instr_out	[7:4];
-	 assign reg_Rd 		=		instr_out	[3:0];
+	 assign reg_Rd 		=		instr_out	[11:8];
+	 assign reg_Rs 		=		instr_out	[7:4];
+	 assign reg_Rt 		=		instr_out	[3:0];
 	 assign imm_offset 	=		instr_out	[3:0]; 
 	 assign li_offset		=		instr_out	[7:0];
 	 assign j_offset 		=		instr_out	[12:0];

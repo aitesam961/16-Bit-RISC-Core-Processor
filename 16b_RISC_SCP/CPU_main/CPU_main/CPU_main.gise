@@ -127,38 +127,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1672217879" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1672217879">
+    <transform xil_pn:end_ts="1672256772" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1672256772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1672217879" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1672217879">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ALU_Main.v"/>
-      <outfile xil_pn:name="Control_Unit.v"/>
-      <outfile xil_pn:name="Data_Memory_main.v"/>
-      <outfile xil_pn:name="Instruction_memory.v"/>
-      <outfile xil_pn:name="MUX2x1.v"/>
-      <outfile xil_pn:name="MUX2x1_Br.v"/>
-      <outfile xil_pn:name="Program_Counter.v"/>
-      <outfile xil_pn:name="Register_File_main.v"/>
-      <outfile xil_pn:name="cpu_main.v"/>
-      <outfile xil_pn:name="system_cpu_master.v"/>
-      <outfile xil_pn:name="system_cpu_master_tb.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1672217879" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1099491848771955395" xil_pn:start_ts="1672217879">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1672217879" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5766759255296030149" xil_pn:start_ts="1672217879">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1672217879" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="860505940664927926" xil_pn:start_ts="1672217879">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1672217879" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1672217879">
+    <transform xil_pn:end_ts="1672256772" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1672256772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU_Main.v"/>
@@ -173,7 +146,34 @@
       <outfile xil_pn:name="system_cpu_master.v"/>
       <outfile xil_pn:name="system_cpu_master_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1672217882" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1907074054687193319" xil_pn:start_ts="1672217879">
+    <transform xil_pn:end_ts="1672256772" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1099491848771955395" xil_pn:start_ts="1672256772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1672256772" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5766759255296030149" xil_pn:start_ts="1672256772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1672256772" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="860505940664927926" xil_pn:start_ts="1672256772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1672256772" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1672256772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU_Main.v"/>
+      <outfile xil_pn:name="Control_Unit.v"/>
+      <outfile xil_pn:name="Data_Memory_main.v"/>
+      <outfile xil_pn:name="Instruction_memory.v"/>
+      <outfile xil_pn:name="MUX2x1.v"/>
+      <outfile xil_pn:name="MUX2x1_Br.v"/>
+      <outfile xil_pn:name="Program_Counter.v"/>
+      <outfile xil_pn:name="Register_File_main.v"/>
+      <outfile xil_pn:name="cpu_main.v"/>
+      <outfile xil_pn:name="system_cpu_master.v"/>
+      <outfile xil_pn:name="system_cpu_master_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1672256774" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1907074054687193319" xil_pn:start_ts="1672256772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -183,7 +183,7 @@
       <outfile xil_pn:name="system_cpu_master_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1672217882" xil_pn:in_ck="290233229785618830" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8862210615678594838" xil_pn:start_ts="1672217882">
+    <transform xil_pn:end_ts="1672256774" xil_pn:in_ck="290233229785618830" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8862210615678594838" xil_pn:start_ts="1672256774">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
@@ -218,7 +218,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1672217874" xil_pn:in_ck="4780297105429248957" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8329337713833684617" xil_pn:start_ts="1672217863">
+    <transform xil_pn:end_ts="1672256753" xil_pn:in_ck="4780297105429248957" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8329337713833684617" xil_pn:start_ts="1672256743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
