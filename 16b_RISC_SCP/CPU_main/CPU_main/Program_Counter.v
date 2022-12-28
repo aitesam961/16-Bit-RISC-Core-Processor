@@ -32,4 +32,5 @@ module Program_Counter(
 		else begin
 			pc_out <= target;
 	 end
+	 
 endmodule

@@ -48,8 +48,7 @@ module system_cpu_master_tb;
 		rst = 1;
 		#100;
 		rst = 0;
-		#100;
-        
+      #100; 
 		// Add stimulus here
 
 	end

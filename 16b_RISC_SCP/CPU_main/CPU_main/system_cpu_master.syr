@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: system_cpu_master.prj
 
@@ -261,6 +261,11 @@ Unit <ALU_Main> synthesized.
 
 Synthesizing Unit <cpu_core>.
     Related source file is "cpu_main.v".
+    Found 16-bit register for signal <pc_next>.
+    Found 16-bit adder for signal <pc_next$add0000> created at line 57.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
 Unit <cpu_core> synthesized.
 
 
@@ -280,10 +285,10 @@ Macro Statistics
  64x16-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 1
- 16-bit adder                                          : 1
-# Registers                                            : 83
- 16-bit register                                       : 83
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 2
+# Registers                                            : 84
+ 16-bit register                                       : 84
 # Comparators                                          : 2
  16-bit comparator greater                             : 1
  16-bit comparator less                                : 1
@@ -300,16 +305,6 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:2677 - Node <pc_out_6> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_7> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_8> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_9> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_10> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_11> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_12> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_13> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_14> of sequential type is unconnected in block <pc>.
-WARNING:Xst:2677 - Node <pc_out_15> of sequential type is unconnected in block <pc>.
 
 Synthesizing (advanced) Unit <Instruction_memory>.
 INFO:Xst:3044 - The ROM <Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data_out>.
@@ -340,10 +335,10 @@ Macro Statistics
  16x15-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 1
- 16-bit adder                                          : 1
-# Registers                                            : 1312
- Flip-Flops                                            : 1312
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 2
+# Registers                                            : 1328
+ Flip-Flops                                            : 1328
 # Comparators                                          : 2
  16-bit comparator greater                             : 1
  16-bit comparator less                                : 1
@@ -381,6 +376,16 @@ WARNING:Xst:2677 - Node <core/pc/pc_out_12> of sequential type is unconnected in
 WARNING:Xst:2677 - Node <core/pc/pc_out_13> of sequential type is unconnected in block <system_cpu_master>.
 WARNING:Xst:2677 - Node <core/pc/pc_out_14> of sequential type is unconnected in block <system_cpu_master>.
 WARNING:Xst:2677 - Node <core/pc/pc_out_15> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_15> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_14> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_13> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_12> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_11> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_10> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_9> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_8> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_7> of sequential type is unconnected in block <system_cpu_master>.
+WARNING:Xst:2677 - Node <core/pc_next_6> of sequential type is unconnected in block <system_cpu_master>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -392,8 +397,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1302
- Flip-Flops                                            : 1302
+# Registers                                            : 1308
+ Flip-Flops                                            : 1308
 
 =========================================================================
 
@@ -422,8 +427,10 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1983
+# BELS                             : 2000
 #      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 5
 #      LUT2                        : 20
 #      LUT3                        : 909
 #      LUT3_D                      : 15
@@ -431,14 +438,15 @@ Cell Usage :
 #      LUT4                        : 203
 #      LUT4_D                      : 10
 #      LUT4_L                      : 20
-#      MUXCY                       : 47
+#      MUXCY                       : 52
 #      MUXF5                       : 416
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
 #      VCC                         : 1
-#      XORCY                       : 16
-# FlipFlops/Latches                : 1302
+#      XORCY                       : 22
+# FlipFlops/Latches                : 1308
+#      FD                          : 6
 #      FDC                         : 6
 #      FDCE                        : 512
 #      FDE                         : 784
@@ -458,9 +466,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1267  out of   4656    27%  
- Number of Slice Flip Flops:           1302  out of   9312    13%  
- Number of 4 input LUTs:               1181  out of   9312    12%  
+ Number of Slices:                     1270  out of   4656    27%  
+ Number of Slice Flip Flops:           1308  out of   9312    14%  
+ Number of 4 input LUTs:               1187  out of   9312    12%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -488,7 +496,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 1303  |
+clk                                | BUFGP                  | 1309  |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -515,7 +523,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 20.892ns (frequency: 47.866MHz)
-  Total number of paths / destination ports: 15982126 / 2604
+  Total number of paths / destination ports: 15982147 / 2610
 -------------------------------------------------------------------------
 Delay:               20.892ns (Levels of Logic = 14)
   Source:            flash/Mrom__varindex0000 (RAM)
@@ -592,12 +600,12 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.41 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.41 secs
  
 --> 
 
-Total memory usage is 249012 kilobytes
+Total memory usage is 249204 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   26 (   0 filtered)

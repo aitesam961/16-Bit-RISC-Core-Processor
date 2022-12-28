@@ -18,8 +18,8 @@ Starting static elaboration
 WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" Line 35: Size mismatch in connection of port <pc_in>. Formal port size is 6-bit while actual signal size is 16-bit.
 WARNING:HDLCompiler:189 - "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" Line 37: Size mismatch in connection of port <mem_address>. Formal port size is 6-bit while actual signal size is 16-bit.
 Completed static elaboration
-Fuse Memory Usage: 159576 KB
-Fuse CPU Usage: 233 ms
+Fuse Memory Usage: 159512 KB
+Fuse CPU Usage: 202 ms
 Compiling module Program_Counter
 Compiling module Register_File_main
 Compiling module Control_Unit
@@ -35,5 +35,5 @@ Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 11 Verilog Units
 Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.exe
-Fuse Memory Usage: 168124 KB
-Fuse CPU Usage: 358 ms
+Fuse Memory Usage: 167036 KB
+Fuse CPU Usage: 343 ms

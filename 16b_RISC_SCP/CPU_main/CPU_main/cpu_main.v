@@ -51,6 +51,11 @@ module cpu_core(
 	 wire [15:0] pc_target;
 	 Program_Counter pc(clk,	rst,		pc_target,		pc_out);
 	 
+	 // Program Counter adder
+	 reg [15:0] pc_next;
+	 always @(posedge clk)begin
+		pc_next <= pc_out + 16'h0001;
+	 end
 	 
 //	 
 //	 // Instruction memory
@@ -155,10 +160,14 @@ module cpu_core(
 	assign j_control = op_jump | op_jal;
 	
 	// Jump & JAL 
-	MUX2x1 mxj (pc_out, j_target, j_control, mxj_return);
+	MUX2x1 mxj (pc_next, j_target, j_control, mxj_return);
 	 
 	// Jump Register 
 	MUX2x1 mxpc (mxj_return,	jr_target,	op_jr,	pc_target);
+	
+	
+	
+	
 	
 	// Memory to Register Multiplexing
 	MUX2x1 mxm2r (alu_Out,	mem_Data_in,	m2r,	reg_write_Data);

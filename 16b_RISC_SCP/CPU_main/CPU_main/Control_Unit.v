@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Control_Unit(
+   module Control_Unit(
     input [3:0] opcode,
     output reg [2:0] alu_op,
     output reg reg_wr,
