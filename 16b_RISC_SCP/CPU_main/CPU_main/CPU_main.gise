@@ -134,6 +134,10 @@
     <transform xil_pn:end_ts="1672256772" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1672256772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU_Main.v"/>
       <outfile xil_pn:name="Control_Unit.v"/>
       <outfile xil_pn:name="Data_Memory_main.v"/>
@@ -161,6 +165,11 @@
     <transform xil_pn:end_ts="1672256772" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1672256772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU_Main.v"/>
       <outfile xil_pn:name="Control_Unit.v"/>
       <outfile xil_pn:name="Data_Memory_main.v"/>
@@ -176,6 +185,12 @@
     <transform xil_pn:end_ts="1672256774" xil_pn:in_ck="451539485121445197" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1907074054687193319" xil_pn:start_ts="1672256772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -186,6 +201,10 @@
     <transform xil_pn:end_ts="1672256774" xil_pn:in_ck="290233229785618830" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8862210615678594838" xil_pn:start_ts="1672256774">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="system_cpu_master_tb_isim_beh.wdb"/>
@@ -222,7 +241,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU_Main.ngr"/>
       <outfile xil_pn:name="Instruction_memory.ngr"/>
