@@ -23,8 +23,8 @@ module system_cpu_master(
     input rst,
 	 output [15:0] data_mem_to_cpu
     );
-	 
-	 wire [15:0] instr_mem_to_cpu, pc_cpu_to_mem, addr_cpu_to_mem,	data_cpu_to_mem;
+	 wire [5:0] pc_cpu_to_mem, addr_cpu_to_mem;
+	 wire [15:0] instr_mem_to_cpu, 	data_cpu_to_mem;
 	 wire mem_wr_en, mem_rd_en;
 	 
 	 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="system_cpu_master_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/system_cpu_master_tb/data_mem_to_cpu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_to_cpu[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_to_cpu[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/pc/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/pc/target" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">target[5:0]</obj_property>
+      <obj_property name="ObjectShortName">target[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/flash/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_add_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_add_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_add_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_data_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_add_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_add_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_add_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_data_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/wr_reg_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_reg_add[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_reg_add[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/wr_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/alu/d_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/ram/mem_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_address[5:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_address[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/ram/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/ram/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+</wave_config>

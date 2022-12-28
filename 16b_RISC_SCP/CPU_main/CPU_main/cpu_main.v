@@ -29,7 +29,7 @@ module cpu_core(
     input rst,
  
 //	 Instruction Memory
-	 output [15:0] pc_out,
+	 output [5:0] pc_out,
 	 input [15:0] instr_out,
 	 
 	 
@@ -38,7 +38,7 @@ module cpu_core(
 	 output mem_wr,
 	 output mem_rd,
 	 output [15:0] reg_Data_2,
-	 output [15:0] alu_Out 
+	 output [5:0] data_mem_address
 	 
 	 
     );
@@ -50,13 +50,13 @@ module cpu_core(
 	 // Program Counter
 	 wire [15:0] pc_target;
 	 Program_Counter pc(clk,	rst,		pc_target,		pc_out);
-	 
-	 // Program Counter adder
-	 reg [15:0] pc_next;
+	
+	 // Program Counter Adder
+	 reg [5:0] pc_next;
 	 always @(posedge clk)begin
-		pc_next <= pc_out + 16'h0001;
+		pc_next <= pc_out + 1;
 	 end
-	 
+
 //	 
 //	 // Instruction memory
 //	 wire [15:0] instr_out;
@@ -115,7 +115,7 @@ module cpu_core(
 	 wire z_flag, agb, bga;
 	 reg [15:0] imm_offset_se;
 	 // Immediate Offset Sign Extender
-	 reg [15:0] j_target;
+	 
 	 always @ (imm_offset) begin
 		if(imm_offset[3] == 0) begin
 			imm_offset_se <= {12'b000000000000,imm_offset};		// Stuff 0 is MSB is zero
@@ -124,8 +124,8 @@ module cpu_core(
 				imm_offset_se <= {12'b111111111111,imm_offset};	// Stuff 1 is MSB is one
 			end
 	end
-	
-	
+	 wire [15:0] alu_Out;
+	 assign data_mem_address = alu_Out[5:0];
 	 wire [15:0] alu_src_2;
 	 MUX2x1 mxalusrc (reg_Data_2,	imm_offset_se,	alu_src,	alu_src_2);
 	 ALU_Main alu ( reg_Data_1,	alu_src_2,		alu_op,	z_flag,	alu_Out,		agb,	bga);
@@ -143,7 +143,7 @@ module cpu_core(
 	 
 	 
 //======================(Purpose Built Combinational Logic)====================================
-	 
+	 /*
 	 // Jump Instruction Combinational Block
 	 always @ (j_offset) begin
 		if(j_offset[11] == 0) begin
@@ -153,17 +153,20 @@ module cpu_core(
 				j_target <= {4'b1111,j_offset};	// Stuff 1 is MSB is one
 			end
 	end
+	*/
 	// Jump Target Multiplexer
-	wire [15:0] jr_target, mxj_return;
-	assign jr_target = reg_Data_1; // JR Rs
+	wire [5:0] jr_target, mxj_return;
+	assign jr_target = reg_Data_1[5:0]; // JR Rs
 	wire j_control;
 	assign j_control = op_jump | op_jal;
+	wire [5:0] j_target;
+	assign j_target = j_offset[5:0];
 	
-	// Jump & JAL 
-	MUX2x1 mxj (pc_next, j_target, j_control, mxj_return);
+	// Jump & JAL  
+	MUX2x1_Br mx_j_pc (pc_next, j_target, j_control, mxj_return);
 	 
 	// Jump Register 
-	MUX2x1 mxpc (mxj_return,	jr_target,	op_jr,	pc_target);
+	MUX2x1_Br mx_jr (mxj_return,	jr_target,	op_jr,	pc_target);
 	
 	
 	

@@ -2,8 +2,8 @@ ISim log file
 Running: C:\Users\aites\Documents\Github\16-Bit-RISC-Core-Procesor\16b_RISC_SCP\CPU_main\CPU_main\system_cpu_master_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 This is a Full version of ISim.
-WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" Line 27.  For instance uut/flash/, width 6 of formal port pc_in is not equal to width 16 of actual signal pc_cpu_to_mem.
-WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" Line 27.  For instance uut/ram/, width 6 of formal port mem_address is not equal to width 16 of actual signal addr_cpu_to_mem.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 51.  For instance core/pc/, width 6 of formal port target is not equal to width 16 of actual signal pc_target.
+WARNING: File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 51.  For instance core/mx_jr/, width 6 of formal port out is not equal to width 16 of actual signal pc_target.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
@@ -11,4 +11,20 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # run all
-Stopped at time : 89170175 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb.v" Line 43
+Stopped at time : 14342775 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1_Br.v" Line 28
+# run all
+Stopped at time : 23248675 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1_Br.v" Line 28
+# run all
+Stopped at time : 53336775 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1.v" Line 28
+# run all
+Stopped at time : 73609775 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Program_Counter.v" Line 28
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 21051175 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1.v" Line 28
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 203864700 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb.v" Line 43

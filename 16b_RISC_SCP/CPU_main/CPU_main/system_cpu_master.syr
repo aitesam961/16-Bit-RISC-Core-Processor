@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: system_cpu_master.prj
 
@@ -107,8 +107,10 @@ Slice Utilization Ratio Delta      : 5
 Compiling verilog file "Register_File_main.v" in library work
 Compiling verilog file "Program_Counter.v" in library work
 Module <Register_File_main> compiled
-Compiling verilog file "MUX2x1.v" in library work
+Compiling verilog file "MUX2x1_Br.v" in library work
 Module <Program_Counter> compiled
+Compiling verilog file "MUX2x1.v" in library work
+Module <MUX2x1_Br> compiled
 Compiling verilog file "Control_Unit.v" in library work
 Module <MUX2x1> compiled
 Compiling verilog file "ALU_Main.v" in library work
@@ -147,6 +149,8 @@ Analyzing hierarchy for module <MUX2x1> in library <work>.
 
 Analyzing hierarchy for module <ALU_Main> in library <work>.
 
+Analyzing hierarchy for module <MUX2x1_Br> in library <work>.
+
 
 =========================================================================
 *                            HDL Analysis                               *
@@ -171,6 +175,9 @@ Module <MUX2x1> is correct for synthesis.
  
 Analyzing module <ALU_Main> in library <work>.
 Module <ALU_Main> is correct for synthesis.
+ 
+Analyzing module <MUX2x1_Br> in library <work>.
+Module <MUX2x1_Br> is correct for synthesis.
  
 Analyzing module <Instruction_memory> in library <work>.
 INFO:Xst:2546 - "Instruction_memory.v" line 19: reading initialization file "instruction_memory.txt".
@@ -210,9 +217,9 @@ Unit <Data_Memory_main> synthesized.
 
 Synthesizing Unit <Program_Counter>.
     Related source file is "Program_Counter.v".
-    Found 16-bit register for signal <pc_out>.
+    Found 6-bit register for signal <pc_out>.
     Summary:
-	inferred  16 D-type flip-flop(s).
+	inferred   6 D-type flip-flop(s).
 Unit <Program_Counter> synthesized.
 
 
@@ -259,20 +266,25 @@ WARNING:Xst:643 - "ALU_Main.v" line 66: The result of a 16x16-bit multiplication
 Unit <ALU_Main> synthesized.
 
 
+Synthesizing Unit <MUX2x1_Br>.
+    Related source file is "MUX2x1_Br.v".
+Unit <MUX2x1_Br> synthesized.
+
+
 Synthesizing Unit <cpu_core>.
     Related source file is "cpu_main.v".
-    Found 16-bit register for signal <pc_next>.
-    Found 16-bit adder for signal <pc_next$add0000> created at line 57.
+WARNING:Xst:646 - Signal <pc_target<15:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <j_offset<11:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 6-bit register for signal <pc_next>.
+    Found 6-bit adder for signal <pc_next$add0000> created at line 57.
     Summary:
-	inferred  16 D-type flip-flop(s).
+	inferred   6 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
 Unit <cpu_core> synthesized.
 
 
 Synthesizing Unit <system_cpu_master>.
     Related source file is "system_cpu_master.v".
-WARNING:Xst:646 - Signal <pc_cpu_to_mem<15:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <addr_cpu_to_mem<15:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <system_cpu_master> synthesized.
 
 
@@ -286,9 +298,11 @@ Macro Statistics
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
 # Adders/Subtractors                                   : 2
- 16-bit adder                                          : 2
+ 16-bit adder                                          : 1
+ 6-bit adder                                           : 1
 # Registers                                            : 84
- 16-bit register                                       : 84
+ 16-bit register                                       : 82
+ 6-bit register                                        : 2
 # Comparators                                          : 2
  16-bit comparator greater                             : 1
  16-bit comparator less                                : 1
@@ -336,9 +350,10 @@ Macro Statistics
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
 # Adders/Subtractors                                   : 2
- 16-bit adder                                          : 2
-# Registers                                            : 1328
- Flip-Flops                                            : 1328
+ 16-bit adder                                          : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 1308
+ Flip-Flops                                            : 1308
 # Comparators                                          : 2
  16-bit comparator greater                             : 1
  16-bit comparator less                                : 1
@@ -359,33 +374,11 @@ Optimizing unit <system_cpu_master> ...
 
 Optimizing unit <Data_Memory_main> ...
 
-Optimizing unit <Program_Counter> ...
-
 Optimizing unit <Register_File_main> ...
 
 Optimizing unit <ALU_Main> ...
 
 Optimizing unit <cpu_core> ...
-WARNING:Xst:2677 - Node <core/pc/pc_out_6> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_7> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_8> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_9> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_10> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_11> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_12> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_13> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_14> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc/pc_out_15> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_15> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_14> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_13> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_12> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_11> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_10> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_9> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_8> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_7> of sequential type is unconnected in block <system_cpu_master>.
-WARNING:Xst:2677 - Node <core/pc_next_6> of sequential type is unconnected in block <system_cpu_master>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -427,29 +420,28 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 2000
+# BELS                             : 1980
 #      GND                         : 1
-#      INV                         : 1
-#      LUT1                        : 5
-#      LUT2                        : 20
-#      LUT3                        : 909
-#      LUT3_D                      : 15
-#      LUT3_L                      : 4
-#      LUT4                        : 203
-#      LUT4_D                      : 10
-#      LUT4_L                      : 20
-#      MUXCY                       : 52
-#      MUXF5                       : 416
+#      LUT2                        : 28
+#      LUT3                        : 892
+#      LUT3_D                      : 18
+#      LUT3_L                      : 5
+#      LUT4                        : 207
+#      LUT4_D                      : 12
+#      LUT4_L                      : 18
+#      MUXCY                       : 47
+#      MUXF5                       : 414
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
 #      VCC                         : 1
-#      XORCY                       : 22
+#      XORCY                       : 16
 # FlipFlops/Latches                : 1308
-#      FD                          : 6
+#      FD                          : 5
 #      FDC                         : 6
 #      FDCE                        : 512
 #      FDE                         : 784
+#      FDR                         : 1
 # RAMS                             : 1
 #      RAMB16_S18                  : 1
 # Clock Buffers                    : 1
@@ -466,9 +458,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1270  out of   4656    27%  
+ Number of Slices:                     1271  out of   4656    27%  
  Number of Slice Flip Flops:           1308  out of   9312    14%  
- Number of 4 input LUTs:               1187  out of   9312    12%  
+ Number of 4 input LUTs:               1180  out of   9312    12%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -511,8 +503,8 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 20.892ns (Maximum Frequency: 47.866MHz)
-   Minimum input arrival time before clock: 8.252ns
+   Minimum period: 20.584ns (Maximum Frequency: 48.581MHz)
+   Minimum input arrival time before clock: 9.245ns
    Maximum output required time after clock: 4.310ns
    Maximum combinational path delay: No path found
 
@@ -522,44 +514,41 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 20.892ns (frequency: 47.866MHz)
-  Total number of paths / destination ports: 15982147 / 2610
+  Clock period: 20.584ns (frequency: 48.581MHz)
+  Total number of paths / destination ports: 15946531 / 2610
 -------------------------------------------------------------------------
-Delay:               20.892ns (Levels of Logic = 14)
+Delay:               20.584ns (Levels of Logic = 11)
   Source:            flash/Mrom__varindex0000 (RAM)
-  Destination:       ram/data_out_15 (FF)
+  Destination:       ram/mem_63_15 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: flash/Mrom__varindex0000 to ram/data_out_15
+  Data Path: flash/Mrom__varindex0000 to ram/mem_63_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      RAMB16_S18:CLK->DO4  132   2.800   1.329  flash/Mrom__varindex0000 (instr_mem_to_cpu<4>)
-     LUT3:I2->O            1   0.704   0.000  core/reg_file/mux16_8 (core/reg_file/mux16_8)
-     MUXF5:I0->O           1   0.321   0.000  core/reg_file/mux16_6_f5 (core/reg_file/mux16_6_f5)
-     MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux16_4_f6 (core/reg_file/mux16_4_f6)
-     MUXF7:I0->O          65   0.521   1.308  core/reg_file/mux16_2_f7 (data_cpu_to_mem<0>)
-     LUT3:I2->O           30   0.704   1.262  core/mxalusrc/out<0>1 (core/alu_src_2<0>)
-     MULT18X18SIO:B0->P1    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<1>)
-     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<1>_7 (core/alu/Mmux_d_out<1>_7)
-     MUXF5:I0->O           1   0.321   0.424  core/alu/Mmux_d_out<1>_5_f5 (core/alu/Mmux_d_out<1>_5_f5)
-     LUT4:I3->O          293   0.704   1.345  core/alu/alu_op<2>1439 (addr_cpu_to_mem<1>)
-     MUXF5:S->O            1   0.739   0.000  ram/Mmux__COND_3_8_f5 (ram/Mmux__COND_3_8_f5)
-     MUXF6:I1->O           1   0.521   0.000  ram/Mmux__COND_3_7_f6 (ram/Mmux__COND_3_7_f6)
-     MUXF7:I1->O           1   0.521   0.000  ram/Mmux__COND_3_6_f7 (ram/Mmux__COND_3_6_f7)
-     MUXF8:I1->O           1   0.521   0.499  ram/Mmux__COND_3_5_f8 (ram/Mmux__COND_3_5_f8)
-     LUT3:I1->O            1   0.704   0.000  ram/mem_address<5>1 (ram/_COND_3<0>)
-     FDE:D                     0.308          ram/data_out_0
+     LUT3:I2->O            1   0.704   0.000  core/reg_file/mux24_8 (core/reg_file/mux24_8)
+     MUXF5:I0->O           1   0.321   0.000  core/reg_file/mux24_6_f5 (core/reg_file/mux24_6_f5)
+     MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux24_4_f6 (core/reg_file/mux24_4_f6)
+     MUXF7:I0->O          68   0.521   1.309  core/reg_file/mux24_2_f7 (data_cpu_to_mem<2>)
+     LUT3:I2->O           16   0.704   1.034  core/mxalusrc/out<2>1 (core/alu_src_2<2>)
+     MULT18X18SIO:B2->P3    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<3>)
+     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<3>_7 (core/alu/Mmux_d_out<3>_7)
+     MUXF5:I0->O           1   0.321   0.424  core/alu/Mmux_d_out<3>_5_f5 (core/alu/Mmux_d_out<3>_5_f5)
+     LUT4:I3->O          101   0.704   1.319  core/alu/alu_op<2>1239 (addr_cpu_to_mem<3>)
+     LUT3:I2->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N46)
+     LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
+     FDE:CE                    0.555          ram/mem_45_0
     ----------------------------------------
-    Total                     20.892ns (14.271ns logic, 6.621ns route)
-                                       (68.3% logic, 31.7% route)
+    Total                     20.584ns (12.920ns logic, 7.664ns route)
+                                       (62.8% logic, 37.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 1296 / 784
 -------------------------------------------------------------------------
-Offset:              8.252ns (Levels of Logic = 5)
+Offset:              9.245ns (Levels of Logic = 5)
   Source:            rst (PAD)
   Destination:       ram/mem_63_15 (FF)
   Destination Clock: clk rising
@@ -568,15 +557,15 @@ Offset:              8.252ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           522   1.218   1.585  rst_IBUF (rst_IBUF)
-     LUT4:I0->O            1   0.704   0.000  ram/mem_32_and000071_G (N161)
-     MUXF5:I1->O           4   0.321   0.666  ram/mem_32_and000071 (ram/mem_32_and0000_bdd8)
+     IBUF:I->O           521   1.218   1.585  rst_IBUF (rst_IBUF)
+     LUT2:I0->O            3   0.704   0.610  ram/mem_16_and000081_SW0 (N39)
+     LUT4:I1->O            4   0.704   0.666  ram/mem_32_and000071 (ram/mem_32_and0000_bdd8)
      LUT3:I1->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N46)
      LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
      FDE:CE                    0.555          ram/mem_45_0
     ----------------------------------------
-    Total                      8.252ns (4.206ns logic, 4.046ns route)
-                                       (51.0% logic, 49.0% route)
+    Total                      9.245ns (4.589ns logic, 4.656ns route)
+                                       (49.6% logic, 50.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -601,13 +590,13 @@ Offset:              4.310ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.41 secs
+Total CPU time to Xst completion: 9.11 secs
  
 --> 
 
-Total memory usage is 249204 kilobytes
+Total memory usage is 249012 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   26 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
 Number of infos    :    5 (   0 filtered)
 

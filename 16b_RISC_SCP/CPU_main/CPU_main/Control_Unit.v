@@ -199,7 +199,7 @@
 				
 			4'b1010 :   begin //Jump Instruction
 				alu_op		<= 3'b111;
-				reg_wr 		<= 1'b1 ;	
+				reg_wr 		<= 1'b0 ;	
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b1 ;	
@@ -232,10 +232,10 @@
 			4'b1100 :	begin //Load Word (memory)
 				alu_op		<= 3'b000;
 				reg_wr 		<= 1'b1 ;	
-				reg_dst 		<= 1'b1 ;	
-				alu_src 		<= 1'b1 ;	
+				reg_dst 		<= 1'b0 ;	
+				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b1 ;	
+				jal	 		<= 1'b0 ;	
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -249,14 +249,14 @@
 				alu_op		<= 3'b000;
 				reg_wr 		<= 1'b0 ;	
 				reg_dst 		<= 1'b0 ;	
-				alu_src 		<= 1'b1 ;	
+				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b1 ;
+				jal	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
 				li 			<= 1'b0 ;
-				mem_rd 		<= 1'b1 ;	
+				mem_rd 		<= 1'b0 ;	
 				mem_wr 		<= 1'b1 ;	
 				mem_to_reg 	<= 1'b0 ;	
 				end
@@ -265,7 +265,7 @@
 				alu_op		<= 3'b001;
 				reg_wr 		<= 1'b1 ;	
 				reg_dst 		<= 1'b0 ;	
-				alu_src 		<= 1'b0 ;	
+				alu_src 		<= 1'b1 ;	
 				jump	 		<= 1'b0 ;	
 				jal	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
@@ -294,7 +294,7 @@
 				end
 				
 			default :   begin// Default State (sys_reset)
-				alu_op		<= 3'b000;	
+				alu_op		<= 3'b111;	
 				reg_wr 		<= 1'b0 ;	
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	

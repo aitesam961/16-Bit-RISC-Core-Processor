@@ -21,8 +21,8 @@
 module Program_Counter(
     input clk,
 	 input rst,
-	 input [15:0] target,
-    output reg [15:0] pc_out
+	 input [5:0] target,
+    output reg [5:0] pc_out
     );
 	 	
 	 always @(posedge clk or posedge rst)
