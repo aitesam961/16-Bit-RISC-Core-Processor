@@ -38,6 +38,6 @@
 |   1010	  |   T3      | Temporary/General   |	
 |   1011	  |   T4      | Temporary/General   |
 |   1100	  |   T5      | Temporary/General   |	
-|   1101	  |   T6      | Temporary/General   |
+|   1101	  |   JEQ     |  JEQ Rs Default     |
 |   1110	  |   RA      | Return Address      |
 |   1111	  |  ZERO     | ZERO (Also BA)      |
