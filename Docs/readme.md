@@ -12,6 +12,6 @@
 |   1010	  |   JUMP    | 	JUMP	-12'offset- |	/ only 5'b usable (64bit IM)
 |   1011	  |   JR      | 	JR	RS	xx	xx    |
 |   1100	  |   LW      | 	LW	RD	RS(addr)xx|	
-|   1101	  |   SW      | 	SW	xx	RS(addr)RT(Data)
-|   1110	  |   Li      | 	Li	RD	--8'Offset--
-|   1111	  |   SUB     | 	SUB RD RS	RT
+|   1101	  |   SW      | 	SW	xx	RS(addr)RT(Data)|
+|   1110	  |   Li      | 	Li	RD	--8'Offset--|
+|   1111	  |   SUB     | 	SUB RD RS	RT      |
