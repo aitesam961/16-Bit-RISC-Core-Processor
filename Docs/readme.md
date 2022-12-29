@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 ## Instruction Set
 
 |   0000    |   NOP     |       SYNTAX        |
@@ -6,7 +6,7 @@
 |   0001	  |   ADD     |   ADD RD RS	RT      |
 |   0010	  |   ADDi    | ADDi RD RS Offset   |
 |   0011	  |   MUL     | MUL	RD	RS	RT      |
-|   0100	  |   AND     |  ND	RD	RS	RT      |
+|   0100	  |   AND     |  AND	RD	RS	RT    |
 |   0101	  |   OR      |  OR	RD	RS	RT      |
 |   0110	  |   DIV     | DIV	RD	RS	xx	    | / RT is constant
 |   0111	  |   JAL     | JAL	J_reg	-8'offset-|	
