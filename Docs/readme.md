@@ -1,12 +1,13 @@
-<<<<<<< Updated upstream
+
 ## Instruction Set
 
-|   0000    |   NOP     |       SYNTAX        |
+|   OPCIDE  |INSTRUCTION|       SYNTAX        |
 |:----------|:----------|:--------------------|
+|   0000    |   NOP     |       NO OPR        |
 |   0001	  |   ADD     |   ADD RD RS	RT      |
 |   0010	  |   ADDi    | ADDi RD RS Offset   |
 |   0011	  |   MUL     | MUL	RD	RS	RT      |
-|   0100	  |   AND     |  ND	RD	RS	RT      |
+|   0100	  |   AND     |  AND	RD	RS	RT    |
 |   0101	  |   OR      |  OR	RD	RS	RT      |
 |   0110	  |   DIV     | DIV	RD	RS	xx	    | / RT is constant
 |   0111	  |   JAL     | JAL	J_reg	-8'offset-|	
@@ -15,7 +16,7 @@
 |   1010	  |   JUMP    | 	JUMP	-12'offset- |	/ only 5'b usable (64bit IM)
 |   1011	  |   JR      | 	JR	RS	xx	xx    |
 |   1100	  |   LW      | 	LW	RD	RS(BA)off |	
-|   1101	  |   SW      | 	SW	xx	RS(BA)RT(Data)|
+|   1101	  |   SW      | 	SW	OFFs	RS(BA)RT(Data)|
 |   1110	  |   Li      | 	Li	RD	--8'Offset--|
 |   1111	  |   SUB     | 	SUB RD RS	RT      |
 
