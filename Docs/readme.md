@@ -1,3 +1,5 @@
+## Instruction Set
+
 |   0000    |   NOP     |       SYNTAX        |
 |:----------|:----------|:--------------------|
 |   0001	  |   ADD     |   ADD RD RS	RT      |
@@ -15,3 +17,25 @@
 |   1101	  |   SW      | 	SW	xx	RS(BA)RT(Data)|
 |   1110	  |   Li      | 	Li	RD	--8'Offset--|
 |   1111	  |   SUB     | 	SUB RD RS	RT      |
+
+
+## Register Mapping
+
+
+|   0000    |   R1      |       PURPOSE        |
+|:----------|:----------|:--------------------|
+|   0001	  |   R2      |   General           |
+|   0010	  |   R3      |   General           |
+|   0011	  |   R4      |   General           |
+|   0100	  |   R5      |   General           |
+|   0101	  |   R6      |   General           |
+|   0110	  |   R7      |   General           | 
+|   0111	  |   R8      |   General           |	
+|   1000	  |   T1      | Temporary/General   |	
+|   1001	  |   T2      | Temporary/General   |		
+|   1010	  |   T3      | Temporary/General   |	
+|   1011	  |   T4      | Temporary/General   |
+|   1100	  |   T5      | Temporary/General   |	
+|   1101	  |   T6      | Temporary/General   |
+|   1110	  |   RA      | Return Address      |
+|   1111	  |  ZERO     | ZERO (Also BA)      |
