@@ -8,10 +8,8 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# run all
-Stopped at time : 3849260 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1.v" Line 28
 # restart
 # run all
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 7387820 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" Line 81
+Stopped at time : 4440500 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1.v" Line 28

@@ -1,4 +1,4 @@
-Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_beh.prj work.system_cpu_master_tb work.glbl 
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_beh.prj system_cpu_master_tb work.glbl 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -17,8 +17,8 @@ Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Proceso
 Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 159448 KB
-Fuse CPU Usage: 203 ms
+Fuse Memory Usage: 159256 KB
+Fuse CPU Usage: 406 ms
 Compiling module Program_Counter
 Compiling module Register_File_main
 Compiling module Control_Unit
@@ -35,5 +35,5 @@ Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 12 Verilog Units
 Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.exe
-Fuse Memory Usage: 167996 KB
-Fuse CPU Usage: 327 ms
+Fuse Memory Usage: 166780 KB
+Fuse CPU Usage: 639 ms

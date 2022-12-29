@@ -27,17 +27,12 @@ module Data_Memory_main(
 			input [5:0]  mem_address,		
 			output reg [15:0] data_out
     );	
-			integer i;
 			reg [15:0] mem [63:0];
 			always @(posedge clk or posedge rst)begin
 				if(rst)begin
 				
-				for (i = 0; i<=15; i = i+1) begin
-					mem[i] <=0;
-				end
-				end
-				
-				/*
+					
+	
 					mem[0]  <=  16'h0000;
 					mem[1]  <=  16'h0000;
 					mem[2]  <=  16'h0000;
@@ -56,7 +51,6 @@ module Data_Memory_main(
 					mem[15] <=  16'h0000;
 				
 				end
-				*/
 				else 
 					if (wr_en) begin
 					mem[mem_address] <= data_in;

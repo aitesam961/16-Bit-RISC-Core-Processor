@@ -13,4 +13,4 @@
 1100	LW	// LW	RD	RS(addr)xx	
 1101	SW	// SW	xx	RS(addr)RT(Data)
 1110	Li	// Li	RD	--8'Offset--
-1111	SGT	//---------purposeless..Looking for replacement--maybe shift
+1111	SUB	// SUB RD RS RT

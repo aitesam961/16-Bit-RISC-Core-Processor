@@ -233,7 +233,7 @@
 				alu_op		<= 3'b000;
 				reg_wr 		<= 1'b1 ;	
 				reg_dst 		<= 1'b0 ;	
-				alu_src 		<= 1'b0 ;	
+				alu_src 		<= 1'b1 ;	
 				jump	 		<= 1'b0 ;	
 				jal	 		<= 1'b0 ;	
 				jr		 		<= 1'b0 ;
@@ -249,7 +249,7 @@
 				alu_op		<= 3'b000;
 				reg_wr 		<= 1'b0 ;	
 				reg_dst 		<= 1'b0 ;	
-				alu_src 		<= 1'b0 ;	
+				alu_src 		<= 1'b1 ;	
 				jump	 		<= 1'b0 ;	
 				jal	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
@@ -277,8 +277,8 @@
 				mem_to_reg 	<= 1'b0 ;	
 				end
 				
-			4'b1111 :	begin //Set on GREATER THAN
-				alu_op		<= 3'b111;
+			4'b1111 :	begin //SUB operation
+				alu_op		<= 3'b110;
 				reg_wr 		<= 1'b1 ;	
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	

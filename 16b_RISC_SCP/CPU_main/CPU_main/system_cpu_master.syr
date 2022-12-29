@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: system_cpu_master.prj
 
@@ -192,7 +192,6 @@ Module <Data_Memory_main> is correct for synthesis.
 =========================================================================
 
 Performing bidirectional port resolution...
-INFO:Xst:2679 - Register <i> in unit <Data_Memory_main> has a constant value of 10000 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <Instruction_memory>.
     Related source file is "Instruction_memory.v".
@@ -251,19 +250,18 @@ Unit <MUX2x1> synthesized.
 
 Synthesizing Unit <ALU_Main>.
     Related source file is "ALU_Main.v".
-WARNING:Xst:643 - "ALU_Main.v" line 66: The result of a 16x16-bit multiplication is partially used. Only the 16 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "ALU_Main.v" line 67: The result of a 16x16-bit multiplication is partially used. Only the 16 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
     Found 16-bit 8-to-1 multiplexer for signal <d_out>.
     Found 16-bit adder for signal <d_out1>.
-    Found 16x16-bit multiplier for signal <d_out2$mult0001> created at line 66.
+    Found 16x16-bit multiplier for signal <d_out2$mult0001> created at line 67.
     Found 16-bit comparator greater for signal <d_out6>.
     Found 16-bit comparator less for signal <d_out7>.
-    Found 16-bit shifter logical left for signal <d_out8$shift0000>.
+    Found 16-bit subtractor for signal <d_out8>.
     Summary:
-	inferred   1 Adder/Subtractor(s).
+	inferred   2 Adder/Subtractor(s).
 	inferred   1 Multiplier(s).
 	inferred   2 Comparator(s).
 	inferred  16 Multiplexer(s).
-	inferred   1 Combinational logic shifter(s).
 Unit <ALU_Main> synthesized.
 
 
@@ -294,8 +292,9 @@ Macro Statistics
  64x16-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 2
+# Adders/Subtractors                                   : 3
  16-bit adder                                          : 1
+ 16-bit subtractor                                     : 1
  6-bit adder                                           : 1
 # Registers                                            : 83
  16-bit register                                       : 82
@@ -307,8 +306,6 @@ Macro Statistics
  1-bit 8-to-1 multiplexer                              : 16
  16-bit 16-to-1 multiplexer                            : 2
  16-bit 64-to-1 multiplexer                            : 1
-# Logic shifters                                       : 1
- 16-bit shifter logical left                           : 1
 
 =========================================================================
 
@@ -346,8 +343,9 @@ Macro Statistics
  16x15-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 2
+# Adders/Subtractors                                   : 3
  16-bit adder                                          : 1
+ 16-bit subtractor                                     : 1
  6-bit adder                                           : 1
 # Registers                                            : 1302
  Flip-Flops                                            : 1302
@@ -358,8 +356,6 @@ Macro Statistics
  1-bit 16-to-1 multiplexer                             : 32
  1-bit 8-to-1 multiplexer                              : 16
  16-bit 64-to-1 multiplexer                            : 1
-# Logic shifters                                       : 1
- 16-bit shifter logical left                           : 1
 
 =========================================================================
 
@@ -379,7 +375,7 @@ Optimizing unit <cpu_core> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block system_cpu_master, actual ratio is 27.
+Found area constraint ratio of 100 (+ 5) on block system_cpu_master, actual ratio is 26.
 
 Final Macro Processing ...
 
@@ -417,22 +413,22 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1973
+# BELS                             : 1968
 #      GND                         : 1
-#      LUT2                        : 25
-#      LUT3                        : 899
-#      LUT3_D                      : 16
-#      LUT3_L                      : 10
-#      LUT4                        : 197
-#      LUT4_D                      : 12
-#      LUT4_L                      : 13
-#      MUXCY                       : 47
-#      MUXF5                       : 415
+#      LUT2                        : 32
+#      LUT3                        : 892
+#      LUT3_D                      : 11
+#      LUT3_L                      : 1
+#      LUT4                        : 181
+#      LUT4_D                      : 13
+#      LUT4_L                      : 15
+#      MUXCY                       : 62
+#      MUXF5                       : 406
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
 #      VCC                         : 1
-#      XORCY                       : 16
+#      XORCY                       : 32
 # FlipFlops/Latches                : 1302
 #      FDC                         : 6
 #      FDCE                        : 512
@@ -453,9 +449,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1266  out of   4656    27%  
+ Number of Slices:                     1258  out of   4656    27%  
  Number of Slice Flip Flops:           1302  out of   9312    13%  
- Number of 4 input LUTs:               1172  out of   9312    12%  
+ Number of 4 input LUTs:               1145  out of   9312    12%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -498,8 +494,8 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 20.585ns (Maximum Frequency: 48.578MHz)
-   Minimum input arrival time before clock: 9.245ns
+   Minimum period: 20.496ns (Maximum Frequency: 48.789MHz)
+   Minimum input arrival time before clock: 8.344ns
    Maximum output required time after clock: 4.310ns
    Maximum combinational path delay: No path found
 
@@ -509,41 +505,44 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 20.585ns (frequency: 48.578MHz)
-  Total number of paths / destination ports: 15946131 / 2604
+  Clock period: 20.496ns (frequency: 48.789MHz)
+  Total number of paths / destination ports: 13840225 / 2604
 -------------------------------------------------------------------------
-Delay:               20.585ns (Levels of Logic = 11)
+Delay:               20.496ns (Levels of Logic = 14)
   Source:            flash/Mrom__varindex0000 (RAM)
-  Destination:       ram/mem_63_15 (FF)
+  Destination:       ram/data_out_15 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: flash/Mrom__varindex0000 to ram/mem_63_15
+  Data Path: flash/Mrom__varindex0000 to ram/data_out_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16_S18:CLK->DO0  135   2.800   1.330  flash/Mrom__varindex0000 (instr_mem_to_cpu<0>)
-     LUT3:I2->O            1   0.704   0.000  core/reg_file/mux24_8 (core/reg_file/mux24_8)
-     MUXF5:I0->O           1   0.321   0.000  core/reg_file/mux24_6_f5 (core/reg_file/mux24_6_f5)
-     MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux24_4_f6 (core/reg_file/mux24_4_f6)
-     MUXF7:I0->O          68   0.521   1.309  core/reg_file/mux24_2_f7 (data_cpu_to_mem<2>)
-     LUT3:I2->O           16   0.704   1.034  core/mxalusrc/out<2>1 (core/alu_src_2<2>)
-     MULT18X18SIO:B2->P3    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<3>)
-     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<3>_7 (core/alu/Mmux_d_out<3>_7)
-     MUXF5:I0->O           1   0.321   0.424  core/alu/Mmux_d_out<3>_5_f5 (core/alu/Mmux_d_out<3>_5_f5)
-     LUT4:I3->O          101   0.704   1.319  core/alu/alu_op<2>1239 (addr_cpu_to_mem<3>)
-     LUT3:I2->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N56)
-     LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
-     FDE:CE                    0.555          ram/mem_45_0
+     RAMB16_S18:CLK->DO0  133   2.800   1.329  flash/Mrom__varindex0000 (instr_mem_to_cpu<0>)
+     LUT3:I2->O            1   0.704   0.000  core/reg_file/mux16_8 (core/reg_file/mux16_8)
+     MUXF5:I0->O           1   0.321   0.000  core/reg_file/mux16_6_f5 (core/reg_file/mux16_6_f5)
+     MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux16_4_f6 (core/reg_file/mux16_4_f6)
+     MUXF7:I0->O          65   0.521   1.308  core/reg_file/mux16_2_f7 (data_cpu_to_mem<0>)
+     LUT3:I2->O            6   0.704   0.669  core/mxalusrc/out<0>1 (core/alu_src_2<0>)
+     MULT18X18SIO:B0->P1    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<1>)
+     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<1>_7 (core/alu/Mmux_d_out<1>_7)
+     MUXF5:I0->O           4   0.321   0.622  core/alu/Mmux_d_out<1>_5_f5 (core/alu/Mmux_d_out<1>_5_f5)
+     LUT3:I2->O          290   0.704   1.344  core/alu/alu_op<2>14 (addr_cpu_to_mem<1>)
+     MUXF5:S->O            1   0.739   0.000  ram/Mmux__COND_1_8_f5 (ram/Mmux__COND_1_8_f5)
+     MUXF6:I1->O           1   0.521   0.000  ram/Mmux__COND_1_7_f6 (ram/Mmux__COND_1_7_f6)
+     MUXF7:I1->O           1   0.521   0.000  ram/Mmux__COND_1_6_f7 (ram/Mmux__COND_1_6_f7)
+     MUXF8:I1->O           1   0.521   0.499  ram/Mmux__COND_1_5_f8 (ram/Mmux__COND_1_5_f8)
+     LUT3:I1->O            1   0.704   0.000  ram/mem_address<5>1 (ram/_COND_1<0>)
+     FDE:D                     0.308          ram/data_out_0
     ----------------------------------------
-    Total                     20.585ns (12.920ns logic, 7.665ns route)
-                                       (62.8% logic, 37.2% route)
+    Total                     20.496ns (14.271ns logic, 6.225ns route)
+                                       (69.6% logic, 30.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1296 / 784
+  Total number of paths / destination ports: 784 / 784
 -------------------------------------------------------------------------
-Offset:              9.245ns (Levels of Logic = 5)
+Offset:              8.344ns (Levels of Logic = 4)
   Source:            rst (PAD)
   Destination:       ram/mem_63_15 (FF)
   Destination Clock: clk rising
@@ -552,15 +551,14 @@ Offset:              9.245ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           521   1.218   1.585  rst_IBUF (rst_IBUF)
-     LUT2:I0->O            3   0.704   0.610  ram/mem_16_and000081_SW0 (N49)
-     LUT4:I1->O            4   0.704   0.666  ram/mem_32_and000071 (ram/mem_32_and0000_bdd8)
-     LUT3:I1->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N56)
-     LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
-     FDE:CE                    0.555          ram/mem_45_0
+     IBUF:I->O           522   1.218   1.585  rst_IBUF (rst_IBUF)
+     LUT2:I0->O            1   0.704   0.499  core/alu/alu_op<2>8_SW1 (N30)
+     LUT4_D:I1->O         31   0.704   1.341  ram/mem_32_and000071 (ram/mem_32_and0000_bdd8)
+     LUT4:I1->O           16   0.704   1.034  ram/mem_46_and000011 (ram/mem_46_and0000)
+     FDE:CE                    0.555          ram/mem_46_0
     ----------------------------------------
-    Total                      9.245ns (4.589ns logic, 4.656ns route)
-                                       (49.6% logic, 50.4% route)
+    Total                      8.344ns (3.885ns logic, 4.459ns route)
+                                       (46.6% logic, 53.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -584,14 +582,14 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.20 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.15 secs
  
 --> 
 
-Total memory usage is 248756 kilobytes
+Total memory usage is 248564 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)
-Number of infos    :    6 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
 

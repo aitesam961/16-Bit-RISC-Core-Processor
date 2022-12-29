@@ -34,6 +34,7 @@ module ALU_Main(
 			011 = or operation
 			100 = divide
 			101 = compare
+			110 = substract
 	 */
 	 
 	 wire [15:0] d_out1;
@@ -69,7 +70,7 @@ module ALU_Main(
 		assign d_out5 = d_in_1 / 2;
 		assign d_out6 = d_in_1 > d_in_2;
 		assign d_out7 = d_in_1 < d_in_2;
-		assign d_out8 = d_in_1 << d_in_2;
+		assign d_out8 = d_in_1 - d_in_2;
 		
 		always @(d_out6 or d_out7) begin 
 			if(d_out6 == 1)begin
