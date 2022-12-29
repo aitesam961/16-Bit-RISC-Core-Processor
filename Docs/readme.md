@@ -1,8 +1,9 @@
 
 ## Instruction Set
 
-|   0000    |   NOP     |       SYNTAX        |
+|   OPCIDE  |INSTRUCTION|       SYNTAX        |
 |:----------|:----------|:--------------------|
+|   0000    |   NOP     |       NO OPR        |
 |   0001	  |   ADD     |   ADD RD RS	RT      |
 |   0010	  |   ADDi    | ADDi RD RS Offset   |
 |   0011	  |   MUL     | MUL	RD	RS	RT      |
