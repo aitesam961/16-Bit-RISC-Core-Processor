@@ -48,14 +48,12 @@ module cpu_core(
 //=====================================STAGE-1 (IF)==========================================
 	 
 	 // Program Counter
-	 wire [15:0] pc_target;
+	 wire [5:0] pc_target;
 	 Program_Counter pc(clk,	rst,		pc_target,		pc_out);
 	
 	 // Program Counter Adder
-	 reg [5:0] pc_next;
-	 always @(posedge clk)begin
-		pc_next <= pc_out + 1;
-	 end
+	 wire  [5:0] pc_next;
+	 assign pc_next = pc_out + 1;
 
 //	 
 //	 // Instruction memory
@@ -71,7 +69,7 @@ module cpu_core(
 	 // Instruction Decode 
 	 wire [3:0] opcode,		reg_Rs,		reg_Rt,		reg_Rd;
 	 wire [15:0] imm_offset;
-	 wire [11:0] j_offset;
+	 wire [5:0] j_offset;
 	 wire [7:0] li_offset;
 	 
 	 
@@ -81,7 +79,7 @@ module cpu_core(
 	 assign reg_Rt 		=		instr_out	[3:0];
 	 assign imm_offset 	=		instr_out	[3:0]; 
 	 assign li_offset		=		instr_out	[7:0];
-	 assign j_offset 		=		instr_out	[12:0];
+	 assign j_offset 		=		instr_out	[5:0];
 
 	  
 	 

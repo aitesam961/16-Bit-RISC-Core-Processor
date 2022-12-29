@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Reading design: system_cpu_master.prj
 
@@ -192,6 +192,7 @@ Module <Data_Memory_main> is correct for synthesis.
 =========================================================================
 
 Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i> in unit <Data_Memory_main> has a constant value of 10000 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <Instruction_memory>.
     Related source file is "Instruction_memory.v".
@@ -273,12 +274,8 @@ Unit <MUX2x1_Br> synthesized.
 
 Synthesizing Unit <cpu_core>.
     Related source file is "cpu_main.v".
-WARNING:Xst:646 - Signal <pc_target<15:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <j_offset<11:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-    Found 6-bit register for signal <pc_next>.
-    Found 6-bit adder for signal <pc_next$add0000> created at line 57.
+    Found 6-bit adder for signal <pc_next>.
     Summary:
-	inferred   6 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
 Unit <cpu_core> synthesized.
 
@@ -300,9 +297,9 @@ Macro Statistics
 # Adders/Subtractors                                   : 2
  16-bit adder                                          : 1
  6-bit adder                                           : 1
-# Registers                                            : 84
+# Registers                                            : 83
  16-bit register                                       : 82
- 6-bit register                                        : 2
+ 6-bit register                                        : 1
 # Comparators                                          : 2
  16-bit comparator greater                             : 1
  16-bit comparator less                                : 1
@@ -352,8 +349,8 @@ Macro Statistics
 # Adders/Subtractors                                   : 2
  16-bit adder                                          : 1
  6-bit adder                                           : 1
-# Registers                                            : 1308
- Flip-Flops                                            : 1308
+# Registers                                            : 1302
+ Flip-Flops                                            : 1302
 # Comparators                                          : 2
  16-bit comparator greater                             : 1
  16-bit comparator less                                : 1
@@ -390,8 +387,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1308
- Flip-Flops                                            : 1308
+# Registers                                            : 1302
+ Flip-Flops                                            : 1302
 
 =========================================================================
 
@@ -420,28 +417,26 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1980
+# BELS                             : 1973
 #      GND                         : 1
-#      LUT2                        : 28
-#      LUT3                        : 892
-#      LUT3_D                      : 18
-#      LUT3_L                      : 5
-#      LUT4                        : 207
+#      LUT2                        : 25
+#      LUT3                        : 899
+#      LUT3_D                      : 16
+#      LUT3_L                      : 10
+#      LUT4                        : 197
 #      LUT4_D                      : 12
-#      LUT4_L                      : 18
+#      LUT4_L                      : 13
 #      MUXCY                       : 47
-#      MUXF5                       : 414
+#      MUXF5                       : 415
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
 #      VCC                         : 1
 #      XORCY                       : 16
-# FlipFlops/Latches                : 1308
-#      FD                          : 5
+# FlipFlops/Latches                : 1302
 #      FDC                         : 6
 #      FDCE                        : 512
 #      FDE                         : 784
-#      FDR                         : 1
 # RAMS                             : 1
 #      RAMB16_S18                  : 1
 # Clock Buffers                    : 1
@@ -458,9 +453,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1271  out of   4656    27%  
- Number of Slice Flip Flops:           1308  out of   9312    14%  
- Number of 4 input LUTs:               1180  out of   9312    12%  
+ Number of Slices:                     1266  out of   4656    27%  
+ Number of Slice Flip Flops:           1302  out of   9312    13%  
+ Number of 4 input LUTs:               1172  out of   9312    12%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -488,7 +483,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 1309  |
+clk                                | BUFGP                  | 1303  |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -515,7 +510,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 20.585ns (frequency: 48.578MHz)
-  Total number of paths / destination ports: 15946531 / 2610
+  Total number of paths / destination ports: 15946131 / 2604
 -------------------------------------------------------------------------
 Delay:               20.585ns (Levels of Logic = 11)
   Source:            flash/Mrom__varindex0000 (RAM)
@@ -537,7 +532,7 @@ Delay:               20.585ns (Levels of Logic = 11)
      LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<3>_7 (core/alu/Mmux_d_out<3>_7)
      MUXF5:I0->O           1   0.321   0.424  core/alu/Mmux_d_out<3>_5_f5 (core/alu/Mmux_d_out<3>_5_f5)
      LUT4:I3->O          101   0.704   1.319  core/alu/alu_op<2>1239 (addr_cpu_to_mem<3>)
-     LUT3:I2->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N46)
+     LUT3:I2->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N56)
      LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
      FDE:CE                    0.555          ram/mem_45_0
     ----------------------------------------
@@ -558,9 +553,9 @@ Offset:              9.245ns (Levels of Logic = 5)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O           521   1.218   1.585  rst_IBUF (rst_IBUF)
-     LUT2:I0->O            3   0.704   0.610  ram/mem_16_and000081_SW0 (N39)
+     LUT2:I0->O            3   0.704   0.610  ram/mem_16_and000081_SW0 (N49)
      LUT4:I1->O            4   0.704   0.666  ram/mem_32_and000071 (ram/mem_32_and0000_bdd8)
-     LUT3:I1->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N46)
+     LUT3:I1->O            8   0.704   0.761  ram/mem_32_and000051_SW0 (N56)
      LUT4:I3->O           16   0.704   1.034  ram/mem_45_and000011 (ram/mem_45_and0000)
      FDE:CE                    0.555          ram/mem_45_0
     ----------------------------------------
@@ -589,14 +584,14 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 8.06 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.20 secs
  
 --> 
 
-Total memory usage is 248628 kilobytes
+Total memory usage is 248756 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    6 (   0 filtered)
-Number of infos    :    5 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
 

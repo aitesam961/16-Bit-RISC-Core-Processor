@@ -1,14 +1,18 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Created By: Muhammad Aitesam
+// Electrical & Computer Engineering Dept.
+//	COMSATS University Islamabad, Wah Campus
 // 
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
+// Project: 16-Bit RISC Core Processor
+//	Depnedencies:
+// 	CPU Core
+//		Flash Memory
+//		Data Memory
+//  
+// Revision 0.1V
+//  
 //
 //////////////////////////////////////////////////////////////////////////////////
 module system_cpu_master(
