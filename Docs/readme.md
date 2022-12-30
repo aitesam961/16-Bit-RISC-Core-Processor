@@ -10,7 +10,7 @@
 |   0100	  |   AND     |  AND	RD	RS	RT    |
 |   0101	  |   OR      |  OR	RD	RS	RT      |
 |   0110	  |   DIV     | DIV	RD	RS	xx	    | / RT is constant
-|   0111	  |   JAL     | JAL	J_reg	-8'offset-|	
+|   0111	  |   JEQ     | JAL -8'offset- RT	  |		
 |   1000	  |   CMP     | 	CMP	RD	RS	RT    |	/ Fixed returns for 3 cases.. see more
 |   1001	  |   MOV     | 	MOV	RD	RS        |		/ RS is moved to RD
 |   1010	  |   JUMP    | 	JUMP	-12'offset- |	/ only 5'b usable (64bit IM)
