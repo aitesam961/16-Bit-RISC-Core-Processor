@@ -25,7 +25,7 @@
     output reg reg_dst,
     output reg alu_src,
     output reg jump,
-	 output reg jal,
+	 output reg jeq,
 	 output reg jr,
     output reg cmp,
 	 output reg mov,
@@ -43,7 +43,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -59,7 +59,7 @@
 				reg_dst 		<= 1'b1 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -75,7 +75,7 @@
 				reg_dst 		<= 1'b0 ;		
 				alu_src 		<= 1'b1 ;		
 				jump	 		<= 1'b0 ;		
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -91,7 +91,7 @@
 				reg_dst 		<= 1'b0 ;		
 				alu_src 		<= 1'b0 ;		
 				jump	 		<= 1'b0 ;		
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -107,7 +107,7 @@
 				reg_dst 		<= 1'b0 ;		
 				alu_src 		<= 1'b0 ;		
 				jump	 		<= 1'b0 ;		
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -123,7 +123,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -139,7 +139,7 @@
 				reg_dst 		<= 1'b0 ;		
 				alu_src 		<= 1'b0 ;		
 				jump	 		<= 1'b0 ;		
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -149,13 +149,13 @@
 				mem_to_reg 	<= 1'b0 ;		
 				end
 				
-			4'b0111 :   begin //JAL (Jump-and-Link) Instruction
+			4'b0111 :   begin //JEQ (Jump If Equal) Instruction
 				alu_op		<= 3'b111;
 				reg_wr 		<= 1'b0 ;	
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b1 ;
+				jeq	 		<= 1'b1 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -171,7 +171,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b1 ;	
 				mov 			<= 1'b0 ;
@@ -187,7 +187,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b1 ;
@@ -203,7 +203,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b1 ;	
-				jal	 		<= 1'b0 ;	
+				jeq	 		<= 1'b0 ;	
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;
 				mov 			<= 1'b0 ;
@@ -219,7 +219,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;	
+				jeq	 		<= 1'b0 ;	
 				jr		 		<= 1'b1 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -235,7 +235,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b1 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;	
+				jeq	 		<= 1'b0 ;	
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -251,7 +251,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b1 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -267,7 +267,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b1 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
@@ -283,7 +283,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b1 ;	
 				mov 			<= 1'b0 ;
@@ -299,7 +299,7 @@
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
-				jal	 		<= 1'b0 ;
+				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
 				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;

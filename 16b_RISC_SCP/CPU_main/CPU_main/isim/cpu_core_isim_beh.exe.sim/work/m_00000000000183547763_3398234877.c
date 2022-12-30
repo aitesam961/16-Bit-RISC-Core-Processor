@@ -1397,9 +1397,9 @@ LAB13:    xsi_set_current_line(200, ng0);
 }
 
 
-extern void work_m_00000000000420984426_3398234877_init()
+extern void work_m_00000000000183547763_3398234877_init()
 {
 	static char *pe[] = {(void *)Cont_56_0,(void *)Cont_76_1,(void *)Cont_77_2,(void *)Cont_78_3,(void *)Cont_79_4,(void *)Cont_80_5,(void *)Cont_81_6,(void *)Cont_82_7,(void *)Always_93_8,(void *)Always_117_9,(void *)Cont_126_10,(void *)Cont_157_11,(void *)Cont_159_12,(void *)Cont_161_13,(void *)Always_179_14,(void *)Always_198_15};
-	xsi_register_didat("work_m_00000000000420984426_3398234877", "isim/system_cpu_master_tb_isim_beh.exe.sim/work/m_00000000000420984426_3398234877.didat");
+	xsi_register_didat("work_m_00000000000183547763_3398234877", "isim/cpu_core_isim_beh.exe.sim/work/m_00000000000183547763_3398234877.didat");
 	xsi_register_executes(pe);
 }

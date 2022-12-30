@@ -899,7 +899,7 @@ LAB54:    xsi_set_current_line(233, ng0);
     t3 = (t0 + 1012);
     xsi_vlogvar_wait_assign_value(t3, t2, 0, 0, 1, 0LL);
     xsi_set_current_line(236, ng0);
-    t2 = ((char*)((ng1)));
+    t2 = ((char*)((ng3)));
     t3 = (t0 + 1104);
     xsi_vlogvar_wait_assign_value(t3, t2, 0, 0, 1, 0LL);
     xsi_set_current_line(237, ng0);
@@ -955,7 +955,7 @@ LAB55:    xsi_set_current_line(249, ng0);
     t3 = (t0 + 1012);
     xsi_vlogvar_wait_assign_value(t3, t2, 0, 0, 1, 0LL);
     xsi_set_current_line(252, ng0);
-    t2 = ((char*)((ng1)));
+    t2 = ((char*)((ng3)));
     t3 = (t0 + 1104);
     xsi_vlogvar_wait_assign_value(t3, t2, 0, 0, 1, 0LL);
     xsi_set_current_line(253, ng0);
@@ -1055,7 +1055,7 @@ LAB56:    xsi_set_current_line(265, ng0);
 LAB37:    xsi_set_current_line(280, ng0);
 
 LAB57:    xsi_set_current_line(281, ng0);
-    t3 = ((char*)((ng2)));
+    t3 = ((char*)((ng8)));
     t4 = (t0 + 828);
     xsi_vlogvar_wait_assign_value(t4, t3, 0, 0, 3, 0LL);
     xsi_set_current_line(282, ng0);
@@ -1111,9 +1111,9 @@ LAB57:    xsi_set_current_line(281, ng0);
 }
 
 
-extern void work_m_00000000002334988770_3901337038_init()
+extern void work_m_00000000004110769547_3901337038_init()
 {
 	static char *pe[] = {(void *)Always_38_0};
-	xsi_register_didat("work_m_00000000002334988770_3901337038", "isim/system_cpu_master_tb_isim_beh.exe.sim/work/m_00000000002334988770_3901337038.didat");
+	xsi_register_didat("work_m_00000000004110769547_3901337038", "isim/cpu_core_isim_beh.exe.sim/work/m_00000000004110769547_3901337038.didat");
 	xsi_register_executes(pe);
 }

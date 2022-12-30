@@ -40,15 +40,15 @@ module system_cpu_master_tb;
 	
 	initial begin
 		clk = 0;
-		forever #20 clk = ~clk;
+		forever #25 clk = ~clk;
 	end
 
 	initial begin
 
 		rst = 1;
-		#50;
+		#70;
 		rst = 0;
-      #50; 
+      #70; 
 		// Add stimulus here
 
 	end

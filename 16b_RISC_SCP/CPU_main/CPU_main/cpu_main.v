@@ -102,8 +102,8 @@ module cpu_core(
 	
 	 // Control Unit
 	 wire [2:0] alu_op;
-	 wire alu_src, op_jump, op_jal, op_jr, op_cmp, op_mov, op_li, m2r;
-	 Control_Unit cu(opcode,		alu_op,		reg_wr,		reg_dest,		alu_src,		op_jump,		op_jal,		op_jr,	op_cmp,	op_mov,	op_li, 	mem_rd,		mem_wr,		m2r);
+	 wire alu_src, op_jump, op_jeq, op_jr, op_cmp, op_mov, op_li, m2r;
+	 Control_Unit cu(opcode,		alu_op,		reg_wr,		reg_dest,		alu_src,		op_jump,		op_jeq,		op_jr,	op_cmp,	op_mov,	op_li, 	mem_rd,		mem_wr,		m2r);
 	 
 	
 	
@@ -156,7 +156,7 @@ module cpu_core(
 	wire [5:0] jr_target, mxj_return;
 	assign jr_target = reg_Data_1[5:0]; // JR Rs
 	wire j_control;
-	assign j_control = op_jump | op_jal;
+	assign j_control = op_jump | op_jeq;
 	wire [5:0] j_target;
 	assign j_target = j_offset[5:0];
 	

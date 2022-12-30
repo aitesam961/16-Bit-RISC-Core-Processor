@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
@@ -206,7 +206,7 @@ Unit <Instruction_memory> synthesized.
 
 Synthesizing Unit <Data_Memory_main>.
     Related source file is "Data_Memory_main.v".
-    Found 16-bit register for signal <data_out>.
+    Found 16-bit register for signal <data_out_internal>.
     Found 1024-bit register for signal <mem>.
 INFO:Xst:738 - HDL ADVISOR - 1024 flip-flops were inferred for signal <mem>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
     Summary:
@@ -375,7 +375,7 @@ Optimizing unit <cpu_core> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block system_cpu_master, actual ratio is 26.
+Found area constraint ratio of 100 (+ 5) on block system_cpu_master, actual ratio is 27.
 
 Final Macro Processing ...
 
@@ -413,17 +413,17 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1968
+# BELS                             : 1959
 #      GND                         : 1
-#      LUT2                        : 32
-#      LUT3                        : 892
-#      LUT3_D                      : 11
+#      LUT2                        : 31
+#      LUT3                        : 888
+#      LUT3_D                      : 3
 #      LUT3_L                      : 1
-#      LUT4                        : 181
+#      LUT4                        : 183
 #      LUT4_D                      : 13
 #      LUT4_L                      : 15
 #      MUXCY                       : 62
-#      MUXF5                       : 406
+#      MUXF5                       : 408
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
@@ -431,8 +431,7 @@ Cell Usage :
 #      XORCY                       : 32
 # FlipFlops/Latches                : 1302
 #      FDC                         : 6
-#      FDCE                        : 512
-#      FDE                         : 784
+#      FDCE                        : 1296
 # RAMS                             : 1
 #      RAMB16_S18                  : 1
 # Clock Buffers                    : 1
@@ -449,9 +448,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1258  out of   4656    27%  
+ Number of Slices:                     1253  out of   4656    26%  
  Number of Slice Flip Flops:           1302  out of   9312    13%  
- Number of 4 input LUTs:               1145  out of   9312    12%  
+ Number of 4 input LUTs:               1134  out of   9312    12%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -487,15 +486,15 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-rst                                | IBUF                   | 518   |
+rst                                | IBUF                   | 1302  |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 20.496ns (Maximum Frequency: 48.789MHz)
-   Minimum input arrival time before clock: 8.344ns
+   Minimum period: 20.188ns (Maximum Frequency: 49.535MHz)
+   Minimum input arrival time before clock: No path found
    Maximum output required time after clock: 4.310ns
    Maximum combinational path delay: No path found
 
@@ -505,16 +504,16 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 20.496ns (frequency: 48.789MHz)
-  Total number of paths / destination ports: 13840225 / 2604
+  Clock period: 20.188ns (frequency: 49.535MHz)
+  Total number of paths / destination ports: 13590529 / 2604
 -------------------------------------------------------------------------
-Delay:               20.496ns (Levels of Logic = 14)
+Delay:               20.188ns (Levels of Logic = 11)
   Source:            flash/Mrom__varindex0000 (RAM)
-  Destination:       ram/data_out_15 (FF)
+  Destination:       ram/mem_62_15 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: flash/Mrom__varindex0000 to ram/data_out_15
+  Data Path: flash/Mrom__varindex0000 to ram/mem_62_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -524,56 +523,31 @@ Delay:               20.496ns (Levels of Logic = 14)
      MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux16_4_f6 (core/reg_file/mux16_4_f6)
      MUXF7:I0->O          65   0.521   1.308  core/reg_file/mux16_2_f7 (data_cpu_to_mem<0>)
      LUT3:I2->O            6   0.704   0.669  core/mxalusrc/out<0>1 (core/alu_src_2<0>)
-     MULT18X18SIO:B0->P1    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<1>)
-     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<1>_7 (core/alu/Mmux_d_out<1>_7)
-     MUXF5:I0->O           4   0.321   0.622  core/alu/Mmux_d_out<1>_5_f5 (core/alu/Mmux_d_out<1>_5_f5)
-     LUT3:I2->O          290   0.704   1.344  core/alu/alu_op<2>14 (addr_cpu_to_mem<1>)
-     MUXF5:S->O            1   0.739   0.000  ram/Mmux__COND_1_8_f5 (ram/Mmux__COND_1_8_f5)
-     MUXF6:I1->O           1   0.521   0.000  ram/Mmux__COND_1_7_f6 (ram/Mmux__COND_1_7_f6)
-     MUXF7:I1->O           1   0.521   0.000  ram/Mmux__COND_1_6_f7 (ram/Mmux__COND_1_6_f7)
-     MUXF8:I1->O           1   0.521   0.499  ram/Mmux__COND_1_5_f8 (ram/Mmux__COND_1_5_f8)
-     LUT3:I1->O            1   0.704   0.000  ram/mem_address<5>1 (ram/_COND_1<0>)
-     FDE:D                     0.308          ram/data_out_0
+     MULT18X18SIO:B0->P3    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<3>)
+     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<3>_7 (core/alu/Mmux_d_out<3>_7)
+     MUXF5:I0->O           2   0.321   0.482  core/alu/Mmux_d_out<3>_5_f5 (core/alu/Mmux_d_out<3>_5_f5)
+     LUT3:I2->O           72   0.704   1.279  core/alu/alu_op<2>12 (addr_cpu_to_mem<3>)
+     LUT4_D:I3->O          7   0.704   0.712  ram/mem_24_not000151 (ram/mem_24_not0001_bdd4)
+     LUT4:I3->O           16   0.704   1.034  ram/mem_40_not000111 (ram/mem_40_not0001)
+     FDCE:CE                   0.555          ram/mem_40_0
     ----------------------------------------
-    Total                     20.496ns (14.271ns logic, 6.225ns route)
-                                       (69.6% logic, 30.4% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 784 / 784
--------------------------------------------------------------------------
-Offset:              8.344ns (Levels of Logic = 4)
-  Source:            rst (PAD)
-  Destination:       ram/mem_63_15 (FF)
-  Destination Clock: clk rising
-
-  Data Path: rst to ram/mem_63_15
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O           522   1.218   1.585  rst_IBUF (rst_IBUF)
-     LUT2:I0->O            1   0.704   0.499  core/alu/alu_op<2>8_SW1 (N30)
-     LUT4_D:I1->O         31   0.704   1.341  ram/mem_32_and000071 (ram/mem_32_and0000_bdd8)
-     LUT4:I1->O           16   0.704   1.034  ram/mem_46_and000011 (ram/mem_46_and0000)
-     FDE:CE                    0.555          ram/mem_46_0
-    ----------------------------------------
-    Total                      8.344ns (3.885ns logic, 4.459ns route)
-                                       (46.6% logic, 53.4% route)
+    Total                     20.188ns (12.920ns logic, 7.268ns route)
+                                       (64.0% logic, 36.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 16 / 16
 -------------------------------------------------------------------------
 Offset:              4.310ns (Levels of Logic = 1)
-  Source:            ram/data_out_15 (FF)
+  Source:            ram/data_out_internal_15 (FF)
   Destination:       data_mem_to_cpu<15> (PAD)
   Source Clock:      clk rising
 
-  Data Path: ram/data_out_15 to data_mem_to_cpu<15>
+  Data Path: ram/data_out_internal_15 to data_mem_to_cpu<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              2   0.591   0.447  ram/data_out_15 (ram/data_out_15)
+     FDCE:C->Q             2   0.591   0.447  ram/data_out_internal_15 (ram/data_out_internal_15)
      OBUF:I->O                 3.272          data_mem_to_cpu_15_OBUF (data_mem_to_cpu<15>)
     ----------------------------------------
     Total                      4.310ns (3.863ns logic, 0.447ns route)
@@ -583,11 +557,11 @@ Offset:              4.310ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.15 secs
+Total CPU time to Xst completion: 10.24 secs
  
 --> 
 
-Total memory usage is 248564 kilobytes
+Total memory usage is 249076 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)

@@ -9,7 +9,7 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # restart
-# run all
+# restart
+# run 1.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 4440500 ns : File "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1.v" Line 28
