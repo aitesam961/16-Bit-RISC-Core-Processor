@@ -13,7 +13,7 @@
 // Revision: V0.1
 // 
 // Additional Comments: 
-//		Purpose Built
+//		Purpose Built Combinational Logic
 //
 // 
 //
