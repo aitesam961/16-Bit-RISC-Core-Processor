@@ -109,6 +109,7 @@
     <property xil_pn:name="Create Mask File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Create ReadBack Data Files" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Cross Clock Analysis" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Custom Waveform Configuration File Behav" xil_pn:value="Sim_template.wcfg" xil_pn:valueState="non-default"/>
     <property xil_pn:name="DCI Update Mode" xil_pn:value="As Required" xil_pn:valueState="default"/>
     <property xil_pn:name="DSP Utilization Ratio" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Decoder Extraction" xil_pn:value="true" xil_pn:valueState="default"/>
@@ -328,7 +329,7 @@
     <property xil_pn:name="Use Custom Simulation Command File Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Custom Simulation Command File Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Custom Simulation Command File Translate" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Use Custom Waveform Configuration File Behav" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Use Custom Waveform Configuration File Behav" xil_pn:value="true" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Use Custom Waveform Configuration File Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Custom Waveform Configuration File Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Custom Waveform Configuration File Translate" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -345,6 +346,7 @@
     <property xil_pn:name="Verilog 2001 Xst" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Verilog Macros" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Wait for DLL Lock (Output Events)" xil_pn:value="Default (NoWait)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Waveform Database Filename Behavioral" xil_pn:value="CPU_core_tb_isim_beh.wdb" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
     <property xil_pn:name="Write Timing Constraints" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="XOR Collapsing" xil_pn:value="true" xil_pn:valueState="default"/>

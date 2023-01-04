@@ -80,6 +80,7 @@ module cpu_core(
 	 assign imm_offset 	=		instr_out	[3:0]; 
 	 assign li_offset		=		instr_out	[7:0];
 	 assign j_offset 		=		instr_out	[5:0];
+	 assign jeq_offset   = 		instr_out	[11:8];
 
 	  
 	 
@@ -141,32 +142,29 @@ module cpu_core(
 	 
 	 
 //======================(Purpose Built Combinational Logic)====================================
-	 /*
-	 // Jump Instruction Combinational Block
-	 always @ (j_offset) begin
-		if(j_offset[11] == 0) begin
-			j_target <= {4'b0000,j_offset};		// Stuff 0 is MSB is zero
-			end
-			else begin 
-				j_target <= {4'b1111,j_offset};	// Stuff 1 is MSB is one
-			end
-	end
-	*/
+	 
 	// Jump Target Multiplexer
 	wire [5:0] jr_target, mxj_return;
 	assign jr_target = reg_Data_1[5:0]; // JR Rs
 	wire j_control;
-	assign j_control = op_jump | op_jeq;
+	assign j_control = op_jump;
 	wire [5:0] j_target;
 	assign j_target = j_offset[5:0];
-	
-	// Jump & JAL  
+	wire jeq_ok;
+	wire [5:0] mxjr_return;
+	assign jeq_ok = op_jeq & z_flag;
+	wire [5:0] jeq_target;
+	// Sign extension for JEQ Target
+	assign jeq_target = {2'b00,jeq_offset};
+		
+	// Jump  
 	MUX2x1_Br mx_j_pc (pc_next, j_target, j_control, mxj_return);
 	 
 	// Jump Register 
-	MUX2x1_Br mx_jr (mxj_return,	jr_target,	op_jr,	pc_target);
-	
-	
+	MUX2x1_Br mx_jr (mxj_return,	jr_target,	op_jr,	mxjr_return);
+
+	// JEQ MUX
+	MUX2x1_Br mx_jeq (mxjr_return,	jeq_target,	jeq_ok,	pc_target);
 	
 	
 	

@@ -250,10 +250,10 @@ Unit <MUX2x1> synthesized.
 
 Synthesizing Unit <ALU_Main>.
     Related source file is "ALU_Main.v".
-WARNING:Xst:643 - "ALU_Main.v" line 67: The result of a 16x16-bit multiplication is partially used. Only the 16 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
-    Found 16-bit 8-to-1 multiplexer for signal <d_out>.
+WARNING:Xst:643 - "ALU_Main.v" line 68: The result of a 16x16-bit multiplication is partially used. Only the 16 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 16-bit 8-to-1 multiplexer for signal <alu_out>.
     Found 16-bit adder for signal <d_out1>.
-    Found 16x16-bit multiplier for signal <d_out2$mult0001> created at line 67.
+    Found 16x16-bit multiplier for signal <d_out2$mult0001> created at line 68.
     Found 16-bit comparator greater for signal <d_out6>.
     Found 16-bit comparator less for signal <d_out7>.
     Found 16-bit subtractor for signal <d_out8>.
@@ -413,17 +413,19 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1954
+# BELS                             : 1942
 #      GND                         : 1
-#      LUT2                        : 34
-#      LUT3                        : 879
-#      LUT3_D                      : 3
+#      LUT2                        : 19
+#      LUT2_D                      : 1
+#      LUT2_L                      : 1
+#      LUT3                        : 885
+#      LUT3_D                      : 1
 #      LUT3_L                      : 1
-#      LUT4                        : 180
+#      LUT4                        : 186
 #      LUT4_D                      : 12
-#      LUT4_L                      : 15
+#      LUT4_L                      : 3
 #      MUXCY                       : 62
-#      MUXF5                       : 413
+#      MUXF5                       : 416
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
@@ -448,9 +450,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1247  out of   4656    26%  
+ Number of Slices:                     1240  out of   4656    26%  
  Number of Slice Flip Flops:           1302  out of   9312    13%  
- Number of 4 input LUTs:               1124  out of   9312    12%  
+ Number of 4 input LUTs:               1109  out of   9312    11%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -493,7 +495,7 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 20.187ns (Maximum Frequency: 49.537MHz)
+   Minimum period: 20.160ns (Maximum Frequency: 49.603MHz)
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: 4.310ns
    Maximum combinational path delay: No path found
@@ -504,10 +506,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 20.187ns (frequency: 49.537MHz)
-  Total number of paths / destination ports: 13584163 / 2604
+  Clock period: 20.160ns (frequency: 49.603MHz)
+  Total number of paths / destination ports: 15543573 / 2604
 -------------------------------------------------------------------------
-Delay:               20.187ns (Levels of Logic = 11)
+Delay:               20.160ns (Levels of Logic = 11)
   Source:            flash/Mrom__varindex0000 (RAM)
   Destination:       ram/mem_62_15 (FF)
   Source Clock:      clk rising
@@ -524,15 +526,15 @@ Delay:               20.187ns (Levels of Logic = 11)
      MUXF7:I0->O          65   0.521   1.308  core/reg_file/mux16_2_f7 (data_cpu_to_mem<0>)
      LUT3:I2->O            6   0.704   0.669  core/mxalusrc/out<0>1 (core/alu_src_2<0>)
      MULT18X18SIO:B0->P3    1   3.657   0.455  core/alu/Mmult_d_out2_mult0001 (core/alu/d_out2<3>)
-     LUT3:I2->O            1   0.704   0.000  core/alu/Mmux_d_out<3>_7 (core/alu/Mmux_d_out<3>_7)
-     MUXF5:I0->O           2   0.321   0.482  core/alu/Mmux_d_out<3>_5_f5 (core/alu/Mmux_d_out<3>_5_f5)
-     LUT3:I2->O           72   0.704   1.279  core/alu/alu_op<2>12 (addr_cpu_to_mem<3>)
+     LUT3:I2->O            1   0.704   0.455  core/alu/Mmux_alu_out<3>_7 (core/alu/Mmux_alu_out<3>_7)
+     LUT3:I2->O            1   0.704   0.000  core/alu/alu_op<2>12_F (N56)
+     MUXF5:I0->O          73   0.321   1.279  core/alu/alu_op<2>12 (addr_cpu_to_mem<3>)
      LUT4_D:I3->O          7   0.704   0.712  ram/mem_24_not000151 (ram/mem_24_not0001_bdd4)
      LUT4:I3->O           16   0.704   1.034  ram/mem_40_not000111 (ram/mem_40_not0001)
      FDCE:CE                   0.555          ram/mem_40_0
     ----------------------------------------
-    Total                     20.187ns (12.920ns logic, 7.267ns route)
-                                       (64.0% logic, 36.0% route)
+    Total                     20.160ns (12.920ns logic, 7.240ns route)
+                                       (64.1% logic, 35.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -556,12 +558,12 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.74 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.59 secs
  
 --> 
 
-Total memory usage is 248628 kilobytes
+Total memory usage is 249396 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)

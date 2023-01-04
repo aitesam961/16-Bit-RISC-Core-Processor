@@ -23,7 +23,7 @@ module ALU_Main(
     input [15:0] d_in_2,
     input [2:0] alu_op,
     output reg z_flag,
-    output reg [15:0] d_out,
+    output reg [15:0] alu_out,
     output reg a_grt_b,
     output reg b_grt_a
     );
@@ -33,8 +33,9 @@ module ALU_Main(
 			010 = and operation
 			011 = or operation
 			100 = divide
-			101 = compare
-			110 = substract
+			101 = A>B
+			110 = B<A
+			111 = substraction
 	 */
 	 
 	 wire [15:0] d_out1;
@@ -51,15 +52,15 @@ module ALU_Main(
 
 	 always @(d_in_1, d_in_2, alu_op,d_out1, d_out2, d_out3, d_out4, d_out5, d_out6, d_out7, d_out8) begin
 			case(alu_op)
-				3'b000 : begin 	d_out[15:0] = d_out1	;  end
-				3'b001 : begin 	d_out 		= d_out2 ;	end
-				3'b010 : begin 	d_out[15:0] = d_out3 ;  end
-				3'b011 : begin 	d_out[15:0] = d_out4 ;  end
-				3'b100 : begin 	d_out[15:0] = d_out5 ;  end
-				3'b101 : begin 	d_out[0] 	= d_out6 ; d_out[15:1]  = 0; end
-				3'b110 : begin 	d_out[0] 	= d_out7 ; d_out[15:1]  = 0; end
-				3'b111 : begin 	d_out[15:0] = d_out8 ;  end
-				default: begin 	d_out[15:0] = 16'h0000;	end
+				3'b000 : begin 	alu_out[15:0] 	= d_out1	;  end
+				3'b001 : begin 	alu_out 			= d_out2 ;	end
+				3'b010 : begin 	alu_out[15:0] 	= d_out3 ;  end
+				3'b011 : begin 	alu_out[15:0] 	= d_out4 ;  end
+				3'b100 : begin 	alu_out[15:0] 	= d_out5 ;  end
+				3'b101 : begin 	alu_out[0] 		= d_out6 ; alu_out[15:1]  = 0; end
+				3'b110 : begin 	alu_out[0] 		= d_out7 ; alu_out[15:1]  = 0; end
+				3'b111 : begin 	alu_out[15:0] 	= d_out8 ;  end
+				default: begin 	alu_out[15:0] 	= 16'h0000;	end
 			endcase 
 		end
 		

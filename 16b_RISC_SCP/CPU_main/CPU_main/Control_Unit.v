@@ -278,14 +278,14 @@
 				end
 				
 			4'b1111 :	begin //SUB operation
-				alu_op		<= 3'b110;
+				alu_op		<= 3'b111;
 				reg_wr 		<= 1'b1 ;	
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
 				jeq	 		<= 1'b0 ;
 				jr		 		<= 1'b0 ;
-				cmp	 		<= 1'b1 ;	
+				cmp	 		<= 1'b0 ;	
 				mov 			<= 1'b0 ;
 				li 			<= 1'b0 ;
 				mem_rd 		<= 1'b0 ;	

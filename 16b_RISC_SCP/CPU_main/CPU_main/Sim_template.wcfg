@@ -10,7 +10,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="17" />
+   <WVObjectSize size="18" />
    <wvobject fp_name="/system_cpu_master_tb/data_mem_to_cpu" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">data_mem_to_cpu[15:0]</obj_property>
       <obj_property name="ObjectShortName">data_mem_to_cpu[15:0]</obj_property>
@@ -27,17 +27,17 @@
       <obj_property name="ElementShortName">pc_out[5:0]</obj_property>
       <obj_property name="ObjectShortName">pc_out[5:0]</obj_property>
    </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/pc_target" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_target[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_target[5:0]</obj_property>
+   </wvobject>
    <wvobject fp_name="/system_cpu_master_tb/uut/core/instr_out" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">instr_out[15:0]</obj_property>
       <obj_property name="ObjectShortName">instr_out[15:0]</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">#ffff00</obj_property>
    </wvobject>
    <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_add_1" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">read_add_1[3:0]</obj_property>
       <obj_property name="ObjectShortName">read_add_1[3:0]</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">#00ffff</obj_property>
    </wvobject>
    <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_data_1" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">read_data_1[15:0]</obj_property>
@@ -47,8 +47,6 @@
    <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_add_2" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">read_add_2[3:0]</obj_property>
       <obj_property name="ObjectShortName">read_add_2[3:0]</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">#00ffff</obj_property>
    </wvobject>
    <wvobject fp_name="/system_cpu_master_tb/uut/core/reg_file/read_data_2" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">read_data_2[15:0]</obj_property>
@@ -64,17 +62,17 @@
       <obj_property name="ObjectShortName">wr_data[15:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/system_cpu_master_tb/uut/core/opcode" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
-      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/system_cpu_master_tb/uut/core/cu/alu_op" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">alu_op[2:0]</obj_property>
       <obj_property name="ObjectShortName">alu_op[2:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/system_cpu_master_tb/uut/core/alu/d_out" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">d_out[15:0]</obj_property>
-      <obj_property name="ObjectShortName">d_out[15:0]</obj_property>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/cu/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_cpu_master_tb/uut/core/alu/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[15:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/system_cpu_master_tb/uut/ram/mem_address" type="array" db_ref_id="1">
