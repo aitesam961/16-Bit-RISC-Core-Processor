@@ -46,7 +46,7 @@ module system_cpu_master_tb;
 	initial begin
 
 		rst = 1;
-		#35;
+		#50;
 		rst = 0;
       #70; 
 		// Add stimulus here

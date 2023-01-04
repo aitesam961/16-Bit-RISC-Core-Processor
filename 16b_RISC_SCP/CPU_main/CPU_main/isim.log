@@ -12,11 +12,3 @@ Finished circuit initialization process.
 # run 1.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# restart
-# run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-# restart
-# run 2.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.

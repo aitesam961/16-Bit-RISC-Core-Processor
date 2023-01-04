@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml system_cpu_master.twx system_cpu_master.ncd -o
+system_cpu_master.twr system_cpu_master.pcf
+
+Design file:              system_cpu_master.ncd
+Physical constraint file: system_cpu_master.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+-------------------+------------+------------------+--------+
+                   | clk (edge) |                  | Clock  |
+Destination        |   to PAD   |Internal Clock(s) | Phase  |
+-------------------+------------+------------------+--------+
+data_mem_to_cpu<0> |    9.526(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<1> |    8.594(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<2> |    8.064(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<3> |    8.368(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<4> |    8.301(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<5> |    8.460(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<6> |    7.918(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<7> |    8.618(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<8> |    9.089(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<9> |    9.472(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<10>|    7.891(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<11>|    8.881(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<12>|    7.934(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<13>|    8.494(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<14>|    8.089(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<15>|    7.766(R)|clk_BUFGP         |   0.000|
+-------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   21.407|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Jan 04 13:10:00 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 153 MB
+
+
+

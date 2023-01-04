@@ -1,0 +1,10 @@
+Command line:
+   clock_gen_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  12851
+
+Mon Jan 02 11:15:18 2023
+
+
+ Elaboration Time: 0.109375 sec

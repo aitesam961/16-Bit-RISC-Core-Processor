@@ -1,0 +1,19 @@
+Li	R1	0x5h			// Load 5 into R1
+Li	T2	0x1h			// T2 holds 1 for decrement operation
+MOV	T1	R1				// A copy of R1 (to be decremented every iter)
+JEQ	T1	ZERO 0x8h		// Break the loop when T1 == 0
+SUB	T1	T1	T2			// Decrement of 1 in T1
+MUL	R1	R1	T1			// Multiply the previous result with decremented T1	
+JUMP 0x4h				// Loops until T1 == 0
+NOP 
+
+
+
+1110 0000 0000 0101 
+1110 1001 0000 0001 
+1001 1000 0000 0000 
+0111 1001 1000 1111 
+1111 1000 1000 1001 
+0011 0000 0000 1000 
+1010 0000 0000 0100 
+0000 0000 0000 0000

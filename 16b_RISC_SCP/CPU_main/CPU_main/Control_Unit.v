@@ -39,7 +39,7 @@
 		case(opcode)
 			4'b0000 :	begin// Reset State
 				alu_op		<= 3'b111;
-				reg_wr 		<= 1'b1 ;	
+				reg_wr 		<= 1'b0 ;	
 				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
@@ -56,7 +56,7 @@
 			4'b0001 :	begin	//ADD instruction
 				alu_op		<= 3'b000;
 				reg_wr 		<= 1'b1 ;	
-				reg_dst 		<= 1'b1 ;	
+				reg_dst 		<= 1'b0 ;	
 				alu_src 		<= 1'b0 ;	
 				jump	 		<= 1'b0 ;	
 				jeq	 		<= 1'b0 ;

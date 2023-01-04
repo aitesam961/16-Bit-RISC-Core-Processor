@@ -1,0 +1,2 @@
+verilog work "D_FF.v"
+verilog work "clock_gen_master.v"

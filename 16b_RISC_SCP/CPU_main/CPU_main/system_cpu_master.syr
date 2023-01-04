@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: system_cpu_master.prj
 
@@ -237,7 +237,7 @@ Unit <Register_File_main> synthesized.
 
 Synthesizing Unit <Control_Unit>.
     Related source file is "Control_Unit.v".
-    Found 16x15-bit ROM for signal <opcode$rom0000>.
+    Found 16x14-bit ROM for signal <opcode$rom0000>.
     Summary:
 	inferred   1 ROM(s).
 Unit <Control_Unit> synthesized.
@@ -288,7 +288,7 @@ HDL Synthesis Report
 
 Macro Statistics
 # ROMs                                                 : 2
- 16x15-bit ROM                                         : 1
+ 16x14-bit ROM                                         : 1
  64x16-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
@@ -340,7 +340,7 @@ Macro Statistics
 # RAMs                                                 : 1
  64x16-bit single-port block RAM                       : 1
 # ROMs                                                 : 1
- 16x15-bit ROM                                         : 1
+ 16x14-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
 # Adders/Subtractors                                   : 3
@@ -375,7 +375,7 @@ Optimizing unit <cpu_core> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block system_cpu_master, actual ratio is 27.
+Found area constraint ratio of 100 (+ 5) on block system_cpu_master, actual ratio is 26.
 
 Final Macro Processing ...
 
@@ -413,17 +413,17 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1959
+# BELS                             : 1954
 #      GND                         : 1
-#      LUT2                        : 31
-#      LUT3                        : 888
+#      LUT2                        : 34
+#      LUT3                        : 879
 #      LUT3_D                      : 3
 #      LUT3_L                      : 1
-#      LUT4                        : 183
-#      LUT4_D                      : 13
+#      LUT4                        : 180
+#      LUT4_D                      : 12
 #      LUT4_L                      : 15
 #      MUXCY                       : 62
-#      MUXF5                       : 408
+#      MUXF5                       : 413
 #      MUXF6                       : 193
 #      MUXF7                       : 96
 #      MUXF8                       : 32
@@ -448,9 +448,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                     1253  out of   4656    26%  
+ Number of Slices:                     1247  out of   4656    26%  
  Number of Slice Flip Flops:           1302  out of   9312    13%  
- Number of 4 input LUTs:               1134  out of   9312    12%  
+ Number of 4 input LUTs:               1124  out of   9312    12%  
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of    232     7%  
  Number of BRAMs:                         1  out of     20     5%  
@@ -493,7 +493,7 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 20.188ns (Maximum Frequency: 49.535MHz)
+   Minimum period: 20.187ns (Maximum Frequency: 49.537MHz)
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: 4.310ns
    Maximum combinational path delay: No path found
@@ -504,10 +504,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 20.188ns (frequency: 49.535MHz)
-  Total number of paths / destination ports: 13590529 / 2604
+  Clock period: 20.187ns (frequency: 49.537MHz)
+  Total number of paths / destination ports: 13584163 / 2604
 -------------------------------------------------------------------------
-Delay:               20.188ns (Levels of Logic = 11)
+Delay:               20.187ns (Levels of Logic = 11)
   Source:            flash/Mrom__varindex0000 (RAM)
   Destination:       ram/mem_62_15 (FF)
   Source Clock:      clk rising
@@ -517,7 +517,7 @@ Delay:               20.188ns (Levels of Logic = 11)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16_S18:CLK->DO0  133   2.800   1.329  flash/Mrom__varindex0000 (instr_mem_to_cpu<0>)
+     RAMB16_S18:CLK->DO0  131   2.800   1.328  flash/Mrom__varindex0000 (instr_mem_to_cpu<0>)
      LUT3:I2->O            1   0.704   0.000  core/reg_file/mux16_8 (core/reg_file/mux16_8)
      MUXF5:I0->O           1   0.321   0.000  core/reg_file/mux16_6_f5 (core/reg_file/mux16_6_f5)
      MUXF6:I0->O           1   0.521   0.000  core/reg_file/mux16_4_f6 (core/reg_file/mux16_4_f6)
@@ -531,7 +531,7 @@ Delay:               20.188ns (Levels of Logic = 11)
      LUT4:I3->O           16   0.704   1.034  ram/mem_40_not000111 (ram/mem_40_not0001)
      FDCE:CE                   0.555          ram/mem_40_0
     ----------------------------------------
-    Total                     20.188ns (12.920ns logic, 7.268ns route)
+    Total                     20.187ns (12.920ns logic, 7.267ns route)
                                        (64.0% logic, 36.0% route)
 
 =========================================================================
@@ -556,12 +556,12 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.71 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.74 secs
  
 --> 
 
-Total memory usage is 248884 kilobytes
+Total memory usage is 248628 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)
