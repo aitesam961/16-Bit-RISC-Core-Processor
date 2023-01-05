@@ -1,39 +1,36 @@
-Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_beh.prj work.system_cpu_master_tb work.glbl 
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_par.exe -prj C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_par.prj work.system_cpu_master_tb work.glbl 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Register_File_main.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Program_Counter.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1_Br.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/MUX2x1.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Control_Unit.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/ALU_Main.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Instruction_memory.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/Data_Memory_main.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/cpu_main.v" into library work
-Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master.v" into library work
+Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/netgen/par/system_cpu_master_timesim.v" into library work
 Analyzing Verilog file "C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb.v" into library work
-Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 160216 KB
-Fuse CPU Usage: 171 ms
-Compiling module Program_Counter
-Compiling module Register_File_main
-Compiling module Control_Unit
-Compiling module MUX2x1
-Compiling module ALU_Main
-Compiling module MUX2x1_Br
-Compiling module cpu_core
-Compiling module Instruction_memory
-Compiling module Data_Memory_main
+Fuse Memory Usage: 172504 KB
+Fuse CPU Usage: 515 ms
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_BUF
+Compiling module X_AND2
+Compiling module X_LUT4(INIT=16'b1001100110011001...
+Compiling module X_XOR2
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module X_IPAD
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module X_BUFGMUX(LOC="BUFGMUX_X2Y10")
+Compiling module X_INV(LOC="BUFGMUX_X2Y10")
+Compiling module X_MULT18X18SIO(AREG=0,BREG=0,PRE...
+Compiling module X_RAMB16_S18(INIT_00=256'b010010...
+Compiling module X_ONE
+Compiling module X_ZERO
 Compiling module system_cpu_master
 Compiling module system_cpu_master_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 12 Verilog Units
-Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_beh.exe
-Fuse Memory Usage: 167740 KB
-Fuse CPU Usage: 296 ms
+Compiled 3459 Verilog Units
+Built simulation executable C:/Users/aites/Documents/Github/16-Bit-RISC-Core-Procesor/16b_RISC_SCP/CPU_main/CPU_main/system_cpu_master_tb_isim_par.exe
+Fuse Memory Usage: 185276 KB
+Fuse CPU Usage: 7296 ms

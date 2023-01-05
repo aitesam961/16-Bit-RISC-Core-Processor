@@ -45,22 +45,22 @@ Clock clk to Pad
                    | clk (edge) |                  | Clock  |
 Destination        |   to PAD   |Internal Clock(s) | Phase  |
 -------------------+------------+------------------+--------+
-data_mem_to_cpu<0> |    9.526(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<1> |    8.594(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<2> |    8.064(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<3> |    8.368(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<4> |    8.301(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<5> |    8.460(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<6> |    7.918(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<7> |    8.618(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<8> |    9.089(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<9> |    9.472(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<10>|    7.891(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<11>|    8.881(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<12>|    7.934(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<13>|    8.494(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<14>|    8.089(R)|clk_BUFGP         |   0.000|
-data_mem_to_cpu<15>|    7.766(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<0> |    8.233(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<1> |    8.836(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<2> |    8.595(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<3> |    8.834(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<4> |    8.780(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<5> |    8.196(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<6> |    9.988(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<7> |   10.451(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<8> |    8.487(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<9> |    8.940(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<10>|    7.989(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<11>|    7.990(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<12>|    8.033(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<13>|    9.086(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<14>|    7.994(R)|clk_BUFGP         |   0.000|
+data_mem_to_cpu<15>|    8.290(R)|clk_BUFGP         |   0.000|
 -------------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -68,18 +68,18 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |   21.407|         |         |         |
+clk            |   21.923|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Wed Jan 04 13:10:00 2023 
+Analysis completed Fri Jan 06 00:38:54 2023 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 153 MB
+Peak Memory Usage: 154 MB
 
 
 

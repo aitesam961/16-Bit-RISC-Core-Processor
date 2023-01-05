@@ -1,0 +1,2 @@
+verilog work "netgen/par/system_cpu_master_timesim.v"
+verilog work "system_cpu_master_tb.v"
