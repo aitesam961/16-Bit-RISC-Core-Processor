@@ -70,7 +70,9 @@ The simulation is well tested with a few different Programs used as a benchmark.
 > 
 > NOP 
 <br>
+
 ## Simulation: Factorial of 5
+
 
 <p align="center">
   <img src="Docs\iSIM.png" width="950" title="Simulation">
