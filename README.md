@@ -53,8 +53,8 @@ The simulation is well tested with a few different Programs used as a benchmark.
 
 ## Test Program: Factorial of 5
 
-<p>
-Li	R1	0x5h			// Load 5 into R1
+
+> Li	R1	0x5h			// Load 5 into R1
 Li	T2	0x1h			// T2 holds 1 for decrement operation
 MOV	T1	R1				// A copy of R1 (to be decremented every iter)
 JEQ	T1	ZERO 0x8h		// Break the loop when T1 == 0
@@ -62,4 +62,3 @@ SUB	T1	T1	T2			// Decrement of 1 in T1
 MUL	R1	R1	T1			// Multiply the previous result with decremented T1	
 JUMP 0x3h				// Loops until T1 == 0
 NOP 
-<p!>
