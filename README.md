@@ -75,5 +75,5 @@ The simulation is well tested with a few different Programs used as a benchmark.
 
 
 <p align="center">
-  <img src="Docs\iSIM.png" width="950" title="Simulation">
+  <img src="Docs\iSIM_image.png" width="950" title="Simulation">
 </p>
