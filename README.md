@@ -52,7 +52,7 @@ The simulation is well tested with a few different Programs used as a benchmark.
 
 
 ## Test Program: Factorial of 5
-
+<br>
 
 > Li	R1	0x5h			// Load 5 into R1
 >
